@@ -1,0 +1,64 @@
+# =============================================================
+# SDC Constraints for Asynchronous FIFO
+# =============================================================
+
+# ---------------------------
+# CLOCK DEFINITIONS
+# ---------------------------
+
+# Write clock (wclk)
+create_clock -name wclk -period 8.5 [get_ports "wclk"]
+set_clock_latency 0.02 -source -late [get_clocks "wclk"]
+set_clock_latency 0.02 -source -early [get_clocks "wclk"]
+set_clock_transition -rise 0.6 [get_clocks "wclk"]
+set_clock_transition -fall 0.6 [get_clocks "wclk"]
+
+# Read clock (rclk)
+create_clock -name rclk -period 12 [get_ports "rclk"]
+set_clock_latency 0.02 -source -late [get_clocks "rclk"]
+set_clock_latency 0.02 -source -early [get_clocks "rclk"]
+set_clock_transition -rise 0.6 [get_clocks "rclk"]
+set_clock_transition -fall 0.6 [get_clocks "rclk"]
+
+# ---------------------------
+# CLOCK RELATIONSHIP
+# ---------------------------
+
+# Declare write and read clocks as asynchronous (no timing relation)
+set_clock_groups -asynchronous -group [get_clocks "wclk"] -group [get_clocks "rclk"]
+
+# ---------------------------
+# INPUT DELAYS
+# ---------------------------
+
+# Write domain inputs
+set_input_delay 0.5 -clock [get_clocks "wclk"] [get_ports {wdata[*]}]
+set_input_delay 0.5 -clock [get_clocks "wclk"] [get_ports {winc}]
+set_input_delay 0.5 -clock [get_clocks "wclk"] [get_ports {wrst_n}]
+
+# Read domain inputs
+set_input_delay 0.5 -clock [get_clocks "rclk"] [get_ports {rinc}]
+set_input_delay 0.5 -clock [get_clocks "rclk"] [get_ports {rrst_n}]
+
+# ---------------------------
+# OUTPUT DELAYS
+# ---------------------------
+
+# Outputs synchronized to each domain
+set_output_delay 0.5 -clock [get_clocks "rclk"] [get_ports {rdata[*]}]
+set_output_delay 0.5 -clock [get_clocks "wclk"] [get_ports {wfull}]
+set_output_delay 0.5 -clock [get_clocks "rclk"] [get_ports {rempty}]
+
+# ---------------------------
+# DESIGN SAFETY MARGINS (OPTIONAL)
+# ---------------------------
+
+set_clock_uncertainty -setup 0.1 [get_clocks "wclk"]
+set_clock_uncertainty -hold 0.05 [get_clocks "wclk"]
+
+set_clock_uncertainty -setup 0.1 [get_clocks "rclk"]
+set_clock_uncertainty -hold 0.05 [get_clocks "rclk"]
+
+# =============================================================
+# END OF FILE
+# =============================================================

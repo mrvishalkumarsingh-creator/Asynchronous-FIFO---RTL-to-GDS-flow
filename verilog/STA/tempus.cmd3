@@ -1,0 +1,34 @@
+#######################################################
+#                                                     
+#  Tempus Timing Signoff Solution Command Logging File                     
+#  Created on Mon Oct 13 19:49:54 2025                
+#                                                     
+#######################################################
+
+#@(#)CDS: Tempus Timing Signoff Solution v20.10-p003_1 (64bit) 04/29/2020 15:56 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: NanoRoute 20.10-p003_1 NR200413-0234/20_10-UB (database version 18.20.505) {superthreading v1.69}
+#@(#)CDS: AAE 20.10-p005 (64bit) 04/29/2020 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: CTE 20.10-p005_1 () Apr 14 2020 09:14:28 ( )
+#@(#)CDS: SYNTECH 20.10-b004_1 () Mar 12 2020 22:18:21 ( )
+#@(#)CDS: CPE v20.10-p006
+
+read_lib /home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA/slow_wlm.lib
+read_verilog /home/utkarsh25154/Desktop/cmos65/90nm/verilog/syn_report_mid/synthesized_netlist.v
+set_top_module FIFO
+read_sdc /home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA/constraints.sdc
+set_wire_load_model -name "wlm"
+set_wire_load_mode segmented
+check_timing > $report_dir/check_timing.rpt
+report_clocks > $report_dir/clocks.rpt
+report_constraints -all_violators > /home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA/report/allviolations.rpt
+report_case_analysis > $report_dir/case_analysis.rpt
+report_analysis_coverage > $report_dir/analysis_coverage.rpt
+report_analysis_summary > $report_dir/analysis_summary.rpt
+report_wire_load > $report_dir/wireload.rpt
+report_timing -late -max_paths 30 -nworst 30 -path_type full_clock > $report_dir/setup.rpt
+report_timing -early -max_paths 30 -nworst 30 -path_type full_clock > $report_dir/hold.rpt
+report_timing -late -max_paths 30 -nworst 30 -path_type full_clock -net > $report_dir/gba_setup.rpt
+report_timing -early -max_paths 30 -nworst 30 -path_type full_clock -net > $report_dir/gba_hold.rpt
+report_timing -retime path_slew_propagation -max_paths 30 -nworst 30 -path_type full_clock > $report_dir/pba.rpt
+report_timing -max_paths 30 -nworst 30 -retime path_slew_propagation > $report_dir/pba_setup.rpt
+report_timing -early -max_paths 30 -nworst 30 -retime path_slew_propagation > $report_dir/pba_hold.rpt

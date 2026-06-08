@@ -1,0 +1,42 @@
+                          CONFORMAL (R)
+                   Version 20.10-p100 (01-May-2020) (64 bit executable)
+   Copyright (c) Cadence Design Systems, Inc., 1997-2019. All Rights Reserved
+
+
+This program is proprietary and confidential information belonging to
+Cadence Design Systems, Inc., and may be used and disclosed only as authorized
+in a license agreement controlling such use and disclosure.
+
+// Warning: This version is 1991 days old. You can download the latest version from http://downloads.cadence.com.
+
+0
+// Command: read_library /home/utkarsh25154/Desktop/cmos65/90nm/verilog/lib/slow.v -verilog -both
+// Parsing file /home/utkarsh25154/Desktop/cmos65/90nm/verilog/lib/slow.v ...
+// Warning: (RTL7.2) Gate or transistor primitive is using weak attributes (occurrence:1)
+// Warning: (RTL14) Signal has input but it has no output (occurrence:196)
+// Warning: (RTL14.1) Fanout load of the signal is removed (occurrence:84)
+// Warning: (VLG5.2) Primitive input port has multiple bits. Ignore all but LSB bit (occurrence:2)
+// Warning: (DIR6.1) Ignored compiler directive is detected (occurrence:480)
+// Warning: (DIR6.2) Supported compiler directive is detected (occurrence:960)
+// Warning: (HRC1.4) Module/entity is empty (blackboxed) (occurrence:1)
+// Warning: (HRC3.10b) An input port is declared, but it is not used. Module is empty (occurrence:1)
+// Note: Read VERILOG library successfully
+0
+CPU time     : 0.57    seconds
+Elapse time  : 4       seconds
+Memory usage : 275.46  M bytes
+// Command: read_design /home/utkarsh25154/Desktop/cmos65/90nm/verilog/async_fifo.v -verilog -golden
+// Parsing file /home/utkarsh25154/Desktop/cmos65/90nm/verilog/async_fifo.v ...
+// Golden root module is set to 'FIFO'
+// Warning: (RTL1.5b) Potential loss of RHS msb or carry-out bit (occurrence:2)
+// Warning: (RTL2.1) Variable is referenced before the assignment. This can cause a mismatch between synthesis and simulation (occurrence:2)
+// Warning: (RTL7.10c) Bit-wise operation with different data sizes (occurrence:2)
+// Warning: (DIR6.1) Ignored compiler directive is detected (occurrence:1)
+// Warning: (HRC3.15) Parameter positional association occurs in an instantiation (occurrence:5)
+// Note: Read VERILOG design successfully
+0
+// Command: read_design /home/utkarsh25154/Desktop/cmos65/90nm/verilog/syn_report_mid/synthesized_netlist.v -verilog -revised
+// Parsing file /home/utkarsh25154/Desktop/cmos65/90nm/verilog/syn_report_mid/synthesized_netlist.v ...
+// Error: Direction of module port 'din' in module 'two_ff_sync_SIZE5_1' is not defined.
+1
+// 'dofile /home/utkarsh25154/Desktop/cmos65/90nm/verilog/logic_eq_check_mid/logic_syn_do_file.tcl' is aborted at line 7

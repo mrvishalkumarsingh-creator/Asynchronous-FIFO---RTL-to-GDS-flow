@@ -1,0 +1,115 @@
+
+Cadence Tempus(TM) Timing Signoff Solution.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v20.10-p003_1, built Wed Apr 29 15:56:37 PDT 2020
+Options:	-nowin 
+Date:		Tue Oct 14 20:06:37 2025
+Host:		edatools-server2.iiitd.edu.in (x86_64 w/Linux 2.6.32-754.35.1.el6.x86_64) (18cores*72cpus*Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz 39936KB)
+OS:		Red Hat Enterprise Linux Server release 6.10 (Santiago)
+
+License:
+		tpsxl	Tempus Timing Signoff Solution XL	20.1	checkout succeeded
+		16 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (1033 mbytes). Set global soft_stack_size_limit to change the value.
+environment variable TMPDIR is '/tmp/ssv_tmpdir_21898_0tn6CT'.
+wrong # args: should be "set varName ?newValue?"
+<CMD> read_lib slow.lib
+<CMD> read_verilog synthesised_netlist_time.v
+<CMD> set_top_module FIFO
+#% Begin Load MMMC data ... (date=10/14 20:14:39, mem=437.4M)
+Number of views requested 1 are allowed with the current licenses... continuing with set_analysis_view.
+#% End Load MMMC data ... (date=10/14 20:14:39, total cpu=0:00:00.0, real=0:00:01.0, peak res=437.6M, current mem=437.6M)
+default_emulate_early_rc_corner default_emulate_late_rc_corner default_emulate_rc_corner
+Loading view definition file from .ssv_emulate_view_definition_21898.tcl
+Reading default_emulate_libset_max timing library '/home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA' ...
+**ERROR: (TECHLIB-281):	Attempt to read .lib library '/home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA' failed (File /home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA)
+**ERROR: (TECHLIB-253):	cannot open file "AFTER/best/slow.lib"
+Reading default_emulate_libset_max timing library 'AFTER/best/slow.lib' ...
+**ERROR: (TECHLIB-281):	Attempt to read .lib library 'AFTER/best/slow.lib' failed (File AFTER/best/slow.lib)
+Reading default_emulate_libset_min timing library '/home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA' ...
+**ERROR: (TECHLIB-281):	Attempt to read .lib library '/home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA' failed (File /home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA)
+**ERROR: (TECHLIB-253):	cannot open file "AFTER/best/slow.lib"
+Reading default_emulate_libset_min timing library 'AFTER/best/slow.lib' ...
+**ERROR: (TECHLIB-281):	Attempt to read .lib library 'AFTER/best/slow.lib' failed (File AFTER/best/slow.lib)
+Reading default_emulate_libset_max timing library '/home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA' ...
+**ERROR: (TECHLIB-281):	Attempt to read .lib library '/home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA' failed (File /home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA)
+**ERROR: (TECHLIB-253):	cannot open file "AFTER/best/slow.lib"
+Reading default_emulate_libset_max timing library 'AFTER/best/slow.lib' ...
+**ERROR: (TECHLIB-281):	Attempt to read .lib library 'AFTER/best/slow.lib' failed (File AFTER/best/slow.lib)
+Reading default_emulate_libset_min timing library '/home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA' ...
+**ERROR: (TECHLIB-281):	Attempt to read .lib library '/home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA' failed (File /home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA)
+**ERROR: (TECHLIB-253):	cannot open file "AFTER/best/slow.lib"
+Reading default_emulate_libset_min timing library 'AFTER/best/slow.lib' ...
+**ERROR: (TECHLIB-281):	Attempt to read .lib library 'AFTER/best/slow.lib' failed (File AFTER/best/slow.lib)
+*** End library_loading (cpu=0.00min, real=0.00min, mem=12.0M, fe_cpu=0.13min, fe_real=8.05min, fe_mem=567.5M) ***
+#% Begin Load netlist data ... (date=10/14 20:14:40, mem=439.7M)
+*** Begin netlist parsing (mem=567.5M) ***
+Reading verilog netlist 'synthesised_netlist_time.v'
+Module NAND4XL is not defined and will be treated as an empty module.
+Module AOI221XL is not defined and will be treated as an empty module.
+Module AOI22XL is not defined and will be treated as an empty module.
+Module AND2X1 is not defined and will be treated as an empty module.
+Module NOR2XL is not defined and will be treated as an empty module.
+Module NOR2BXL is not defined and will be treated as an empty module.
+Module NAND2BXL is not defined and will be treated as an empty module.
+Module NAND2XL is not defined and will be treated as an empty module.
+Module SMDFFHQX1 is not defined and will be treated as an empty module.
+Module OR2X1 is not defined and will be treated as an empty module.
+Module CLKINVX1 is not defined and will be treated as an empty module.
+Module CLKXOR2X1 is not defined and will be treated as an empty module.
+Module AND2X8 is not defined and will be treated as an empty module.
+Module NOR4XL is not defined and will be treated as an empty module.
+Module OAI21XL is not defined and will be treated as an empty module.
+Module SDFFRHQX1 is not defined and will be treated as an empty module.
+Module AOI21XL is not defined and will be treated as an empty module.
+Module XOR2XL is not defined and will be treated as an empty module.
+Module NOR3XL is not defined and will be treated as an empty module.
+Module OAI211XL is not defined and will be treated as an empty module.
+Module XNOR2X1 is not defined and will be treated as an empty module.
+Module SDFFRHQX8 is not defined and will be treated as an empty module.
+
+*** Memory Usage v#1 (Current mem = 717.523M, initial mem = 273.305M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=717.5M) ***
+#% End Load netlist data ... (date=10/14 20:14:40, total cpu=0:00:00.2, real=0:00:00.0, peak res=537.2M, current mem=533.2M)
+**WARN: (IMPDB-2504):	Cell 'AOI221XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (IMPDB-2504):	Cell 'NAND4XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (IMPDB-2504):	Cell 'SMDFFHQX1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (IMPDB-2504):	Cell 'NAND2XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (IMPDB-2504):	Cell 'NAND2BXL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (IMPDB-2504):	Cell 'NOR2BXL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (IMPDB-2504):	Cell 'NOR2XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (IMPDB-2504):	Cell 'AND2X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (IMPDB-2504):	Cell 'AOI22XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (IMPDB-2504):	Cell 'SDFFRHQX8' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (IMPDB-2504):	Cell 'XNOR2X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (IMPDB-2504):	Cell 'OAI211XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (IMPDB-2504):	Cell 'NOR3XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (IMPDB-2504):	Cell 'XOR2XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (IMPDB-2504):	Cell 'AOI21XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (IMPDB-2504):	Cell 'SDFFRHQX1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (IMPDB-2504):	Cell 'OAI21XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (IMPDB-2504):	Cell 'NOR4XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (IMPDB-2504):	Cell 'AND2X8' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (IMPDB-2504):	Cell 'CLKXOR2X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+**WARN: (EMS-62):	Message <IMPDB-2504> has exceeded the default message display limit of 20.
+To avoid this warning, increase the display limit per unique message by
+using the set_message -limit <number> command.
+The message limit can be removed by using the set_message -no_limit command.
+Note that setting a very large number using the set_message -limit command
+or removing the message limit using the set_message -no_limit command can
+significantly increase the log file size.
+To suppress a message, use the set_message -suppress command.
+**ERROR: (UI-49):	Undefined cells in the design are not allowed, exiting.  Review the log file for undefined cell warning messages.  Provide the cell definitions or set load_netlist_ignore_undefined_cell to true and re-run.
+
+
+*** Memory Usage v#1 (Current mem = 714.531M, initial mem = 273.305M) ***
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+ERROR     UI-49                1  Undefined cells in the design are not al...
+WARNING   IMPDB-2504          22  Cell '%s' is instantiated in the Verilog...
+ERROR     TECHLIB-281          8  Attempt to read .lib library '%s' failed 
+*** Message Summary: 22 warning(s), 9 error(s)
+
+--- Ending "Tempus Timing Signoff Solution" (totcpu=0:00:08.4, real=0:09:00, mem=714.5M) ---

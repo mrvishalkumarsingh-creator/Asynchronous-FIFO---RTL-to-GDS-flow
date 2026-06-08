@@ -1,0 +1,55 @@
+VERSION 5.5 ;
+NAMESCASESENSITIVE ON ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN FIFO ;
+
+SCANCHAINS 2 ;
+  - AutoChain_1_seg1_wclk_rising 
+    + PARTITION p_wclk_rising 
+      MAXBITS 11
+    + START PIN DFT_sdi_1
+    + FLOATING 
+       sync_r2w/q1_reg[0] ( IN SI ) ( OUT Q ) 
+       sync_r2w/q1_reg[1] ( IN SI ) ( OUT Q ) 
+       sync_r2w/q1_reg[2] ( IN SI ) ( OUT Q ) 
+       sync_r2w/q1_reg[3] ( IN SI ) ( OUT Q ) 
+       sync_r2w/q1_reg[4] ( IN SI ) ( OUT Q ) 
+       sync_r2w/q2_reg[0] ( IN SI ) ( OUT Q ) 
+       sync_r2w/q2_reg[1] ( IN SI ) ( OUT Q ) 
+       sync_r2w/q2_reg[2] ( IN SI ) ( OUT Q ) 
+       sync_r2w/q2_reg[3] ( IN SI ) ( OUT Q ) 
+       sync_r2w/q2_reg[4] ( IN SI ) ( OUT Q ) 
+       wptr_full_inst/wptr_reg[4] ( IN SI ) ( OUT Q ) 
+    + STOP PIN DFT_sdo_1
+;
+
+  - AutoChain_2_seg1_rclk_rising 
+    + PARTITION p_rclk_rising 
+      MAXBITS 19
+    + START PIN DFT_sdi_2
+    + FLOATING 
+       rptr_empty_inst/rptr_reg[4] ( IN SI ) ( OUT Q ) 
+       sync_w2r/q1_reg[0] ( IN SI ) ( OUT Q ) 
+       sync_w2r/q1_reg[1] ( IN SI ) ( OUT Q ) 
+       sync_w2r/q1_reg[2] ( IN SI ) ( OUT Q ) 
+       sync_w2r/q1_reg[3] ( IN SI ) ( OUT Q ) 
+       sync_w2r/q1_reg[4] ( IN SI ) ( OUT Q ) 
+       sync_w2r/q2_reg[0] ( IN SI ) ( OUT Q ) 
+       sync_w2r/q2_reg[1] ( IN SI ) ( OUT Q ) 
+       sync_w2r/q2_reg[2] ( IN SI ) ( OUT Q ) 
+       sync_w2r/q2_reg[3] ( IN SI ) ( OUT Q ) 
+       sync_w2r/q2_reg[4] ( IN SI ) ( OUT Q ) 
+       rdata_reg[0] ( IN SI ) ( OUT Q ) 
+       rdata_reg[1] ( IN SI ) ( OUT Q ) 
+       rdata_reg[2] ( IN SI ) ( OUT Q ) 
+       rdata_reg[3] ( IN SI ) ( OUT Q ) 
+       rdata_reg[4] ( IN SI ) ( OUT Q ) 
+       rdata_reg[5] ( IN SI ) ( OUT Q ) 
+       rdata_reg[6] ( IN SI ) ( OUT Q ) 
+       rdata_reg[7] ( IN SI ) ( OUT Q ) 
+    + STOP PIN DFT_sdo_2
+;
+
+END SCANCHAINS 
+END DESIGN 

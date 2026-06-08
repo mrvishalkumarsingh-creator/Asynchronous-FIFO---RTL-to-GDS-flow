@@ -1,0 +1,24 @@
+ *** Starting Verify DRC (MEM: 1285.4) ***
+
+  VERIFY DRC ...... Starting Verification
+  VERIFY DRC ...... Initializing
+  VERIFY DRC ...... Deleting Existing Violations
+  VERIFY DRC ...... Creating Sub-Areas
+  VERIFY DRC ...... Using new threading
+  VERIFY DRC ...... Sub-Area: {0.000 0.000 106.430 102.080} 1 of 1
+  VERIFY DRC ...... Sub-Area : 1 complete 998 Viols.
+
+  Verification Complete : 998 Viols.
+
+ Violation Summary By Layer and Type:
+
+	            Mar    Short outOfDie   CShort   AdjCut   CutSpc   Totals
+	Metal1        0        9        0        0        0        0        9
+	Via1          0        0        0        0        0        3        3
+	Metal2      652      279       14        0        0        0      945
+	Via2          0        0        0       18        4        0       22
+	Metal3        1        0       18        0        0        0       19
+	Totals      653      288       32       18        4        3      998
+
+ *** End Verify DRC (CPU: 0:00:00.1  ELAPSED TIME: 0.00  MEM: 0.0M) ***
+

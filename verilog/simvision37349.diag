@@ -1,0 +1,129 @@
+*** Message Type: info ***
+When: Mon Oct 13 09:13:43 AM IST 2025
+SimVision started.
+Version: TOOL:  simvision(64)   15.20-s084
+User: utkarsh25154
+Host: localhost
+Platform: Linux/x86_64/2.6.32-754.35.1.el6.x86_64
+Started: Mon Oct 13 09:13:43 AM IST 2025
+Command: /cadence/INCISIVE152/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:localhost:60384 -64BIT
+Work Directory: /home/utkarsh25154/Desktop/cmos65/90nm/verilog
+ 
+*** Message Type: info ***
+When: Mon Oct 13 09:13:43 AM IST 2025
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Mon Oct 13 09:13:44 AM IST 2025
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Mon Oct 13 09:13:45 AM IST 2025
+Connect to Simulator
+      Design: worklib.FIFO_tb:module
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:     ncsim(64)       15.20-s084
+        User: utkarsh25154
+        Host: localhost
+Time Started: Mon Oct 13 09:13:42 AM IST 2025
+  Process ID: 37260
+   Directory: /home/utkarsh25154/Desktop/cmos65/90nm/verilog
+     Command: ncsim -gui -cdslib /home/utkarsh25154/Desktop/cmos65/90nm/verilog/cds.lib -logfile ncsim.log -errormax 15 -status worklib.FIFO_tb:module
+
+ 
+*** Message Type: info ***
+When: Mon Oct 13 09:13:45 AM IST 2025
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Mon Oct 13 09:14:00 AM IST 2025
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Mon Oct 13 09:15:46 AM IST 2025
+Delete waveform window: "Waveform 1"
+ 
+*** Message Type: error ***
+When: Mon Oct 13 09:16:22 AM IST 2025
+unable to grab mouse pointer
+    while executing
+"_grab_pointer $source $_dodragdrop_default_action"
+    (procedure "xdnd::_dodragdrop" line 56)
+    invoked from within
+"xdnd::_dodragdrop $source $actions $types $data $button"
+    ("x11" arm line 2)
+    invoked from within
+"switch $_windowingsystem {
+      x11 {
+        set action [xdnd::_dodragdrop $source $actions $types $data $button]
+      }
+      win32 -
+      window..."
+    (procedure "tkdnd::_init_drag" line 35)
+    invoked from within
+"tkdnd::_init_drag 0 $window  "press" 0 0"
+    ("drag" arm line 11)
+    invoked from within
+"switch $method {
+    bindtarget {
+      switch [llength $args] {
+        0 {return [tkdnd::compat::bindtarget0 $window]}
+        1 {return [tkdnd::com..."
+    (procedure "::dnd" line 4)
+    invoked from within
+"::dnd drag .watchList0.work.sidebars.csite.tabs.tab1.browse.tree.sf.table -actions copy"
+    ("eval" body line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "cwidgets::dnd" line 1)
+    invoked from within
+"cwidgets::dnd drag $win -actions {copy}"
+    (object "::.watchList0.work.sidebars.csite.tabs.tab1.browse.tree" method "::dad::ScopeTree::_startDND" body line 55)
+    invoked from within
+"::.watchList0.work.sidebars.csite.tabs.tab1.browse.tree _startDND .watchList0.work.sidebars.csite.tabs.tab1.browse.tree.sf.table 143 3"
+    (in namespace inscope "::dad::ScopeTree" script line 1)
+    invoked from within
+"namespace inscope ::dad::ScopeTree {::.watchList0.work.sidebars.csite.tabs.tab1.browse.tree _startDND} .watchList0.work.sidebars.csite.tabs.tab1.brows..."
+    ("eval" body line 1)
+    invoked from within
+"eval $dndstartcommand $_win $ax $ay"
+    (object "::dad::ScopeTree::dNDTracker2" method "::DNDTracker::motionTo" body line 15)
+    invoked from within
+"$_dndTracker motionTo $x $y"
+    ("motion" arm line 2)
+    invoked from within
+"switch -- $modifier {
+  shift {
+
+           if { [llength [curselection]] == 0 } {
+             # if shift-click is the first selection
+                # we treat it as an plain clic..."
+    (object "::.watchList0.work.sidebars.csite.tabs.tab1.browse.tree" method "::dad::ScopeTree::_buttonCallback" body line 33)
+    invoked from within
+"::.watchList0.work.sidebars.csite.tabs.tab1.browse.tree _buttonCallback .watchList0.work.sidebars.csite.tabs.tab1.browse.tree.sf.table 110 39 motion"
+    (in namespace inscope "::dad::ScopeTree" script line 1)
+    invoked from within
+"namespace inscope ::dad::ScopeTree {::.watchList0.work.sidebars.csite.tabs.tab1.browse.tree _buttonCallback .watchList0.work.sidebars.csite.tabs.tab1...."
+    (command bound to event)
+ 
+*** Message Type: info ***
+When: Mon Oct 13 09:18:41 AM IST 2025
+Exit NC-Sim: user
+      Design: worklib.FIFO_tb:module
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:     ncsim(64)       15.20-s084
+        User: utkarsh25154
+        Host: localhost
+Time Started: Mon Oct 13 09:13:42 AM IST 2025
+  Process ID: 37260
+   Directory: /home/utkarsh25154/Desktop/cmos65/90nm/verilog
+     Command: ncsim -gui -cdslib /home/utkarsh25154/Desktop/cmos65/90nm/verilog/cds.lib -logfile ncsim.log -errormax 15 -status worklib.FIFO_tb:module
+
+ 
+*** Message Type: info ***
+When: Mon Oct 13 09:18:42 AM IST 2025
+SimVision Exit.
+ 

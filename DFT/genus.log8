@@ -1,0 +1,36 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 19.13-s073_1, built Fri Mar 20 01:36:16 PDT 2020
+Options: -legacy_ui 
+Date:    Tue Oct 14 16:30:50 2025
+Host:    edatools-server2.iiitd.edu.in (x86_64 w/Linux 2.6.32-754.35.1.el6.x86_64) (18cores*72cpus*2physical cpus*Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz 39936KB) (528955884KB)
+PID:     73344
+OS:      Red Hat Enterprise Linux Server release 6.10 (Santiago)
+
+Checking out license: Genus_Synthesis
+
+Loading tool scripts...
+
+Finished loading tool scripts (4 seconds elapsed).
+
+WARNING: This version of the tool is 2034 days old.
+legacy_genus:/> source DFT.tcl
+Sourcing './DFT.tcl' (Tue Oct 14 16:31:17 IST 2025)...
+  Setting attribute of root '/': 'lib_search_path' = /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT/best/lib
+Warning : This attribute will be obsolete in a next major release. [TUI-32]
+        : attribute: 'hdl_search_path', object type: 'root'
+        : Attribute 'hdl_search_path' is going to be obsoleted, use the new attribute 'init_hdl_search_path'.
+  Setting attribute of root '/': 'hdl_search_path' = /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT/best/RTL
+Error   : File error. [FILE-100] [set_attribute]
+        : Cannot open file 'slow_wlm.lib'
+        : Make sure that the file is a readable regular file and has the specified name.
+Error   : A library file does not exist. [LBR-68] [set_attribute]
+        : File 'slow_wlm.lib' could not be found. File '<none>' was the last file that was successfully read in.
+        : Make sure that the library file exists or check for a typo in the file name.
+Error   : The data value for this attribute is invalid. [TUI-24] [set_attribute]
+        : The value 'slow_wlm.lib' cannot be set for attribute 'library'.
+        : To see the usage/description for this attribute, type '::legacy::set_attribute -h <attr_name> *' (in legacy UI mode) or 'help * <attr_name> -detail' (in CUI mode).
+1

@@ -1,0 +1,881 @@
+// Compared points are: Equivalent
+//  (G) + 15   PO   /rdata[7]
+//  (R) + 15   PO   /rdata[7]
+add compared points rdata[7]
+
+// Compared points are: Equivalent
+//  (G) + 16   PO   /rdata[6]
+//  (R) + 16   PO   /rdata[6]
+add compared points rdata[6]
+
+// Compared points are: Equivalent
+//  (G) + 17   PO   /rdata[5]
+//  (R) + 17   PO   /rdata[5]
+add compared points rdata[5]
+
+// Compared points are: Equivalent
+//  (G) + 18   PO   /rdata[4]
+//  (R) + 18   PO   /rdata[4]
+add compared points rdata[4]
+
+// Compared points are: Equivalent
+//  (G) + 19   PO   /rdata[3]
+//  (R) + 19   PO   /rdata[3]
+add compared points rdata[3]
+
+// Compared points are: Equivalent
+//  (G) + 20   PO   /rdata[2]
+//  (R) + 20   PO   /rdata[2]
+add compared points rdata[2]
+
+// Compared points are: Equivalent
+//  (G) + 21   PO   /rdata[1]
+//  (R) + 21   PO   /rdata[1]
+add compared points rdata[1]
+
+// Compared points are: Equivalent
+//  (G) + 22   PO   /rdata[0]
+//  (R) + 22   PO   /rdata[0]
+add compared points rdata[0]
+
+// Compared points are: Equivalent
+//  (G) + 23   PO   /wfull
+//  (R) + 23   PO   /wfull
+add compared points wfull
+
+// Compared points are: Equivalent
+//  (G) + 24   PO   /rempty
+//  (R) + 24   PO   /rempty
+add compared points rempty
+
+// Compared points are: Equivalent
+//  (G) + 25   DFF  /rdata_reg[7]
+//  (R) + 183  DFF  /rdata_reg[7]/U$1/U$1
+add compared points rdata_reg[7]
+
+// Compared points are: Equivalent
+//  (G) + 26   DFF  /rdata_reg[6]
+//  (R) + 184  DFF  /rdata_reg[6]/U$1/U$1
+add compared points rdata_reg[6]
+
+// Compared points are: Equivalent
+//  (G) + 27   DFF  /rdata_reg[5]
+//  (R) + 188  DFF  /rdata_reg[5]/U$1/U$1
+add compared points rdata_reg[5]
+
+// Compared points are: Equivalent
+//  (G) + 28   DFF  /rdata_reg[4]
+//  (R) + 185  DFF  /rdata_reg[4]/U$1/U$1
+add compared points rdata_reg[4]
+
+// Compared points are: Equivalent
+//  (G) + 29   DFF  /rdata_reg[3]
+//  (R) + 187  DFF  /rdata_reg[3]/U$1/U$1
+add compared points rdata_reg[3]
+
+// Compared points are: Equivalent
+//  (G) + 30   DFF  /rdata_reg[2]
+//  (R) + 189  DFF  /rdata_reg[2]/U$1/U$1
+add compared points rdata_reg[2]
+
+// Compared points are: Equivalent
+//  (G) + 31   DFF  /rdata_reg[1]
+//  (R) + 190  DFF  /rdata_reg[1]/U$1/U$1
+add compared points rdata_reg[1]
+
+// Compared points are: Equivalent
+//  (G) + 32   DFF  /rdata_reg[0]
+//  (R) + 186  DFF  /rdata_reg[0]/U$1/U$1
+add compared points rdata_reg[0]
+
+// Compared points are: Equivalent
+//  (G) + 33   DFF  /sync_r2w/q1_reg[4]
+//  (R) + 165  DFF  /sync_r2w/q1_reg[4]/U$1/U$1
+add compared points sync_r2w/q1_reg[4]
+
+// Compared points are: Equivalent
+//  (G) + 34   DFF  /sync_r2w/q1_reg[3]
+//  (R) + 164  DFF  /sync_r2w/q1_reg[3]/U$1/U$1
+add compared points sync_r2w/q1_reg[3]
+
+// Compared points are: Equivalent
+//  (G) + 35   DFF  /sync_r2w/q1_reg[2]
+//  (R) + 163  DFF  /sync_r2w/q1_reg[2]/U$1/U$1
+add compared points sync_r2w/q1_reg[2]
+
+// Compared points are: Equivalent
+//  (G) + 36   DFF  /sync_r2w/q1_reg[1]
+//  (R) + 166  DFF  /sync_r2w/q1_reg[1]/U$1/U$1
+add compared points sync_r2w/q1_reg[1]
+
+// Compared points are: Equivalent
+//  (G) + 37   DFF  /sync_r2w/q1_reg[0]
+//  (R) + 167  DFF  /sync_r2w/q1_reg[0]/U$1/U$1
+add compared points sync_r2w/q1_reg[0]
+
+// Compared points are: Equivalent
+//  (G) + 38   DFF  /sync_r2w/q2_reg[4]
+//  (R) + 158  DFF  /sync_r2w/q2_reg[4]/U$1/U$1
+add compared points sync_r2w/q2_reg[4]
+
+// Compared points are: Equivalent
+//  (G) + 39   DFF  /sync_r2w/q2_reg[3]
+//  (R) + 159  DFF  /sync_r2w/q2_reg[3]/U$1/U$1
+add compared points sync_r2w/q2_reg[3]
+
+// Compared points are: Equivalent
+//  (G) + 40   DFF  /sync_r2w/q2_reg[2]
+//  (R) + 162  DFF  /sync_r2w/q2_reg[2]/U$1/U$1
+add compared points sync_r2w/q2_reg[2]
+
+// Compared points are: Equivalent
+//  (G) + 41   DFF  /sync_r2w/q2_reg[1]
+//  (R) + 160  DFF  /sync_r2w/q2_reg[1]/U$1/U$1
+add compared points sync_r2w/q2_reg[1]
+
+// Compared points are: Equivalent
+//  (G) + 42   DFF  /sync_r2w/q2_reg[0]
+//  (R) + 161  DFF  /sync_r2w/q2_reg[0]/U$1/U$1
+add compared points sync_r2w/q2_reg[0]
+
+// Compared points are: Equivalent
+//  (G) + 43   DFF  /sync_w2r/q1_reg[4]
+//  (R) + 175  DFF  /sync_w2r/q1_reg[4]/U$1/U$1
+add compared points sync_w2r/q1_reg[4]
+
+// Compared points are: Equivalent
+//  (G) + 44   DFF  /sync_w2r/q1_reg[3]
+//  (R) + 174  DFF  /sync_w2r/q1_reg[3]/U$1/U$1
+add compared points sync_w2r/q1_reg[3]
+
+// Compared points are: Equivalent
+//  (G) + 45   DFF  /sync_w2r/q1_reg[2]
+//  (R) + 173  DFF  /sync_w2r/q1_reg[2]/U$1/U$1
+add compared points sync_w2r/q1_reg[2]
+
+// Compared points are: Equivalent
+//  (G) + 46   DFF  /sync_w2r/q1_reg[1]
+//  (R) + 176  DFF  /sync_w2r/q1_reg[1]/U$1/U$1
+add compared points sync_w2r/q1_reg[1]
+
+// Compared points are: Equivalent
+//  (G) + 47   DFF  /sync_w2r/q1_reg[0]
+//  (R) + 177  DFF  /sync_w2r/q1_reg[0]/U$1/U$1
+add compared points sync_w2r/q1_reg[0]
+
+// Compared points are: Equivalent
+//  (G) + 48   DFF  /sync_w2r/q2_reg[4]
+//  (R) + 168  DFF  /sync_w2r/q2_reg[4]/U$1/U$1
+add compared points sync_w2r/q2_reg[4]
+
+// Compared points are: Equivalent
+//  (G) + 49   DFF  /sync_w2r/q2_reg[3]
+//  (R) + 169  DFF  /sync_w2r/q2_reg[3]/U$1/U$1
+add compared points sync_w2r/q2_reg[3]
+
+// Compared points are: Equivalent
+//  (G) + 50   DFF  /sync_w2r/q2_reg[2]
+//  (R) + 172  DFF  /sync_w2r/q2_reg[2]/U$1/U$1
+add compared points sync_w2r/q2_reg[2]
+
+// Compared points are: Equivalent
+//  (G) + 51   DFF  /sync_w2r/q2_reg[1]
+//  (R) + 170  DFF  /sync_w2r/q2_reg[1]/U$1/U$1
+add compared points sync_w2r/q2_reg[1]
+
+// Compared points are: Equivalent
+//  (G) + 52   DFF  /sync_w2r/q2_reg[0]
+//  (R) + 171  DFF  /sync_w2r/q2_reg[0]/U$1/U$1
+add compared points sync_w2r/q2_reg[0]
+
+// Compared points are: Equivalent
+//  (G) + 53   DFF  /fifomem/mem_reg[0][7]
+//  (R) + 32   DFF  /fifomem/mem_reg[0][7]/U$1/U$1
+add compared points fifomem/mem_reg[0][7]
+
+// Compared points are: Equivalent
+//  (G) + 54   DFF  /fifomem/mem_reg[0][6]
+//  (R) + 31   DFF  /fifomem/mem_reg[0][6]/U$1/U$1
+add compared points fifomem/mem_reg[0][6]
+
+// Compared points are: Equivalent
+//  (G) + 55   DFF  /fifomem/mem_reg[0][5]
+//  (R) + 30   DFF  /fifomem/mem_reg[0][5]/U$1/U$1
+add compared points fifomem/mem_reg[0][5]
+
+// Compared points are: Equivalent
+//  (G) + 56   DFF  /fifomem/mem_reg[0][4]
+//  (R) + 29   DFF  /fifomem/mem_reg[0][4]/U$1/U$1
+add compared points fifomem/mem_reg[0][4]
+
+// Compared points are: Equivalent
+//  (G) + 57   DFF  /fifomem/mem_reg[0][3]
+//  (R) + 28   DFF  /fifomem/mem_reg[0][3]/U$1/U$1
+add compared points fifomem/mem_reg[0][3]
+
+// Compared points are: Equivalent
+//  (G) + 58   DFF  /fifomem/mem_reg[0][2]
+//  (R) + 27   DFF  /fifomem/mem_reg[0][2]/U$1/U$1
+add compared points fifomem/mem_reg[0][2]
+
+// Compared points are: Equivalent
+//  (G) + 59   DFF  /fifomem/mem_reg[0][1]
+//  (R) + 26   DFF  /fifomem/mem_reg[0][1]/U$1/U$1
+add compared points fifomem/mem_reg[0][1]
+
+// Compared points are: Equivalent
+//  (G) + 60   DFF  /fifomem/mem_reg[0][0]
+//  (R) + 25   DFF  /fifomem/mem_reg[0][0]/U$1/U$1
+add compared points fifomem/mem_reg[0][0]
+
+// Compared points are: Equivalent
+//  (G) + 61   DFF  /fifomem/mem_reg[1][7]
+//  (R) + 40   DFF  /fifomem/mem_reg[1][7]/U$1/U$1
+add compared points fifomem/mem_reg[1][7]
+
+// Compared points are: Equivalent
+//  (G) + 62   DFF  /fifomem/mem_reg[1][6]
+//  (R) + 39   DFF  /fifomem/mem_reg[1][6]/U$1/U$1
+add compared points fifomem/mem_reg[1][6]
+
+// Compared points are: Equivalent
+//  (G) + 63   DFF  /fifomem/mem_reg[1][5]
+//  (R) + 38   DFF  /fifomem/mem_reg[1][5]/U$1/U$1
+add compared points fifomem/mem_reg[1][5]
+
+// Compared points are: Equivalent
+//  (G) + 64   DFF  /fifomem/mem_reg[1][4]
+//  (R) + 37   DFF  /fifomem/mem_reg[1][4]/U$1/U$1
+add compared points fifomem/mem_reg[1][4]
+
+// Compared points are: Equivalent
+//  (G) + 65   DFF  /fifomem/mem_reg[1][3]
+//  (R) + 36   DFF  /fifomem/mem_reg[1][3]/U$1/U$1
+add compared points fifomem/mem_reg[1][3]
+
+// Compared points are: Equivalent
+//  (G) + 66   DFF  /fifomem/mem_reg[1][2]
+//  (R) + 35   DFF  /fifomem/mem_reg[1][2]/U$1/U$1
+add compared points fifomem/mem_reg[1][2]
+
+// Compared points are: Equivalent
+//  (G) + 67   DFF  /fifomem/mem_reg[1][1]
+//  (R) + 34   DFF  /fifomem/mem_reg[1][1]/U$1/U$1
+add compared points fifomem/mem_reg[1][1]
+
+// Compared points are: Equivalent
+//  (G) + 68   DFF  /fifomem/mem_reg[1][0]
+//  (R) + 33   DFF  /fifomem/mem_reg[1][0]/U$1/U$1
+add compared points fifomem/mem_reg[1][0]
+
+// Compared points are: Equivalent
+//  (G) + 69   DFF  /fifomem/mem_reg[2][7]
+//  (R) + 48   DFF  /fifomem/mem_reg[2][7]/U$1/U$1
+add compared points fifomem/mem_reg[2][7]
+
+// Compared points are: Equivalent
+//  (G) + 70   DFF  /fifomem/mem_reg[2][6]
+//  (R) + 47   DFF  /fifomem/mem_reg[2][6]/U$1/U$1
+add compared points fifomem/mem_reg[2][6]
+
+// Compared points are: Equivalent
+//  (G) + 71   DFF  /fifomem/mem_reg[2][5]
+//  (R) + 46   DFF  /fifomem/mem_reg[2][5]/U$1/U$1
+add compared points fifomem/mem_reg[2][5]
+
+// Compared points are: Equivalent
+//  (G) + 72   DFF  /fifomem/mem_reg[2][4]
+//  (R) + 45   DFF  /fifomem/mem_reg[2][4]/U$1/U$1
+add compared points fifomem/mem_reg[2][4]
+
+// Compared points are: Equivalent
+//  (G) + 73   DFF  /fifomem/mem_reg[2][3]
+//  (R) + 44   DFF  /fifomem/mem_reg[2][3]/U$1/U$1
+add compared points fifomem/mem_reg[2][3]
+
+// Compared points are: Equivalent
+//  (G) + 74   DFF  /fifomem/mem_reg[2][2]
+//  (R) + 43   DFF  /fifomem/mem_reg[2][2]/U$1/U$1
+add compared points fifomem/mem_reg[2][2]
+
+// Compared points are: Equivalent
+//  (G) + 75   DFF  /fifomem/mem_reg[2][1]
+//  (R) + 42   DFF  /fifomem/mem_reg[2][1]/U$1/U$1
+add compared points fifomem/mem_reg[2][1]
+
+// Compared points are: Equivalent
+//  (G) + 76   DFF  /fifomem/mem_reg[2][0]
+//  (R) + 41   DFF  /fifomem/mem_reg[2][0]/U$1/U$1
+add compared points fifomem/mem_reg[2][0]
+
+// Compared points are: Equivalent
+//  (G) + 77   DFF  /fifomem/mem_reg[3][7]
+//  (R) + 56   DFF  /fifomem/mem_reg[3][7]/U$1/U$1
+add compared points fifomem/mem_reg[3][7]
+
+// Compared points are: Equivalent
+//  (G) + 78   DFF  /fifomem/mem_reg[3][6]
+//  (R) + 55   DFF  /fifomem/mem_reg[3][6]/U$1/U$1
+add compared points fifomem/mem_reg[3][6]
+
+// Compared points are: Equivalent
+//  (G) + 79   DFF  /fifomem/mem_reg[3][5]
+//  (R) + 54   DFF  /fifomem/mem_reg[3][5]/U$1/U$1
+add compared points fifomem/mem_reg[3][5]
+
+// Compared points are: Equivalent
+//  (G) + 80   DFF  /fifomem/mem_reg[3][4]
+//  (R) + 53   DFF  /fifomem/mem_reg[3][4]/U$1/U$1
+add compared points fifomem/mem_reg[3][4]
+
+// Compared points are: Equivalent
+//  (G) + 81   DFF  /fifomem/mem_reg[3][3]
+//  (R) + 52   DFF  /fifomem/mem_reg[3][3]/U$1/U$1
+add compared points fifomem/mem_reg[3][3]
+
+// Compared points are: Equivalent
+//  (G) + 82   DFF  /fifomem/mem_reg[3][2]
+//  (R) + 51   DFF  /fifomem/mem_reg[3][2]/U$1/U$1
+add compared points fifomem/mem_reg[3][2]
+
+// Compared points are: Equivalent
+//  (G) + 83   DFF  /fifomem/mem_reg[3][1]
+//  (R) + 50   DFF  /fifomem/mem_reg[3][1]/U$1/U$1
+add compared points fifomem/mem_reg[3][1]
+
+// Compared points are: Equivalent
+//  (G) + 84   DFF  /fifomem/mem_reg[3][0]
+//  (R) + 49   DFF  /fifomem/mem_reg[3][0]/U$1/U$1
+add compared points fifomem/mem_reg[3][0]
+
+// Compared points are: Equivalent
+//  (G) + 85   DFF  /fifomem/mem_reg[4][7]
+//  (R) + 64   DFF  /fifomem/mem_reg[4][7]/U$1/U$1
+add compared points fifomem/mem_reg[4][7]
+
+// Compared points are: Equivalent
+//  (G) + 86   DFF  /fifomem/mem_reg[4][6]
+//  (R) + 63   DFF  /fifomem/mem_reg[4][6]/U$1/U$1
+add compared points fifomem/mem_reg[4][6]
+
+// Compared points are: Equivalent
+//  (G) + 87   DFF  /fifomem/mem_reg[4][5]
+//  (R) + 62   DFF  /fifomem/mem_reg[4][5]/U$1/U$1
+add compared points fifomem/mem_reg[4][5]
+
+// Compared points are: Equivalent
+//  (G) + 88   DFF  /fifomem/mem_reg[4][4]
+//  (R) + 61   DFF  /fifomem/mem_reg[4][4]/U$1/U$1
+add compared points fifomem/mem_reg[4][4]
+
+// Compared points are: Equivalent
+//  (G) + 89   DFF  /fifomem/mem_reg[4][3]
+//  (R) + 60   DFF  /fifomem/mem_reg[4][3]/U$1/U$1
+add compared points fifomem/mem_reg[4][3]
+
+// Compared points are: Equivalent
+//  (G) + 90   DFF  /fifomem/mem_reg[4][2]
+//  (R) + 59   DFF  /fifomem/mem_reg[4][2]/U$1/U$1
+add compared points fifomem/mem_reg[4][2]
+
+// Compared points are: Equivalent
+//  (G) + 91   DFF  /fifomem/mem_reg[4][1]
+//  (R) + 58   DFF  /fifomem/mem_reg[4][1]/U$1/U$1
+add compared points fifomem/mem_reg[4][1]
+
+// Compared points are: Equivalent
+//  (G) + 92   DFF  /fifomem/mem_reg[4][0]
+//  (R) + 57   DFF  /fifomem/mem_reg[4][0]/U$1/U$1
+add compared points fifomem/mem_reg[4][0]
+
+// Compared points are: Equivalent
+//  (G) + 93   DFF  /fifomem/mem_reg[5][7]
+//  (R) + 72   DFF  /fifomem/mem_reg[5][7]/U$1/U$1
+add compared points fifomem/mem_reg[5][7]
+
+// Compared points are: Equivalent
+//  (G) + 94   DFF  /fifomem/mem_reg[5][6]
+//  (R) + 71   DFF  /fifomem/mem_reg[5][6]/U$1/U$1
+add compared points fifomem/mem_reg[5][6]
+
+// Compared points are: Equivalent
+//  (G) + 95   DFF  /fifomem/mem_reg[5][5]
+//  (R) + 70   DFF  /fifomem/mem_reg[5][5]/U$1/U$1
+add compared points fifomem/mem_reg[5][5]
+
+// Compared points are: Equivalent
+//  (G) + 96   DFF  /fifomem/mem_reg[5][4]
+//  (R) + 69   DFF  /fifomem/mem_reg[5][4]/U$1/U$1
+add compared points fifomem/mem_reg[5][4]
+
+// Compared points are: Equivalent
+//  (G) + 97   DFF  /fifomem/mem_reg[5][3]
+//  (R) + 68   DFF  /fifomem/mem_reg[5][3]/U$1/U$1
+add compared points fifomem/mem_reg[5][3]
+
+// Compared points are: Equivalent
+//  (G) + 98   DFF  /fifomem/mem_reg[5][2]
+//  (R) + 67   DFF  /fifomem/mem_reg[5][2]/U$1/U$1
+add compared points fifomem/mem_reg[5][2]
+
+// Compared points are: Equivalent
+//  (G) + 99   DFF  /fifomem/mem_reg[5][1]
+//  (R) + 66   DFF  /fifomem/mem_reg[5][1]/U$1/U$1
+add compared points fifomem/mem_reg[5][1]
+
+// Compared points are: Equivalent
+//  (G) + 100  DFF  /fifomem/mem_reg[5][0]
+//  (R) + 65   DFF  /fifomem/mem_reg[5][0]/U$1/U$1
+add compared points fifomem/mem_reg[5][0]
+
+// Compared points are: Equivalent
+//  (G) + 101  DFF  /fifomem/mem_reg[6][7]
+//  (R) + 80   DFF  /fifomem/mem_reg[6][7]/U$1/U$1
+add compared points fifomem/mem_reg[6][7]
+
+// Compared points are: Equivalent
+//  (G) + 102  DFF  /fifomem/mem_reg[6][6]
+//  (R) + 79   DFF  /fifomem/mem_reg[6][6]/U$1/U$1
+add compared points fifomem/mem_reg[6][6]
+
+// Compared points are: Equivalent
+//  (G) + 103  DFF  /fifomem/mem_reg[6][5]
+//  (R) + 78   DFF  /fifomem/mem_reg[6][5]/U$1/U$1
+add compared points fifomem/mem_reg[6][5]
+
+// Compared points are: Equivalent
+//  (G) + 104  DFF  /fifomem/mem_reg[6][4]
+//  (R) + 77   DFF  /fifomem/mem_reg[6][4]/U$1/U$1
+add compared points fifomem/mem_reg[6][4]
+
+// Compared points are: Equivalent
+//  (G) + 105  DFF  /fifomem/mem_reg[6][3]
+//  (R) + 76   DFF  /fifomem/mem_reg[6][3]/U$1/U$1
+add compared points fifomem/mem_reg[6][3]
+
+// Compared points are: Equivalent
+//  (G) + 106  DFF  /fifomem/mem_reg[6][2]
+//  (R) + 75   DFF  /fifomem/mem_reg[6][2]/U$1/U$1
+add compared points fifomem/mem_reg[6][2]
+
+// Compared points are: Equivalent
+//  (G) + 107  DFF  /fifomem/mem_reg[6][1]
+//  (R) + 74   DFF  /fifomem/mem_reg[6][1]/U$1/U$1
+add compared points fifomem/mem_reg[6][1]
+
+// Compared points are: Equivalent
+//  (G) + 108  DFF  /fifomem/mem_reg[6][0]
+//  (R) + 73   DFF  /fifomem/mem_reg[6][0]/U$1/U$1
+add compared points fifomem/mem_reg[6][0]
+
+// Compared points are: Equivalent
+//  (G) + 109  DFF  /fifomem/mem_reg[7][7]
+//  (R) + 88   DFF  /fifomem/mem_reg[7][7]/U$1/U$1
+add compared points fifomem/mem_reg[7][7]
+
+// Compared points are: Equivalent
+//  (G) + 110  DFF  /fifomem/mem_reg[7][6]
+//  (R) + 87   DFF  /fifomem/mem_reg[7][6]/U$1/U$1
+add compared points fifomem/mem_reg[7][6]
+
+// Compared points are: Equivalent
+//  (G) + 111  DFF  /fifomem/mem_reg[7][5]
+//  (R) + 86   DFF  /fifomem/mem_reg[7][5]/U$1/U$1
+add compared points fifomem/mem_reg[7][5]
+
+// Compared points are: Equivalent
+//  (G) + 112  DFF  /fifomem/mem_reg[7][4]
+//  (R) + 85   DFF  /fifomem/mem_reg[7][4]/U$1/U$1
+add compared points fifomem/mem_reg[7][4]
+
+// Compared points are: Equivalent
+//  (G) + 113  DFF  /fifomem/mem_reg[7][3]
+//  (R) + 84   DFF  /fifomem/mem_reg[7][3]/U$1/U$1
+add compared points fifomem/mem_reg[7][3]
+
+// Compared points are: Equivalent
+//  (G) + 114  DFF  /fifomem/mem_reg[7][2]
+//  (R) + 83   DFF  /fifomem/mem_reg[7][2]/U$1/U$1
+add compared points fifomem/mem_reg[7][2]
+
+// Compared points are: Equivalent
+//  (G) + 115  DFF  /fifomem/mem_reg[7][1]
+//  (R) + 82   DFF  /fifomem/mem_reg[7][1]/U$1/U$1
+add compared points fifomem/mem_reg[7][1]
+
+// Compared points are: Equivalent
+//  (G) + 116  DFF  /fifomem/mem_reg[7][0]
+//  (R) + 81   DFF  /fifomem/mem_reg[7][0]/U$1/U$1
+add compared points fifomem/mem_reg[7][0]
+
+// Compared points are: Equivalent
+//  (G) + 117  DFF  /fifomem/mem_reg[8][7]
+//  (R) + 96   DFF  /fifomem/mem_reg[8][7]/U$1/U$1
+add compared points fifomem/mem_reg[8][7]
+
+// Compared points are: Equivalent
+//  (G) + 118  DFF  /fifomem/mem_reg[8][6]
+//  (R) + 95   DFF  /fifomem/mem_reg[8][6]/U$1/U$1
+add compared points fifomem/mem_reg[8][6]
+
+// Compared points are: Equivalent
+//  (G) + 119  DFF  /fifomem/mem_reg[8][5]
+//  (R) + 94   DFF  /fifomem/mem_reg[8][5]/U$1/U$1
+add compared points fifomem/mem_reg[8][5]
+
+// Compared points are: Equivalent
+//  (G) + 120  DFF  /fifomem/mem_reg[8][4]
+//  (R) + 93   DFF  /fifomem/mem_reg[8][4]/U$1/U$1
+add compared points fifomem/mem_reg[8][4]
+
+// Compared points are: Equivalent
+//  (G) + 121  DFF  /fifomem/mem_reg[8][3]
+//  (R) + 92   DFF  /fifomem/mem_reg[8][3]/U$1/U$1
+add compared points fifomem/mem_reg[8][3]
+
+// Compared points are: Equivalent
+//  (G) + 122  DFF  /fifomem/mem_reg[8][2]
+//  (R) + 91   DFF  /fifomem/mem_reg[8][2]/U$1/U$1
+add compared points fifomem/mem_reg[8][2]
+
+// Compared points are: Equivalent
+//  (G) + 123  DFF  /fifomem/mem_reg[8][1]
+//  (R) + 90   DFF  /fifomem/mem_reg[8][1]/U$1/U$1
+add compared points fifomem/mem_reg[8][1]
+
+// Compared points are: Equivalent
+//  (G) + 124  DFF  /fifomem/mem_reg[8][0]
+//  (R) + 89   DFF  /fifomem/mem_reg[8][0]/U$1/U$1
+add compared points fifomem/mem_reg[8][0]
+
+// Compared points are: Equivalent
+//  (G) + 125  DFF  /fifomem/mem_reg[9][7]
+//  (R) + 104  DFF  /fifomem/mem_reg[9][7]/U$1/U$1
+add compared points fifomem/mem_reg[9][7]
+
+// Compared points are: Equivalent
+//  (G) + 126  DFF  /fifomem/mem_reg[9][6]
+//  (R) + 103  DFF  /fifomem/mem_reg[9][6]/U$1/U$1
+add compared points fifomem/mem_reg[9][6]
+
+// Compared points are: Equivalent
+//  (G) + 127  DFF  /fifomem/mem_reg[9][5]
+//  (R) + 102  DFF  /fifomem/mem_reg[9][5]/U$1/U$1
+add compared points fifomem/mem_reg[9][5]
+
+// Compared points are: Equivalent
+//  (G) + 128  DFF  /fifomem/mem_reg[9][4]
+//  (R) + 101  DFF  /fifomem/mem_reg[9][4]/U$1/U$1
+add compared points fifomem/mem_reg[9][4]
+
+// Compared points are: Equivalent
+//  (G) + 129  DFF  /fifomem/mem_reg[9][3]
+//  (R) + 100  DFF  /fifomem/mem_reg[9][3]/U$1/U$1
+add compared points fifomem/mem_reg[9][3]
+
+// Compared points are: Equivalent
+//  (G) + 130  DFF  /fifomem/mem_reg[9][2]
+//  (R) + 99   DFF  /fifomem/mem_reg[9][2]/U$1/U$1
+add compared points fifomem/mem_reg[9][2]
+
+// Compared points are: Equivalent
+//  (G) + 131  DFF  /fifomem/mem_reg[9][1]
+//  (R) + 98   DFF  /fifomem/mem_reg[9][1]/U$1/U$1
+add compared points fifomem/mem_reg[9][1]
+
+// Compared points are: Equivalent
+//  (G) + 132  DFF  /fifomem/mem_reg[9][0]
+//  (R) + 97   DFF  /fifomem/mem_reg[9][0]/U$1/U$1
+add compared points fifomem/mem_reg[9][0]
+
+// Compared points are: Equivalent
+//  (G) + 133  DFF  /fifomem/mem_reg[10][7]
+//  (R) + 112  DFF  /fifomem/mem_reg[10][7]/U$1/U$1
+add compared points fifomem/mem_reg[10][7]
+
+// Compared points are: Equivalent
+//  (G) + 134  DFF  /fifomem/mem_reg[10][6]
+//  (R) + 111  DFF  /fifomem/mem_reg[10][6]/U$1/U$1
+add compared points fifomem/mem_reg[10][6]
+
+// Compared points are: Equivalent
+//  (G) + 135  DFF  /fifomem/mem_reg[10][5]
+//  (R) + 110  DFF  /fifomem/mem_reg[10][5]/U$1/U$1
+add compared points fifomem/mem_reg[10][5]
+
+// Compared points are: Equivalent
+//  (G) + 136  DFF  /fifomem/mem_reg[10][4]
+//  (R) + 109  DFF  /fifomem/mem_reg[10][4]/U$1/U$1
+add compared points fifomem/mem_reg[10][4]
+
+// Compared points are: Equivalent
+//  (G) + 137  DFF  /fifomem/mem_reg[10][3]
+//  (R) + 108  DFF  /fifomem/mem_reg[10][3]/U$1/U$1
+add compared points fifomem/mem_reg[10][3]
+
+// Compared points are: Equivalent
+//  (G) + 138  DFF  /fifomem/mem_reg[10][2]
+//  (R) + 107  DFF  /fifomem/mem_reg[10][2]/U$1/U$1
+add compared points fifomem/mem_reg[10][2]
+
+// Compared points are: Equivalent
+//  (G) + 139  DFF  /fifomem/mem_reg[10][1]
+//  (R) + 106  DFF  /fifomem/mem_reg[10][1]/U$1/U$1
+add compared points fifomem/mem_reg[10][1]
+
+// Compared points are: Equivalent
+//  (G) + 140  DFF  /fifomem/mem_reg[10][0]
+//  (R) + 105  DFF  /fifomem/mem_reg[10][0]/U$1/U$1
+add compared points fifomem/mem_reg[10][0]
+
+// Compared points are: Equivalent
+//  (G) + 141  DFF  /fifomem/mem_reg[11][7]
+//  (R) + 120  DFF  /fifomem/mem_reg[11][7]/U$1/U$1
+add compared points fifomem/mem_reg[11][7]
+
+// Compared points are: Equivalent
+//  (G) + 142  DFF  /fifomem/mem_reg[11][6]
+//  (R) + 119  DFF  /fifomem/mem_reg[11][6]/U$1/U$1
+add compared points fifomem/mem_reg[11][6]
+
+// Compared points are: Equivalent
+//  (G) + 143  DFF  /fifomem/mem_reg[11][5]
+//  (R) + 118  DFF  /fifomem/mem_reg[11][5]/U$1/U$1
+add compared points fifomem/mem_reg[11][5]
+
+// Compared points are: Equivalent
+//  (G) + 144  DFF  /fifomem/mem_reg[11][4]
+//  (R) + 117  DFF  /fifomem/mem_reg[11][4]/U$1/U$1
+add compared points fifomem/mem_reg[11][4]
+
+// Compared points are: Equivalent
+//  (G) + 145  DFF  /fifomem/mem_reg[11][3]
+//  (R) + 116  DFF  /fifomem/mem_reg[11][3]/U$1/U$1
+add compared points fifomem/mem_reg[11][3]
+
+// Compared points are: Equivalent
+//  (G) + 146  DFF  /fifomem/mem_reg[11][2]
+//  (R) + 115  DFF  /fifomem/mem_reg[11][2]/U$1/U$1
+add compared points fifomem/mem_reg[11][2]
+
+// Compared points are: Equivalent
+//  (G) + 147  DFF  /fifomem/mem_reg[11][1]
+//  (R) + 114  DFF  /fifomem/mem_reg[11][1]/U$1/U$1
+add compared points fifomem/mem_reg[11][1]
+
+// Compared points are: Equivalent
+//  (G) + 148  DFF  /fifomem/mem_reg[11][0]
+//  (R) + 113  DFF  /fifomem/mem_reg[11][0]/U$1/U$1
+add compared points fifomem/mem_reg[11][0]
+
+// Compared points are: Equivalent
+//  (G) + 149  DFF  /fifomem/mem_reg[12][7]
+//  (R) + 128  DFF  /fifomem/mem_reg[12][7]/U$1/U$1
+add compared points fifomem/mem_reg[12][7]
+
+// Compared points are: Equivalent
+//  (G) + 150  DFF  /fifomem/mem_reg[12][6]
+//  (R) + 127  DFF  /fifomem/mem_reg[12][6]/U$1/U$1
+add compared points fifomem/mem_reg[12][6]
+
+// Compared points are: Equivalent
+//  (G) + 151  DFF  /fifomem/mem_reg[12][5]
+//  (R) + 126  DFF  /fifomem/mem_reg[12][5]/U$1/U$1
+add compared points fifomem/mem_reg[12][5]
+
+// Compared points are: Equivalent
+//  (G) + 152  DFF  /fifomem/mem_reg[12][4]
+//  (R) + 125  DFF  /fifomem/mem_reg[12][4]/U$1/U$1
+add compared points fifomem/mem_reg[12][4]
+
+// Compared points are: Equivalent
+//  (G) + 153  DFF  /fifomem/mem_reg[12][3]
+//  (R) + 124  DFF  /fifomem/mem_reg[12][3]/U$1/U$1
+add compared points fifomem/mem_reg[12][3]
+
+// Compared points are: Equivalent
+//  (G) + 154  DFF  /fifomem/mem_reg[12][2]
+//  (R) + 123  DFF  /fifomem/mem_reg[12][2]/U$1/U$1
+add compared points fifomem/mem_reg[12][2]
+
+// Compared points are: Equivalent
+//  (G) + 155  DFF  /fifomem/mem_reg[12][1]
+//  (R) + 122  DFF  /fifomem/mem_reg[12][1]/U$1/U$1
+add compared points fifomem/mem_reg[12][1]
+
+// Compared points are: Equivalent
+//  (G) + 156  DFF  /fifomem/mem_reg[12][0]
+//  (R) + 121  DFF  /fifomem/mem_reg[12][0]/U$1/U$1
+add compared points fifomem/mem_reg[12][0]
+
+// Compared points are: Equivalent
+//  (G) + 157  DFF  /fifomem/mem_reg[13][7]
+//  (R) + 136  DFF  /fifomem/mem_reg[13][7]/U$1/U$1
+add compared points fifomem/mem_reg[13][7]
+
+// Compared points are: Equivalent
+//  (G) + 158  DFF  /fifomem/mem_reg[13][6]
+//  (R) + 135  DFF  /fifomem/mem_reg[13][6]/U$1/U$1
+add compared points fifomem/mem_reg[13][6]
+
+// Compared points are: Equivalent
+//  (G) + 159  DFF  /fifomem/mem_reg[13][5]
+//  (R) + 134  DFF  /fifomem/mem_reg[13][5]/U$1/U$1
+add compared points fifomem/mem_reg[13][5]
+
+// Compared points are: Equivalent
+//  (G) + 160  DFF  /fifomem/mem_reg[13][4]
+//  (R) + 133  DFF  /fifomem/mem_reg[13][4]/U$1/U$1
+add compared points fifomem/mem_reg[13][4]
+
+// Compared points are: Equivalent
+//  (G) + 161  DFF  /fifomem/mem_reg[13][3]
+//  (R) + 132  DFF  /fifomem/mem_reg[13][3]/U$1/U$1
+add compared points fifomem/mem_reg[13][3]
+
+// Compared points are: Equivalent
+//  (G) + 162  DFF  /fifomem/mem_reg[13][2]
+//  (R) + 131  DFF  /fifomem/mem_reg[13][2]/U$1/U$1
+add compared points fifomem/mem_reg[13][2]
+
+// Compared points are: Equivalent
+//  (G) + 163  DFF  /fifomem/mem_reg[13][1]
+//  (R) + 130  DFF  /fifomem/mem_reg[13][1]/U$1/U$1
+add compared points fifomem/mem_reg[13][1]
+
+// Compared points are: Equivalent
+//  (G) + 164  DFF  /fifomem/mem_reg[13][0]
+//  (R) + 129  DFF  /fifomem/mem_reg[13][0]/U$1/U$1
+add compared points fifomem/mem_reg[13][0]
+
+// Compared points are: Equivalent
+//  (G) + 165  DFF  /fifomem/mem_reg[14][7]
+//  (R) + 144  DFF  /fifomem/mem_reg[14][7]/U$1/U$1
+add compared points fifomem/mem_reg[14][7]
+
+// Compared points are: Equivalent
+//  (G) + 166  DFF  /fifomem/mem_reg[14][6]
+//  (R) + 143  DFF  /fifomem/mem_reg[14][6]/U$1/U$1
+add compared points fifomem/mem_reg[14][6]
+
+// Compared points are: Equivalent
+//  (G) + 167  DFF  /fifomem/mem_reg[14][5]
+//  (R) + 142  DFF  /fifomem/mem_reg[14][5]/U$1/U$1
+add compared points fifomem/mem_reg[14][5]
+
+// Compared points are: Equivalent
+//  (G) + 168  DFF  /fifomem/mem_reg[14][4]
+//  (R) + 141  DFF  /fifomem/mem_reg[14][4]/U$1/U$1
+add compared points fifomem/mem_reg[14][4]
+
+// Compared points are: Equivalent
+//  (G) + 169  DFF  /fifomem/mem_reg[14][3]
+//  (R) + 140  DFF  /fifomem/mem_reg[14][3]/U$1/U$1
+add compared points fifomem/mem_reg[14][3]
+
+// Compared points are: Equivalent
+//  (G) + 170  DFF  /fifomem/mem_reg[14][2]
+//  (R) + 139  DFF  /fifomem/mem_reg[14][2]/U$1/U$1
+add compared points fifomem/mem_reg[14][2]
+
+// Compared points are: Equivalent
+//  (G) + 171  DFF  /fifomem/mem_reg[14][1]
+//  (R) + 138  DFF  /fifomem/mem_reg[14][1]/U$1/U$1
+add compared points fifomem/mem_reg[14][1]
+
+// Compared points are: Equivalent
+//  (G) + 172  DFF  /fifomem/mem_reg[14][0]
+//  (R) + 137  DFF  /fifomem/mem_reg[14][0]/U$1/U$1
+add compared points fifomem/mem_reg[14][0]
+
+// Compared points are: Equivalent
+//  (G) + 173  DFF  /fifomem/mem_reg[15][7]
+//  (R) + 152  DFF  /fifomem/mem_reg[15][7]/U$1/U$1
+add compared points fifomem/mem_reg[15][7]
+
+// Compared points are: Equivalent
+//  (G) + 174  DFF  /fifomem/mem_reg[15][6]
+//  (R) + 151  DFF  /fifomem/mem_reg[15][6]/U$1/U$1
+add compared points fifomem/mem_reg[15][6]
+
+// Compared points are: Equivalent
+//  (G) + 175  DFF  /fifomem/mem_reg[15][5]
+//  (R) + 150  DFF  /fifomem/mem_reg[15][5]/U$1/U$1
+add compared points fifomem/mem_reg[15][5]
+
+// Compared points are: Equivalent
+//  (G) + 176  DFF  /fifomem/mem_reg[15][4]
+//  (R) + 149  DFF  /fifomem/mem_reg[15][4]/U$1/U$1
+add compared points fifomem/mem_reg[15][4]
+
+// Compared points are: Equivalent
+//  (G) + 177  DFF  /fifomem/mem_reg[15][3]
+//  (R) + 148  DFF  /fifomem/mem_reg[15][3]/U$1/U$1
+add compared points fifomem/mem_reg[15][3]
+
+// Compared points are: Equivalent
+//  (G) + 178  DFF  /fifomem/mem_reg[15][2]
+//  (R) + 147  DFF  /fifomem/mem_reg[15][2]/U$1/U$1
+add compared points fifomem/mem_reg[15][2]
+
+// Compared points are: Equivalent
+//  (G) + 179  DFF  /fifomem/mem_reg[15][1]
+//  (R) + 146  DFF  /fifomem/mem_reg[15][1]/U$1/U$1
+add compared points fifomem/mem_reg[15][1]
+
+// Compared points are: Equivalent
+//  (G) + 180  DFF  /fifomem/mem_reg[15][0]
+//  (R) + 145  DFF  /fifomem/mem_reg[15][0]/U$1/U$1
+add compared points fifomem/mem_reg[15][0]
+
+// Compared points are: Equivalent
+//  (G) + 181  DFF  /rptr_empty_inst/rptr_reg[4]
+//  (R) + 154  DFF  /rptr_empty_inst/rptr_reg[4]/U$1/U$1
+add compared points rptr_empty_inst/rptr_reg[4]
+
+// Compared points are: Equivalent
+//  (G) + 182  DFF  /rptr_empty_inst/rptr_reg[3]
+//  (R) + 153  DFF  /rptr_empty_inst/rptr_reg[3]/U$1/U$1
+add compared points rptr_empty_inst/rptr_reg[3]
+
+// Compared points are: Equivalent
+//  (G) + 183  DFF  /rptr_empty_inst/rptr_reg[2]
+//  (R) + 155  DFF  /rptr_empty_inst/rptr_reg[2]/U$1/U$1
+add compared points rptr_empty_inst/rptr_reg[2]
+
+// Compared points are: Equivalent
+//  (G) + 184  DFF  /rptr_empty_inst/rptr_reg[1]
+//  (R) + 156  DFF  /rptr_empty_inst/rptr_reg[1]/U$1/U$1
+add compared points rptr_empty_inst/rptr_reg[1]
+
+// Compared points are: Equivalent
+//  (G) + 185  DFF  /rptr_empty_inst/rptr_reg[0]
+//  (R) + 157  DFF  /rptr_empty_inst/rptr_reg[0]/U$1/U$1
+add compared points rptr_empty_inst/rptr_reg[0]
+
+// Compared points are: Equivalent
+//  (G) + 186  DFF  /wptr_full_inst/wptr_reg[4]
+//  (R) + 179  DFF  /wptr_full_inst/wptr_reg[4]/U$1/U$1
+add compared points wptr_full_inst/wptr_reg[4]
+
+// Compared points are: Equivalent
+//  (G) + 187  DFF  /wptr_full_inst/wptr_reg[3]
+//  (R) + 178  DFF  /wptr_full_inst/wptr_reg[3]/U$1/U$1
+add compared points wptr_full_inst/wptr_reg[3]
+
+// Compared points are: Equivalent
+//  (G) + 188  DFF  /wptr_full_inst/wptr_reg[2]
+//  (R) + 180  DFF  /wptr_full_inst/wptr_reg[2]/U$1/U$1
+add compared points wptr_full_inst/wptr_reg[2]
+
+// Compared points are: Equivalent
+//  (G) + 189  DFF  /wptr_full_inst/wptr_reg[1]
+//  (R) + 181  DFF  /wptr_full_inst/wptr_reg[1]/U$1/U$1
+add compared points wptr_full_inst/wptr_reg[1]
+
+// Compared points are: Equivalent
+//  (G) + 190  DFF  /wptr_full_inst/wptr_reg[0]
+//  (R) + 182  DFF  /wptr_full_inst/wptr_reg[0]/U$1/U$1
+add compared points wptr_full_inst/wptr_reg[0]
+
+// 176 compared points written

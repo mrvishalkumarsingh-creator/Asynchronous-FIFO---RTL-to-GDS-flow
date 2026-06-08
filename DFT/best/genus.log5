@@ -1,0 +1,29 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 19.13-s073_1, built Fri Mar 20 01:36:16 PDT 2020
+Options: -files DFT.tcl 
+Date:    Wed Nov 05 11:55:59 2025
+Host:    edatools-server2.iiitd.edu.in (x86_64 w/Linux 2.6.32-754.35.1.el6.x86_64) (18cores*72cpus*2physical cpus*Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz 39936KB) (528955884KB)
+PID:     13077
+OS:      Red Hat Enterprise Linux Server release 6.10 (Santiago)
+
+Checking out license: Genus_Synthesis
+
+Loading tool scripts...
+
+Finished loading tool scripts (7 seconds elapsed).
+
+#@ Processing -files option
+@genus 1> source DFT.tcl
+#@ Begin verbose source DFT.tcl
+@file(DFT.tcl) 1: set_attr lib_search_path /home/vishal25157/Desktop/cmos65/90nm/verilog/DFT/best/lib
+Error   : The tool is running in common ui mode. [TUI-509] [::unknown]
+        : Command 'set_attr' is a legacy ui command.
+        : Use set_db/get_db instead or do set_db common_ui false at start of the run.
+#@ End verbose source DFT.tcl
+
+Encountered problems processing file: DFT.tcl
+WARNING: This version of the tool is 2055 days old.

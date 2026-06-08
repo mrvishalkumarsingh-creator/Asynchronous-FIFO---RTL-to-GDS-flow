@@ -1,0 +1,6119 @@
+(DELAYFILE
+  (SDFVERSION  "OVI 3.0")
+  (DESIGN      "FIFO")
+  (DATE        "Tue Oct 14 19:20:39 IST 2025")
+  (VENDOR      "Cadence, Inc.")
+  (PROGRAM     "Genus(TM) Synthesis Solution")
+  (VERSION     "19.13-s073_1")
+  (DIVIDER     .)
+  (VOLTAGE     ::0.9)
+  (PROCESS     "::1.0")
+  (TEMPERATURE ::125.0)
+  (TIMESCALE   1ns)
+  (CELL
+     (CELLTYPE "NAND4XL")
+     (INSTANCE fifomem.g2012)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (PORT C (::0.000))
+          (PORT D (::0.000))
+          (IOPATH D Y (::0.100) (::0.166))
+          (IOPATH A Y (::0.107) (::0.176))
+          (IOPATH B Y (::0.099) (::0.176))
+          (IOPATH C Y (::0.097) (::0.171))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND4XL")
+     (INSTANCE fifomem.g2013)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (PORT C (::0.000))
+          (PORT D (::0.000))
+          (IOPATH D Y (::0.092) (::0.166))
+          (IOPATH A Y (::0.105) (::0.176))
+          (IOPATH B Y (::0.101) (::0.176))
+          (IOPATH C Y (::0.097) (::0.172))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND4XL")
+     (INSTANCE fifomem.g2014)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (PORT C (::0.000))
+          (PORT D (::0.000))
+          (IOPATH D Y (::0.100) (::0.166))
+          (IOPATH A Y (::0.107) (::0.176))
+          (IOPATH B Y (::0.106) (::0.176))
+          (IOPATH C Y (::0.096) (::0.171))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND4XL")
+     (INSTANCE fifomem.g2015)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (PORT C (::0.000))
+          (PORT D (::0.000))
+          (IOPATH D Y (::0.099) (::0.166))
+          (IOPATH A Y (::0.103) (::0.176))
+          (IOPATH B Y (::0.096) (::0.174))
+          (IOPATH C Y (::0.097) (::0.171))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND4XL")
+     (INSTANCE fifomem.g2016)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (PORT C (::0.000))
+          (PORT D (::0.000))
+          (IOPATH D Y (::0.099) (::0.166))
+          (IOPATH A Y (::0.103) (::0.176))
+          (IOPATH B Y (::0.096) (::0.174))
+          (IOPATH C Y (::0.097) (::0.171))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND4XL")
+     (INSTANCE fifomem.g2017)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (PORT C (::0.000))
+          (PORT D (::0.000))
+          (IOPATH D Y (::0.098) (::0.166))
+          (IOPATH A Y (::0.105) (::0.176))
+          (IOPATH B Y (::0.101) (::0.176))
+          (IOPATH C Y (::0.093) (::0.169))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND4XL")
+     (INSTANCE fifomem.g2018)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (PORT C (::0.000))
+          (PORT D (::0.000))
+          (IOPATH D Y (::0.099) (::0.166))
+          (IOPATH A Y (::0.108) (::0.176))
+          (IOPATH B Y (::0.099) (::0.176))
+          (IOPATH C Y (::0.102) (::0.171))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND4XL")
+     (INSTANCE fifomem.g2019)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (PORT C (::0.000))
+          (PORT D (::0.000))
+          (IOPATH D Y (::0.098) (::0.166))
+          (IOPATH A Y (::0.103) (::0.176))
+          (IOPATH B Y (::0.096) (::0.174))
+          (IOPATH C Y (::0.099) (::0.172))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI221X1")
+     (INSTANCE fifomem.g2020)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (PORT C0 (::0.000))
+          (IOPATH A0 Y (::0.162) (::0.093))
+          (IOPATH B0 Y (::0.146) (::0.085))
+          (IOPATH A1 Y (::0.171) (::0.150))
+          (IOPATH C0 Y (::0.152) (::0.049))
+          (IOPATH B1 Y (::0.158) (::0.130))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI221X1")
+     (INSTANCE fifomem.g2021)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (PORT C0 (::0.000))
+          (IOPATH A0 Y (::0.162) (::0.093))
+          (IOPATH B0 Y (::0.146) (::0.085))
+          (IOPATH A1 Y (::0.160) (::0.111))
+          (IOPATH C0 Y (::0.152) (::0.049))
+          (IOPATH B1 Y (::0.157) (::0.130))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI221X1")
+     (INSTANCE fifomem.g2022)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (PORT C0 (::0.000))
+          (IOPATH A0 Y (::0.162) (::0.093))
+          (IOPATH B0 Y (::0.146) (::0.085))
+          (IOPATH A1 Y (::0.171) (::0.150))
+          (IOPATH C0 Y (::0.152) (::0.049))
+          (IOPATH B1 Y (::0.143) (::0.112))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI221X1")
+     (INSTANCE fifomem.g2023)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (PORT C0 (::0.000))
+          (IOPATH A0 Y (::0.162) (::0.093))
+          (IOPATH B0 Y (::0.146) (::0.085))
+          (IOPATH A1 Y (::0.160) (::0.111))
+          (IOPATH C0 Y (::0.152) (::0.049))
+          (IOPATH B1 Y (::0.157) (::0.130))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI221X1")
+     (INSTANCE fifomem.g2024)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (PORT C0 (::0.000))
+          (IOPATH A0 Y (::0.162) (::0.093))
+          (IOPATH B0 Y (::0.146) (::0.085))
+          (IOPATH A1 Y (::0.158) (::0.107))
+          (IOPATH C0 Y (::0.152) (::0.049))
+          (IOPATH B1 Y (::0.156) (::0.128))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI221X1")
+     (INSTANCE fifomem.g2025)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (PORT C0 (::0.000))
+          (IOPATH A0 Y (::0.162) (::0.093))
+          (IOPATH B0 Y (::0.146) (::0.085))
+          (IOPATH A1 Y (::0.159) (::0.127))
+          (IOPATH C0 Y (::0.152) (::0.049))
+          (IOPATH B1 Y (::0.158) (::0.130))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI221X1")
+     (INSTANCE fifomem.g2026)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (PORT C0 (::0.000))
+          (IOPATH A0 Y (::0.162) (::0.093))
+          (IOPATH B0 Y (::0.146) (::0.085))
+          (IOPATH A1 Y (::0.159) (::0.127))
+          (IOPATH C0 Y (::0.152) (::0.049))
+          (IOPATH B1 Y (::0.142) (::0.111))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI221X1")
+     (INSTANCE fifomem.g2027)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (PORT C0 (::0.000))
+          (IOPATH A0 Y (::0.162) (::0.093))
+          (IOPATH B0 Y (::0.146) (::0.085))
+          (IOPATH A1 Y (::0.160) (::0.111))
+          (IOPATH C0 Y (::0.152) (::0.049))
+          (IOPATH B1 Y (::0.156) (::0.128))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND4XL")
+     (INSTANCE fifomem.g2028)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (PORT C (::0.000))
+          (PORT D (::0.000))
+          (IOPATH D Y (::0.095) (::0.174))
+          (IOPATH A Y (::0.113) (::0.192))
+          (IOPATH B Y (::0.112) (::0.191))
+          (IOPATH C Y (::0.108) (::0.188))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND4XL")
+     (INSTANCE fifomem.g2029)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (PORT C (::0.000))
+          (PORT D (::0.000))
+          (IOPATH D Y (::0.090) (::0.174))
+          (IOPATH A Y (::0.109) (::0.192))
+          (IOPATH B Y (::0.109) (::0.192))
+          (IOPATH C Y (::0.103) (::0.187))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND4XL")
+     (INSTANCE fifomem.g2030)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (PORT C (::0.000))
+          (PORT D (::0.000))
+          (IOPATH D Y (::0.095) (::0.174))
+          (IOPATH A Y (::0.113) (::0.192))
+          (IOPATH B Y (::0.112) (::0.191))
+          (IOPATH C Y (::0.108) (::0.188))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND4XL")
+     (INSTANCE fifomem.g2031)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (PORT C (::0.000))
+          (PORT D (::0.000))
+          (IOPATH D Y (::0.090) (::0.174))
+          (IOPATH A Y (::0.109) (::0.192))
+          (IOPATH B Y (::0.109) (::0.192))
+          (IOPATH C Y (::0.103) (::0.187))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND4XL")
+     (INSTANCE fifomem.g2032)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (PORT C (::0.000))
+          (PORT D (::0.000))
+          (IOPATH D Y (::0.090) (::0.174))
+          (IOPATH A Y (::0.109) (::0.192))
+          (IOPATH B Y (::0.109) (::0.192))
+          (IOPATH C Y (::0.103) (::0.187))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND4XL")
+     (INSTANCE fifomem.g2033)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (PORT C (::0.000))
+          (PORT D (::0.000))
+          (IOPATH D Y (::0.095) (::0.174))
+          (IOPATH A Y (::0.113) (::0.192))
+          (IOPATH B Y (::0.112) (::0.192))
+          (IOPATH C Y (::0.108) (::0.187))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND4XL")
+     (INSTANCE fifomem.g2034)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (PORT C (::0.000))
+          (PORT D (::0.000))
+          (IOPATH D Y (::0.095) (::0.174))
+          (IOPATH A Y (::0.113) (::0.192))
+          (IOPATH B Y (::0.112) (::0.192))
+          (IOPATH C Y (::0.108) (::0.187))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND4XL")
+     (INSTANCE fifomem.g2035)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (PORT C (::0.000))
+          (PORT D (::0.000))
+          (IOPATH D Y (::0.095) (::0.174))
+          (IOPATH A Y (::0.113) (::0.192))
+          (IOPATH B Y (::0.112) (::0.191))
+          (IOPATH C Y (::0.108) (::0.188))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2036)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.133) (::0.125))
+          (IOPATH B0 Y (::0.132) (::0.105))
+          (IOPATH A1 Y (::0.112) (::0.096))
+          (IOPATH B1 Y (::0.090) (::0.073))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2037)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.150) (::0.145))
+          (IOPATH B0 Y (::0.137) (::0.109))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.075))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2038)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.135) (::0.127))
+          (IOPATH B0 Y (::0.114) (::0.096))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.074))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2039)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.147) (::0.140))
+          (IOPATH B0 Y (::0.129) (::0.104))
+          (IOPATH A1 Y (::0.112) (::0.096))
+          (IOPATH B1 Y (::0.090) (::0.073))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2040)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.135) (::0.127))
+          (IOPATH B0 Y (::0.132) (::0.106))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.075))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2041)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.133) (::0.112))
+          (IOPATH B0 Y (::0.134) (::0.107))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.075))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2042)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.136) (::0.128))
+          (IOPATH B0 Y (::0.134) (::0.107))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.075))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2043)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.139) (::0.117))
+          (IOPATH B0 Y (::0.117) (::0.099))
+          (IOPATH A1 Y (::0.116) (::0.099))
+          (IOPATH B1 Y (::0.094) (::0.076))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2044)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.132) (::0.124))
+          (IOPATH B0 Y (::0.133) (::0.105))
+          (IOPATH A1 Y (::0.112) (::0.095))
+          (IOPATH B1 Y (::0.090) (::0.073))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2045)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.133) (::0.112))
+          (IOPATH B0 Y (::0.137) (::0.109))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.074))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2046)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.147) (::0.140))
+          (IOPATH B0 Y (::0.130) (::0.104))
+          (IOPATH A1 Y (::0.112) (::0.096))
+          (IOPATH B1 Y (::0.090) (::0.073))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2047)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.135) (::0.127))
+          (IOPATH B0 Y (::0.134) (::0.107))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.075))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2048)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.139) (::0.117))
+          (IOPATH B0 Y (::0.117) (::0.099))
+          (IOPATH A1 Y (::0.116) (::0.099))
+          (IOPATH B1 Y (::0.094) (::0.076))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2049)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.150) (::0.145))
+          (IOPATH B0 Y (::0.131) (::0.106))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.074))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2050)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.133) (::0.125))
+          (IOPATH B0 Y (::0.133) (::0.105))
+          (IOPATH A1 Y (::0.112) (::0.096))
+          (IOPATH B1 Y (::0.090) (::0.073))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2051)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.132) (::0.124))
+          (IOPATH B0 Y (::0.134) (::0.106))
+          (IOPATH A1 Y (::0.112) (::0.095))
+          (IOPATH B1 Y (::0.090) (::0.073))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2052)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.135) (::0.127))
+          (IOPATH B0 Y (::0.114) (::0.096))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.074))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2053)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.151) (::0.145))
+          (IOPATH B0 Y (::0.137) (::0.109))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.075))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2054)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.133) (::0.112))
+          (IOPATH B0 Y (::0.134) (::0.107))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.075))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2055)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.137) (::0.129))
+          (IOPATH B0 Y (::0.118) (::0.100))
+          (IOPATH A1 Y (::0.116) (::0.099))
+          (IOPATH B1 Y (::0.094) (::0.076))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2056)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.133) (::0.112))
+          (IOPATH B0 Y (::0.134) (::0.107))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.075))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2057)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.147) (::0.140))
+          (IOPATH B0 Y (::0.130) (::0.104))
+          (IOPATH A1 Y (::0.112) (::0.096))
+          (IOPATH B1 Y (::0.090) (::0.073))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2058)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.150) (::0.145))
+          (IOPATH B0 Y (::0.131) (::0.106))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.074))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2059)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.148) (::0.143))
+          (IOPATH B0 Y (::0.130) (::0.104))
+          (IOPATH A1 Y (::0.112) (::0.095))
+          (IOPATH B1 Y (::0.090) (::0.073))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2060)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.151) (::0.145))
+          (IOPATH B0 Y (::0.137) (::0.109))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.075))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2061)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.136) (::0.128))
+          (IOPATH B0 Y (::0.132) (::0.106))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.075))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2062)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.137) (::0.129))
+          (IOPATH B0 Y (::0.118) (::0.100))
+          (IOPATH A1 Y (::0.116) (::0.099))
+          (IOPATH B1 Y (::0.094) (::0.076))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2063)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.137) (::0.129))
+          (IOPATH B0 Y (::0.118) (::0.100))
+          (IOPATH A1 Y (::0.116) (::0.099))
+          (IOPATH B1 Y (::0.094) (::0.076))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2064)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.151) (::0.145))
+          (IOPATH B0 Y (::0.137) (::0.109))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.075))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2065)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.132) (::0.124))
+          (IOPATH B0 Y (::0.134) (::0.106))
+          (IOPATH A1 Y (::0.112) (::0.095))
+          (IOPATH B1 Y (::0.090) (::0.073))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2066)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.151) (::0.145))
+          (IOPATH B0 Y (::0.131) (::0.106))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.074))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2067)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.137) (::0.115))
+          (IOPATH B0 Y (::0.135) (::0.108))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.074))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2068)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.135) (::0.127))
+          (IOPATH B0 Y (::0.115) (::0.097))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.074))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2069)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.147) (::0.140))
+          (IOPATH B0 Y (::0.130) (::0.104))
+          (IOPATH A1 Y (::0.112) (::0.096))
+          (IOPATH B1 Y (::0.090) (::0.073))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2070)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.151) (::0.145))
+          (IOPATH B0 Y (::0.137) (::0.109))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.075))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2071)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.132) (::0.124))
+          (IOPATH B0 Y (::0.133) (::0.105))
+          (IOPATH A1 Y (::0.112) (::0.095))
+          (IOPATH B1 Y (::0.090) (::0.073))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2072)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.150) (::0.145))
+          (IOPATH B0 Y (::0.131) (::0.106))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.074))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2073)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.147) (::0.140))
+          (IOPATH B0 Y (::0.129) (::0.104))
+          (IOPATH A1 Y (::0.112) (::0.096))
+          (IOPATH B1 Y (::0.090) (::0.073))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2074)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.133) (::0.112))
+          (IOPATH B0 Y (::0.137) (::0.109))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.074))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2075)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.137) (::0.129))
+          (IOPATH B0 Y (::0.118) (::0.100))
+          (IOPATH A1 Y (::0.116) (::0.099))
+          (IOPATH B1 Y (::0.094) (::0.076))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2076)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.147) (::0.140))
+          (IOPATH B0 Y (::0.130) (::0.104))
+          (IOPATH A1 Y (::0.112) (::0.096))
+          (IOPATH B1 Y (::0.090) (::0.073))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2077)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.135) (::0.127))
+          (IOPATH B0 Y (::0.134) (::0.107))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.075))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2078)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.151) (::0.145))
+          (IOPATH B0 Y (::0.137) (::0.109))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.075))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2079)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.139) (::0.117))
+          (IOPATH B0 Y (::0.117) (::0.099))
+          (IOPATH A1 Y (::0.116) (::0.099))
+          (IOPATH B1 Y (::0.094) (::0.076))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2080)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.135) (::0.127))
+          (IOPATH B0 Y (::0.132) (::0.106))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.075))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2081)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.133) (::0.112))
+          (IOPATH B0 Y (::0.137) (::0.109))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.074))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2082)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.131) (::0.110))
+          (IOPATH B0 Y (::0.132) (::0.105))
+          (IOPATH A1 Y (::0.112) (::0.095))
+          (IOPATH B1 Y (::0.090) (::0.073))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2083)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.135) (::0.127))
+          (IOPATH B0 Y (::0.115) (::0.097))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.074))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2084)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.150) (::0.145))
+          (IOPATH B0 Y (::0.131) (::0.106))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.074))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2085)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.134) (::0.126))
+          (IOPATH B0 Y (::0.137) (::0.109))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.074))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2086)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.137) (::0.129))
+          (IOPATH B0 Y (::0.118) (::0.100))
+          (IOPATH A1 Y (::0.116) (::0.099))
+          (IOPATH B1 Y (::0.094) (::0.076))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2087)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.134) (::0.126))
+          (IOPATH B0 Y (::0.135) (::0.108))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.074))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2088)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.147) (::0.140))
+          (IOPATH B0 Y (::0.130) (::0.104))
+          (IOPATH A1 Y (::0.112) (::0.096))
+          (IOPATH B1 Y (::0.090) (::0.073))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2089)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.133) (::0.125))
+          (IOPATH B0 Y (::0.133) (::0.105))
+          (IOPATH A1 Y (::0.112) (::0.096))
+          (IOPATH B1 Y (::0.090) (::0.073))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2090)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.150) (::0.145))
+          (IOPATH B0 Y (::0.131) (::0.106))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.074))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI22XL")
+     (INSTANCE fifomem.g2091)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT B1 (::0.000))
+          (IOPATH A0 Y (::0.137) (::0.115))
+          (IOPATH B0 Y (::0.135) (::0.108))
+          (IOPATH A1 Y (::0.114) (::0.097))
+          (IOPATH B1 Y (::0.092) (::0.074))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AND2X1")
+     (INSTANCE fifomem.g2092)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.253) (::0.194))
+          (IOPATH B Y (::0.256) (::0.188))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2XL")
+     (INSTANCE fifomem.g2093)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.360) (::0.172))
+          (IOPATH B Y (::0.341) (::0.154))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2BX1")
+     (INSTANCE fifomem.g2094)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.226) (::0.114))
+          (IOPATH AN Y (::0.263) (::0.174))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2BX1")
+     (INSTANCE fifomem.g2095)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.217) (::0.106))
+          (IOPATH AN Y (::0.275) (::0.179))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2XL")
+     (INSTANCE fifomem.g2096)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.365) (::0.169))
+          (IOPATH B Y (::0.384) (::0.179))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2BX1")
+     (INSTANCE fifomem.g2097)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.238) (::0.120))
+          (IOPATH AN Y (::0.275) (::0.179))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AND2X1")
+     (INSTANCE fifomem.g2098)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.221) (::0.170))
+          (IOPATH B Y (::0.243) (::0.177))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2XL")
+     (INSTANCE fifomem.g2099)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.302) (::0.138))
+          (IOPATH B Y (::0.341) (::0.162))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2XL")
+     (INSTANCE fifomem.g2100)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.343) (::0.160))
+          (IOPATH B Y (::0.341) (::0.154))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2BX1")
+     (INSTANCE fifomem.g2101)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.215) (::0.104))
+          (IOPATH AN Y (::0.275) (::0.179))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2XL")
+     (INSTANCE fifomem.g2102)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.338) (::0.163))
+          (IOPATH B Y (::0.321) (::0.147))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2XL")
+     (INSTANCE fifomem.g2103)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.338) (::0.163))
+          (IOPATH B Y (::0.341) (::0.162))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2BX1")
+     (INSTANCE fifomem.g2104)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.217) (::0.106))
+          (IOPATH AN Y (::0.275) (::0.179))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2XL")
+     (INSTANCE fifomem.g2105)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.323) (::0.146))
+          (IOPATH B Y (::0.343) (::0.156))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2XL")
+     (INSTANCE fifomem.g2106)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.345) (::0.156))
+          (IOPATH B Y (::0.363) (::0.163))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2XL")
+     (INSTANCE fifomem.g2107)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.343) (::0.160))
+          (IOPATH B Y (::0.343) (::0.156))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "INVX1")
+     (INSTANCE fifomem.g2108)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (IOPATH A Y (::0.067) (::0.062))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2XL")
+     (INSTANCE fifomem.g2109)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.208) (::0.121))
+          (IOPATH B Y (::0.213) (::0.120))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2BX1")
+     (INSTANCE fifomem.g2110)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.113) (::0.139))
+          (IOPATH AN Y (::0.152) (::0.194))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE fifomem.g2111)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.151) (::0.184))
+          (IOPATH B Y (::0.152) (::0.192))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2BX1")
+     (INSTANCE fifomem.g2112)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.123) (::0.071))
+          (IOPATH AN Y (::0.167) (::0.143))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2BX1")
+     (INSTANCE fifomem.g2113)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.105) (::0.132))
+          (IOPATH AN Y (::0.158) (::0.202))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2BX1")
+     (INSTANCE fifomem.g2114)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.113) (::0.138))
+          (IOPATH AN Y (::0.155) (::0.198))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2XL")
+     (INSTANCE fifomem.g2115)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.208) (::0.122))
+          (IOPATH B Y (::0.200) (::0.110))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE fifomem.g2116)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.156) (::0.190))
+          (IOPATH B Y (::0.144) (::0.186))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE fifomem.g828)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.349) (::0.520))
+          (IOPATH B Y (::0.365) (::0.548))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE fifomem.g829)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.357) (::0.536))
+          (IOPATH B Y (::0.338) (::0.507))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE fifomem.g830)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.344) (::0.519))
+          (IOPATH B Y (::0.365) (::0.548))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2BX1")
+     (INSTANCE fifomem.g831)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.420) (::0.200))
+          (IOPATH AN Y (::0.441) (::0.246))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2XL")
+     (INSTANCE fifomem.g832)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.662) (::0.294))
+          (IOPATH B Y (::0.641) (::0.280))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE fifomem.g833)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.357) (::0.536))
+          (IOPATH B Y (::0.338) (::0.507))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2XL")
+     (INSTANCE fifomem.g834)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.662) (::0.294))
+          (IOPATH B Y (::0.641) (::0.280))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2BX1")
+     (INSTANCE fifomem.g835)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.228) (::0.351))
+          (IOPATH AN Y (::0.268) (::0.397))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE fifomem.g836)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.344) (::0.519))
+          (IOPATH B Y (::0.338) (::0.507))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2XL")
+     (INSTANCE fifomem.g837)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.662) (::0.294))
+          (IOPATH B Y (::0.682) (::0.306))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE fifomem.g838)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.357) (::0.536))
+          (IOPATH B Y (::0.365) (::0.548))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2BX1")
+     (INSTANCE fifomem.g839)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.420) (::0.200))
+          (IOPATH AN Y (::0.432) (::0.238))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2BX1")
+     (INSTANCE fifomem.g840)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.420) (::0.200))
+          (IOPATH AN Y (::0.431) (::0.234))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE fifomem.g841)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.344) (::0.519))
+          (IOPATH B Y (::0.338) (::0.507))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AND2X1")
+     (INSTANCE fifomem.g842)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.315) (::0.243))
+          (IOPATH B Y (::0.297) (::0.227))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AND2X1")
+     (INSTANCE fifomem.g843)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.315) (::0.243))
+          (IOPATH B Y (::0.297) (::0.227))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2BX1")
+     (INSTANCE fifomem.g844)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.139) (::0.082))
+          (IOPATH AN Y (::0.179) (::0.127))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2BX1")
+     (INSTANCE fifomem.g845)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.137) (::0.070))
+          (IOPATH AN Y (::0.184) (::0.146))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE fifomem.g846)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.109) (::0.153))
+          (IOPATH B Y (::0.130) (::0.166))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2XL")
+     (INSTANCE fifomem.g847)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.197) (::0.098))
+          (IOPATH B Y (::0.194) (::0.108))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE fifomem.g848)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.096) (::0.124))
+          (IOPATH B Y (::0.110) (::0.133))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2BX1")
+     (INSTANCE fifomem.g849)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.101) (::0.058))
+          (IOPATH AN Y (::0.146) (::0.118))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "INVX1")
+     (INSTANCE fifomem.g850)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (IOPATH A Y (::0.076) (::0.057))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE fifomem.g851)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.178) (::0.225))
+          (IOPATH B Y (::0.176) (::0.230))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2BX1")
+     (INSTANCE fifomem.g852)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.088) (::0.105))
+          (IOPATH AN Y (::0.137) (::0.171))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "INVX1")
+     (INSTANCE fifomem.g853)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (IOPATH A Y (::0.076) (::0.057))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2BXL")
+     (INSTANCE fifomem.g854)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.113) (::0.082))
+          (IOPATH AN Y (::0.136) (::0.088))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2BX1")
+     (INSTANCE fifomem.g855)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.088) (::0.106))
+          (IOPATH AN Y (::0.137) (::0.170))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2XL")
+     (INSTANCE fifomem.g856)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.229) (::0.132))
+          (IOPATH B Y (::0.230) (::0.128))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[0\]\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[0\]\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.266) (::0.307))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.216) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.230) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[0\]\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[0\]\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.266) (::0.307))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.216) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.230) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[0\]\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[0\]\[5\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.266) (::0.307))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.216) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.230) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[0\]\[6\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[0\]\[7\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[1\]\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.369) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.304) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[1\]\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.369) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.304) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[1\]\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.369) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.304) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[1\]\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.369) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.304) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[1\]\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.369) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.304) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[1\]\[5\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.369) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.304) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[1\]\[6\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.268) (::0.308))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.217) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.231) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.369) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.304) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[1\]\[7\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.369) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.304) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[2\]\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.342) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.303) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[2\]\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.342) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.303) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[2\]\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.342) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.303) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[2\]\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.342) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.303) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[2\]\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.342) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.303) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[2\]\[5\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.342) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.303) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[2\]\[6\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.268) (::0.308))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.217) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.322) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.342) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.303) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[2\]\[7\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.342) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.303) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[3\]\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.269) (::0.309))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.219) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.321) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[3\]\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[3\]\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[3\]\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[3\]\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[3\]\[5\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[3\]\[6\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[3\]\[7\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[4\]\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.266) (::0.307))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.216) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.230) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[4\]\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[4\]\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[4\]\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[4\]\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[4\]\[5\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[4\]\[6\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[4\]\[7\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[5\]\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[5\]\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.268) (::0.308))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.217) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.231) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[5\]\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[5\]\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[5\]\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[5\]\[5\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.268) (::0.308))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.217) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.231) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[5\]\[6\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[5\]\[7\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.494) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[6\]\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[6\]\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[6\]\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[6\]\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[6\]\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[6\]\[5\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[6\]\[6\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[6\]\[7\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[7\]\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[7\]\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[7\]\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[7\]\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.268) (::0.308))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.217) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.231) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[7\]\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[7\]\[5\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[7\]\[6\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[7\]\[7\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[8\]\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.342) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.303) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[8\]\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.342) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.303) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[8\]\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.342) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.303) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[8\]\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.342) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.303) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[8\]\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.268) (::0.308))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.217) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.322) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.342) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.303) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[8\]\[5\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.342) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.303) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[8\]\[6\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.342) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.303) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[8\]\[7\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.342) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.303) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[9\]\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[9\]\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[9\]\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[9\]\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[9\]\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[9\]\[5\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[9\]\[6\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[9\]\[7\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.269) (::0.309))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.219) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.321) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[10\]\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[10\]\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[10\]\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[10\]\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[10\]\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[10\]\[5\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[10\]\[6\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[10\]\[7\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.268) (::0.308))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.217) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.322) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[11\]\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[11\]\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[11\]\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.269) (::0.309))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.219) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.321) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[11\]\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[11\]\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.269) (::0.309))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.219) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.321) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[11\]\[5\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[11\]\[6\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[11\]\[7\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.353) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.377) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[12\]\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[12\]\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[12\]\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.266) (::0.307))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.216) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.230) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[12\]\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[12\]\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[12\]\[5\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[12\]\[6\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[12\]\[7\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[13\]\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[13\]\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[13\]\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[13\]\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[13\]\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[13\]\[5\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[13\]\[6\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[13\]\[7\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.256) (::0.298))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.299) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.199) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.239) (::0.000))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.495) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.337) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[14\]\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[14\]\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[14\]\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[14\]\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[14\]\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[14\]\[5\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[14\]\[6\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[14\]\[7\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[15\]\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[15\]\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[15\]\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[15\]\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[15\]\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[15\]\[5\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[15\]\[6\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFQXL")
+     (INSTANCE fifomem.mem_reg\[15\]\[7\])
+     (DELAY
+        (ABSOLUTE
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH CK Q (::0.257) (::0.299))
+        )
+     )
+     (TIMINGCHECK
+        (SETUPHOLD (negedge D) (COND SE==1'b0 (posedge CK)) (::0.201) (::0.000))
+        (SETUPHOLD (posedge D) (COND SE==1'b0 (posedge CK)) (::0.307) (::0.000))
+        (SETUPHOLD (negedge SI) (COND SE==1'b1 (posedge CK)) (::0.205) (::0.000))
+        (SETUPHOLD (posedge SI) (COND SE==1'b1 (posedge CK)) (::0.299) (::0.162))
+        (SETUPHOLD (negedge SE) (posedge CK) (::0.341) (::0.000))
+        (SETUPHOLD (posedge SE) (posedge CK) (::0.340) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "CLKXOR2X1")
+     (INSTANCE rptr_empty_inst.g188)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.295) (::0.294))
+          (IOPATH B Y (::0.270) (::0.280))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "CLKXOR2X1")
+     (INSTANCE rptr_empty_inst.g189)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.330) (::0.324))
+          (IOPATH B Y (::0.301) (::0.309))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2XL")
+     (INSTANCE rptr_empty_inst.g190)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.092) (::0.050))
+          (IOPATH B Y (::0.107) (::0.045))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "CLKXOR2X1")
+     (INSTANCE rptr_empty_inst.g191)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.316) (::0.312))
+          (IOPATH B Y (::0.289) (::0.297))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND4XL")
+     (INSTANCE rptr_empty_inst.g192)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (PORT C (::0.000))
+          (PORT D (::0.000))
+          (IOPATH D Y (::0.059) (::0.128))
+          (IOPATH A Y (::0.066) (::0.151))
+          (IOPATH B Y (::0.065) (::0.149))
+          (IOPATH C Y (::0.062) (::0.141))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI21X1")
+     (INSTANCE rptr_empty_inst.g193)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (IOPATH A0 Y (::0.081) (::0.071))
+          (IOPATH B0 Y (::0.073) (::0.043))
+          (IOPATH A1 Y (::0.087) (::0.085))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "XNOR2XL")
+     (INSTANCE rptr_empty_inst.g194)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.183) (::0.183))
+          (IOPATH B Y (::0.182) (::0.139))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "XNOR2XL")
+     (INSTANCE rptr_empty_inst.g195)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.184) (::0.184))
+          (IOPATH B Y (::0.184) (::0.140))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "XNOR2XL")
+     (INSTANCE rptr_empty_inst.g196)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.183) (::0.183))
+          (IOPATH B Y (::0.182) (::0.139))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "XNOR2XL")
+     (INSTANCE rptr_empty_inst.g197)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.182) (::0.182))
+          (IOPATH B Y (::0.181) (::0.138))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "CLKXOR2X1")
+     (INSTANCE rptr_empty_inst.g198)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.322) (::0.318))
+          (IOPATH B Y (::0.283) (::0.299))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2XL")
+     (INSTANCE rptr_empty_inst.g199)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.104) (::0.060))
+          (IOPATH B Y (::0.118) (::0.070))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "OAI21X1")
+     (INSTANCE rptr_empty_inst.g136)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (IOPATH A0 Y (::0.154) (::0.124))
+          (IOPATH B0 Y (::0.095) (::0.117))
+          (IOPATH A1 Y (::0.153) (::0.129))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE rptr_empty_inst.g137)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.084) (::0.089))
+          (IOPATH B Y (::0.084) (::0.105))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "INVX1")
+     (INSTANCE rptr_empty_inst.g138)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (IOPATH A Y (::0.088) (::0.076))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "OAI21X1")
+     (INSTANCE rptr_empty_inst.g140)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (IOPATH A0 Y (::0.170) (::0.135))
+          (IOPATH B0 Y (::0.104) (::0.130))
+          (IOPATH A1 Y (::0.178) (::0.145))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE rptr_empty_inst.g141)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.089) (::0.091))
+          (IOPATH B Y (::0.095) (::0.110))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2BX1")
+     (INSTANCE rptr_empty_inst.g142)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.087) (::0.104))
+          (IOPATH AN Y (::0.118) (::0.159))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "OAI21X1")
+     (INSTANCE rptr_empty_inst.g144)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (IOPATH A0 Y (::0.188) (::0.149))
+          (IOPATH B0 Y (::0.112) (::0.142))
+          (IOPATH A1 Y (::0.192) (::0.158))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE rptr_empty_inst.g145)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.090) (::0.092))
+          (IOPATH B Y (::0.094) (::0.109))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2BX1")
+     (INSTANCE rptr_empty_inst.g146)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.099) (::0.121))
+          (IOPATH AN Y (::0.130) (::0.176))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "INVX1")
+     (INSTANCE rptr_empty_inst.g147)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (IOPATH A Y (::0.089) (::0.076))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "OAI21X1")
+     (INSTANCE rptr_empty_inst.g148)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (IOPATH A0 Y (::0.169) (::0.134))
+          (IOPATH B0 Y (::0.104) (::0.130))
+          (IOPATH A1 Y (::0.180) (::0.146))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE rptr_empty_inst.g149)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.087) (::0.090))
+          (IOPATH B Y (::0.096) (::0.112))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2BX1")
+     (INSTANCE rptr_empty_inst.g150)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.102) (::0.124))
+          (IOPATH AN Y (::0.127) (::0.173))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "OAI21XL")
+     (INSTANCE rptr_empty_inst.g151)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (IOPATH A0 Y (::0.184) (::0.153))
+          (IOPATH B0 Y (::0.099) (::0.129))
+          (IOPATH A1 Y (::0.170) (::0.128))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE rptr_empty_inst.g152)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.067) (::0.069))
+          (IOPATH B Y (::0.072) (::0.084))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2BX1")
+     (INSTANCE rptr_empty_inst.g153)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.093) (::0.116))
+          (IOPATH AN Y (::0.123) (::0.166))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2BX1")
+     (INSTANCE rptr_empty_inst.g154)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.045) (::0.072))
+          (IOPATH AN Y (::0.126) (::0.142))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFRHQX1")
+     (INSTANCE rptr_empty_inst.rptr_reg\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH RN Q () (::0.123))
+          (IOPATH CK Q (::0.344) (::0.344))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (posedge CK) (::0.170))
+        (RECOVERY (posedge RN) (posedge CK) (::0.024))
+        (SETUPHOLD (negedge D) (COND RN_EQ_1_AN_SE_EQ_0==1'b1 (posedge CK)) (::0.162) (::0.025))
+        (SETUPHOLD (posedge D) (COND RN_EQ_1_AN_SE_EQ_0==1'b1 (posedge CK)) (::0.271) (::0.000))
+        (SETUPHOLD (negedge SI) (COND RN_EQ_1_AN_SE_EQ_1==1'b1 (posedge CK)) (::0.137) (::0.050))
+        (SETUPHOLD (posedge SI) (COND RN_EQ_1_AN_SE_EQ_1==1'b1 (posedge CK)) (::0.233) (::0.000))
+        (SETUPHOLD (negedge SE) (COND RN==1'b1 (posedge CK)) (::0.283) (::0.031))
+        (SETUPHOLD (posedge SE) (COND RN==1'b1 (posedge CK)) (::0.260) (::0.019))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE rptr_empty_inst.rptr_reg\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.161))
+          (IOPATH CK Q (::0.398) (::0.392))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.098) (::0.090))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.169) (::0.025))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFRHQX1")
+     (INSTANCE rptr_empty_inst.rptr_reg\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH RN Q () (::0.123))
+          (IOPATH CK Q (::0.344) (::0.344))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (posedge CK) (::0.170))
+        (RECOVERY (posedge RN) (posedge CK) (::0.024))
+        (SETUPHOLD (negedge D) (COND RN_EQ_1_AN_SE_EQ_0==1'b1 (posedge CK)) (::0.162) (::0.025))
+        (SETUPHOLD (posedge D) (COND RN_EQ_1_AN_SE_EQ_0==1'b1 (posedge CK)) (::0.271) (::0.000))
+        (SETUPHOLD (negedge SI) (COND RN_EQ_1_AN_SE_EQ_1==1'b1 (posedge CK)) (::0.137) (::0.050))
+        (SETUPHOLD (posedge SI) (COND RN_EQ_1_AN_SE_EQ_1==1'b1 (posedge CK)) (::0.233) (::0.000))
+        (SETUPHOLD (negedge SE) (COND RN==1'b1 (posedge CK)) (::0.264) (::0.017))
+        (SETUPHOLD (posedge SE) (COND RN==1'b1 (posedge CK)) (::0.252) (::0.002))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFRHQX1")
+     (INSTANCE rptr_empty_inst.rptr_reg\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH RN Q () (::0.123))
+          (IOPATH CK Q (::0.344) (::0.344))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (posedge CK) (::0.170))
+        (RECOVERY (posedge RN) (posedge CK) (::0.024))
+        (SETUPHOLD (negedge D) (COND RN_EQ_1_AN_SE_EQ_0==1'b1 (posedge CK)) (::0.162) (::0.025))
+        (SETUPHOLD (posedge D) (COND RN_EQ_1_AN_SE_EQ_0==1'b1 (posedge CK)) (::0.272) (::0.000))
+        (SETUPHOLD (negedge SI) (COND RN_EQ_1_AN_SE_EQ_1==1'b1 (posedge CK)) (::0.137) (::0.050))
+        (SETUPHOLD (posedge SI) (COND RN_EQ_1_AN_SE_EQ_1==1'b1 (posedge CK)) (::0.232) (::0.000))
+        (SETUPHOLD (negedge SE) (COND RN==1'b1 (posedge CK)) (::0.264) (::0.017))
+        (SETUPHOLD (posedge SE) (COND RN==1'b1 (posedge CK)) (::0.252) (::0.002))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFRHQX1")
+     (INSTANCE rptr_empty_inst.rptr_reg\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH RN Q () (::0.123))
+          (IOPATH CK Q (::0.344) (::0.344))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (posedge CK) (::0.170))
+        (RECOVERY (posedge RN) (posedge CK) (::0.024))
+        (SETUPHOLD (negedge D) (COND RN_EQ_1_AN_SE_EQ_0==1'b1 (posedge CK)) (::0.162) (::0.025))
+        (SETUPHOLD (posedge D) (COND RN_EQ_1_AN_SE_EQ_0==1'b1 (posedge CK)) (::0.272) (::0.000))
+        (SETUPHOLD (negedge SI) (COND RN_EQ_1_AN_SE_EQ_1==1'b1 (posedge CK)) (::0.137) (::0.050))
+        (SETUPHOLD (posedge SI) (COND RN_EQ_1_AN_SE_EQ_1==1'b1 (posedge CK)) (::0.232) (::0.000))
+        (SETUPHOLD (negedge SE) (COND RN==1'b1 (posedge CK)) (::0.261) (::0.020))
+        (SETUPHOLD (posedge SE) (COND RN==1'b1 (posedge CK)) (::0.254) (::0.006))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE sync_r2w.q2_reg\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.087))
+          (IOPATH CK Q (::0.304) (::0.320))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.077) (::0.110))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.158) (::0.002))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE sync_r2w.q2_reg\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.104))
+          (IOPATH CK Q (::0.327) (::0.337))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.077) (::0.110))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.158) (::0.002))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE sync_r2w.q2_reg\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.087))
+          (IOPATH CK Q (::0.304) (::0.320))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.077) (::0.110))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.158) (::0.002))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE sync_r2w.q2_reg\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.087))
+          (IOPATH CK Q (::0.304) (::0.320))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.077) (::0.110))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.158) (::0.002))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE sync_r2w.q2_reg\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.087))
+          (IOPATH CK Q (::0.304) (::0.320))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.077) (::0.110))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.158) (::0.002))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE sync_r2w.q1_reg\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.091))
+          (IOPATH CK Q (::0.310) (::0.324))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.127) (::0.060))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.142) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE sync_r2w.q1_reg\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.091))
+          (IOPATH CK Q (::0.310) (::0.324))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.127) (::0.060))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.142) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE sync_r2w.q1_reg\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.091))
+          (IOPATH CK Q (::0.310) (::0.324))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.109) (::0.079))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.164) (::0.019))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE sync_r2w.q1_reg\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.091))
+          (IOPATH CK Q (::0.310) (::0.324))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.127) (::0.060))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.142) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE sync_r2w.q1_reg\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.091))
+          (IOPATH CK Q (::0.310) (::0.324))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.127) (::0.060))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.142) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE sync_w2r.q2_reg\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.104))
+          (IOPATH CK Q (::0.326) (::0.337))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.077) (::0.110))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.158) (::0.002))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE sync_w2r.q2_reg\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.087))
+          (IOPATH CK Q (::0.304) (::0.320))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.077) (::0.110))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.158) (::0.002))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE sync_w2r.q2_reg\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.087))
+          (IOPATH CK Q (::0.304) (::0.320))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.077) (::0.110))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.158) (::0.002))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE sync_w2r.q2_reg\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.087))
+          (IOPATH CK Q (::0.304) (::0.320))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.077) (::0.110))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.158) (::0.002))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE sync_w2r.q2_reg\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.087))
+          (IOPATH CK Q (::0.304) (::0.320))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.077) (::0.110))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.158) (::0.002))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE sync_w2r.q1_reg\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.091))
+          (IOPATH CK Q (::0.310) (::0.324))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.128) (::0.059))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.142) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE sync_w2r.q1_reg\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.091))
+          (IOPATH CK Q (::0.310) (::0.324))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.139) (::0.049))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.145) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE sync_w2r.q1_reg\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.091))
+          (IOPATH CK Q (::0.310) (::0.324))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.114) (::0.073))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.161) (::0.012))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE sync_w2r.q1_reg\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.091))
+          (IOPATH CK Q (::0.310) (::0.324))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.127) (::0.060))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.142) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE sync_w2r.q1_reg\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.091))
+          (IOPATH CK Q (::0.310) (::0.324))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.128) (::0.059))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.142) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "CLKXOR2X1")
+     (INSTANCE wptr_full_inst.g195)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.295) (::0.294))
+          (IOPATH B Y (::0.268) (::0.279))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "CLKXOR2X1")
+     (INSTANCE wptr_full_inst.g196)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.324) (::0.319))
+          (IOPATH B Y (::0.292) (::0.302))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR4X1")
+     (INSTANCE wptr_full_inst.g197)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (PORT C (::0.000))
+          (PORT D (::0.000))
+          (IOPATH D Y (::0.161) (::0.059))
+          (IOPATH A Y (::0.198) (::0.057))
+          (IOPATH B Y (::0.192) (::0.057))
+          (IOPATH C Y (::0.174) (::0.054))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "CLKXOR2X1")
+     (INSTANCE wptr_full_inst.g198)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.303) (::0.300))
+          (IOPATH B Y (::0.276) (::0.286))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "OAI211X1")
+     (INSTANCE wptr_full_inst.g199)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (PORT C0 (::0.000))
+          (IOPATH A0 Y (::0.107) (::0.126))
+          (IOPATH B0 Y (::0.073) (::0.118))
+          (IOPATH A1 Y (::0.107) (::0.116))
+          (IOPATH C0 Y (::0.060) (::0.113))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "XNOR2X1")
+     (INSTANCE wptr_full_inst.g200)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.203) (::0.208))
+          (IOPATH B Y (::0.211) (::0.166))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "CLKXOR2X1")
+     (INSTANCE wptr_full_inst.g201)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.203) (::0.212))
+          (IOPATH B Y (::0.162) (::0.195))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "XNOR2XL")
+     (INSTANCE wptr_full_inst.g202)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.201) (::0.199))
+          (IOPATH B Y (::0.200) (::0.155))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "CLKXOR2X1")
+     (INSTANCE wptr_full_inst.g203)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.203) (::0.212))
+          (IOPATH B Y (::0.162) (::0.195))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "CLKXOR2X1")
+     (INSTANCE wptr_full_inst.g204)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.325) (::0.319))
+          (IOPATH B Y (::0.281) (::0.298))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE wptr_full_inst.g205)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.066) (::0.088))
+          (IOPATH B Y (::0.073) (::0.095))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "OAI21X1")
+     (INSTANCE wptr_full_inst.g140)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (IOPATH A0 Y (::0.154) (::0.124))
+          (IOPATH B0 Y (::0.094) (::0.117))
+          (IOPATH A1 Y (::0.152) (::0.128))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE wptr_full_inst.g141)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.084) (::0.089))
+          (IOPATH B Y (::0.082) (::0.104))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "INVX1")
+     (INSTANCE wptr_full_inst.g142)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (IOPATH A Y (::0.088) (::0.076))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "OAI21X1")
+     (INSTANCE wptr_full_inst.g144)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (IOPATH A0 Y (::0.170) (::0.134))
+          (IOPATH B0 Y (::0.104) (::0.130))
+          (IOPATH A1 Y (::0.178) (::0.145))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE wptr_full_inst.g145)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.088) (::0.090))
+          (IOPATH B Y (::0.095) (::0.110))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2BX1")
+     (INSTANCE wptr_full_inst.g146)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.087) (::0.104))
+          (IOPATH AN Y (::0.117) (::0.158))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "OAI21X1")
+     (INSTANCE wptr_full_inst.g148)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (IOPATH A0 Y (::0.187) (::0.149))
+          (IOPATH B0 Y (::0.111) (::0.142))
+          (IOPATH A1 Y (::0.188) (::0.154))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE wptr_full_inst.g149)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.090) (::0.091))
+          (IOPATH B Y (::0.090) (::0.107))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2BX1")
+     (INSTANCE wptr_full_inst.g150)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.095) (::0.118))
+          (IOPATH AN Y (::0.129) (::0.176))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "INVX1")
+     (INSTANCE wptr_full_inst.g151)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (IOPATH A Y (::0.093) (::0.075))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI21X1")
+     (INSTANCE wptr_full_inst.g152)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (IOPATH A0 Y (::0.170) (::0.134))
+          (IOPATH B0 Y (::0.148) (::0.087))
+          (IOPATH A1 Y (::0.173) (::0.158))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NOR2XL")
+     (INSTANCE wptr_full_inst.g153)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.119) (::0.063))
+          (IOPATH B Y (::0.131) (::0.073))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2BX1")
+     (INSTANCE wptr_full_inst.g154)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.101) (::0.123))
+          (IOPATH AN Y (::0.127) (::0.173))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "OAI21XL")
+     (INSTANCE wptr_full_inst.g155)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0 (::0.000))
+          (PORT A1 (::0.000))
+          (PORT B0 (::0.000))
+          (IOPATH A0 Y (::0.184) (::0.153))
+          (IOPATH B0 Y (::0.099) (::0.129))
+          (IOPATH A1 Y (::0.170) (::0.129))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2XL")
+     (INSTANCE wptr_full_inst.g156)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.000))
+          (PORT B (::0.000))
+          (IOPATH A Y (::0.067) (::0.070))
+          (IOPATH B Y (::0.072) (::0.084))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2BX1")
+     (INSTANCE wptr_full_inst.g157)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.092) (::0.114))
+          (IOPATH AN Y (::0.124) (::0.165))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "NAND2BX1")
+     (INSTANCE wptr_full_inst.g158)
+     (DELAY
+        (ABSOLUTE
+          (PORT AN (::0.000))
+          (PORT B (::0.000))
+          (IOPATH B Y (::0.045) (::0.072))
+          (IOPATH AN Y (::0.143) (::0.146))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFRHQX1")
+     (INSTANCE wptr_full_inst.wptr_reg\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH RN Q () (::0.128))
+          (IOPATH CK Q (::0.352) (::0.349))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (posedge CK) (::0.170))
+        (RECOVERY (posedge RN) (posedge CK) (::0.024))
+        (SETUPHOLD (negedge D) (COND RN_EQ_1_AN_SE_EQ_0==1'b1 (posedge CK)) (::0.162) (::0.025))
+        (SETUPHOLD (posedge D) (COND RN_EQ_1_AN_SE_EQ_0==1'b1 (posedge CK)) (::0.271) (::0.000))
+        (SETUPHOLD (negedge SI) (COND RN_EQ_1_AN_SE_EQ_1==1'b1 (posedge CK)) (::0.137) (::0.050))
+        (SETUPHOLD (posedge SI) (COND RN_EQ_1_AN_SE_EQ_1==1'b1 (posedge CK)) (::0.233) (::0.000))
+        (SETUPHOLD (negedge SE) (COND RN==1'b1 (posedge CK)) (::0.283) (::0.031))
+        (SETUPHOLD (posedge SE) (COND RN==1'b1 (posedge CK)) (::0.260) (::0.019))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE wptr_full_inst.wptr_reg\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.156))
+          (IOPATH CK Q (::0.392) (::0.387))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.098) (::0.090))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.168) (::0.025))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFRHQX1")
+     (INSTANCE wptr_full_inst.wptr_reg\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH RN Q () (::0.123))
+          (IOPATH CK Q (::0.345) (::0.344))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (posedge CK) (::0.170))
+        (RECOVERY (posedge RN) (posedge CK) (::0.024))
+        (SETUPHOLD (negedge D) (COND RN_EQ_1_AN_SE_EQ_0==1'b1 (posedge CK)) (::0.162) (::0.025))
+        (SETUPHOLD (posedge D) (COND RN_EQ_1_AN_SE_EQ_0==1'b1 (posedge CK)) (::0.271) (::0.000))
+        (SETUPHOLD (negedge SI) (COND RN_EQ_1_AN_SE_EQ_1==1'b1 (posedge CK)) (::0.137) (::0.050))
+        (SETUPHOLD (posedge SI) (COND RN_EQ_1_AN_SE_EQ_1==1'b1 (posedge CK)) (::0.233) (::0.000))
+        (SETUPHOLD (negedge SE) (COND RN==1'b1 (posedge CK)) (::0.264) (::0.017))
+        (SETUPHOLD (posedge SE) (COND RN==1'b1 (posedge CK)) (::0.252) (::0.002))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFRHQX1")
+     (INSTANCE wptr_full_inst.wptr_reg\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH RN Q () (::0.123))
+          (IOPATH CK Q (::0.344) (::0.344))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (posedge CK) (::0.170))
+        (RECOVERY (posedge RN) (posedge CK) (::0.024))
+        (SETUPHOLD (negedge D) (COND RN_EQ_1_AN_SE_EQ_0==1'b1 (posedge CK)) (::0.138) (::0.050))
+        (SETUPHOLD (posedge D) (COND RN_EQ_1_AN_SE_EQ_0==1'b1 (posedge CK)) (::0.231) (::0.000))
+        (SETUPHOLD (negedge SI) (COND RN_EQ_1_AN_SE_EQ_1==1'b1 (posedge CK)) (::0.170) (::0.017))
+        (SETUPHOLD (posedge SI) (COND RN_EQ_1_AN_SE_EQ_1==1'b1 (posedge CK)) (::0.266) (::0.000))
+        (SETUPHOLD (negedge SE) (COND RN==1'b1 (posedge CK)) (::0.264) (::0.017))
+        (SETUPHOLD (posedge SE) (COND RN==1'b1 (posedge CK)) (::0.252) (::0.002))
+     )
+  )
+  (CELL
+     (CELLTYPE "SDFFRHQX1")
+     (INSTANCE wptr_full_inst.wptr_reg\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (PORT SI (::0.000))
+          (PORT SE (::0.000))
+          (IOPATH RN Q () (::0.123))
+          (IOPATH CK Q (::0.345) (::0.344))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (posedge CK) (::0.170))
+        (RECOVERY (posedge RN) (posedge CK) (::0.024))
+        (SETUPHOLD (negedge D) (COND RN_EQ_1_AN_SE_EQ_0==1'b1 (posedge CK)) (::0.138) (::0.050))
+        (SETUPHOLD (posedge D) (COND RN_EQ_1_AN_SE_EQ_0==1'b1 (posedge CK)) (::0.231) (::0.000))
+        (SETUPHOLD (negedge SI) (COND RN_EQ_1_AN_SE_EQ_1==1'b1 (posedge CK)) (::0.170) (::0.017))
+        (SETUPHOLD (posedge SI) (COND RN_EQ_1_AN_SE_EQ_1==1'b1 (posedge CK)) (::0.266) (::0.000))
+        (SETUPHOLD (negedge SE) (COND RN==1'b1 (posedge CK)) (::0.261) (::0.020))
+        (SETUPHOLD (posedge SE) (COND RN==1'b1 (posedge CK)) (::0.254) (::0.006))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE rdata_reg\[7\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.073))
+          (IOPATH CK Q (::0.285) (::0.306))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.087) (::0.101))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.141) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE rdata_reg\[6\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.073))
+          (IOPATH CK Q (::0.285) (::0.306))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.087) (::0.101))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.140) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE rdata_reg\[4\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.073))
+          (IOPATH CK Q (::0.285) (::0.306))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.087) (::0.101))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.142) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE rdata_reg\[0\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.073))
+          (IOPATH CK Q (::0.285) (::0.306))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.087) (::0.101))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.140) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE rdata_reg\[3\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.073))
+          (IOPATH CK Q (::0.285) (::0.306))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.087) (::0.101))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.140) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE rdata_reg\[5\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.073))
+          (IOPATH CK Q (::0.285) (::0.306))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.087) (::0.101))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.140) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE rdata_reg\[2\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.073))
+          (IOPATH CK Q (::0.285) (::0.306))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.087) (::0.101))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.141) (::0.000))
+     )
+  )
+  (CELL
+     (CELLTYPE "DFFRHQX1")
+     (INSTANCE rdata_reg\[1\])
+     (DELAY
+        (ABSOLUTE
+          (PORT RN (::0.000))
+          (PORT CK (::0.000))
+          (PORT D (::0.000))
+          (IOPATH RN Q () (::0.073))
+          (IOPATH CK Q (::0.285) (::0.306))
+        )
+     )
+     (TIMINGCHECK
+        (REMOVAL (posedge RN) (COND D==1'b1 (posedge CK)) (::0.164))
+        (RECOVERY (posedge RN) (COND D==1'b1 (posedge CK)) (::0.000))
+        (SETUPHOLD (negedge D) (COND RN==1'b1 (posedge CK)) (::0.087) (::0.101))
+        (SETUPHOLD (posedge D) (COND RN==1'b1 (posedge CK)) (::0.140) (::0.000))
+     )
+  )
+)

@@ -1,0 +1,451 @@
+*----------------------------------------------------------------------------------------
+*	Innovus 20.10-p004_1 (64bit) 05/07/2020 20:02 (Linux 2.6.32-431.11.2.el6.x86_64)
+*	
+*
+* 	Date & Time:	2025-Nov-10 21:47:21 (2025-Nov-10 16:17:21 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: FIFO
+*
+*	Liberty Libraries used: 
+*	        view1: /home/vishal25157/Desktop/cmos65/90nm/pd/slow.lib
+*
+*	Power Domain used: 
+*
+*       Power View : view1
+*
+*       User-Defined Activity : N.A.
+*
+*       Activity File: N.A.
+*
+*       Hierarchical Global Activity: N.A.
+*
+*       Global Activity: N.A.
+*
+*       Sequential Element Activity: 0.200000
+*
+*       Primary Input Activity: 0.200000
+*
+*       Default icg ratio: N.A.
+*
+*       Global Comb ClockGate Ratio: N.A.
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-09 secs 
+*
+*       Temperature = 125 
+*
+*       report_power -outfile ./route_reports/power/power_final.rpt -rail_analysis_format VS
+*
+-----------------------------------------------------------------------------------------
+Cell                            Internal   Switching       Total     Leakage   Cell
+                                   Power       Power       Power       Power   Name
+--------------------------------------------------------------------------------------
+CTS_ccl_a_buf_00004              0.07171     0.06811        0.14   0.0001864  CLKBUFX16
+fifomem/CTS_ccl_a_buf_00006      0.04198     0.06948      0.1117   0.0002199  CLKBUFX12
+FE_OFC10_FE_OFN8_wfull          0.003559     0.01969     0.02344   0.0001864  BUFX16
+FE_OFC0_rdata_7                 0.002111     0.02027      0.0226   0.0002199  CLKBUFX12
+FE_OFC3_rdata_4                 0.002106     0.02027      0.0226   0.0002199  CLKBUFX12
+FE_OFC5_rdata_2                 0.002101     0.02027     0.02259   0.0002199  CLKBUFX12
+FE_OFC1_rdata_6                 0.002107     0.02026     0.02259   0.0002199  CLKBUFX12
+FE_OFC7_rdata_0                 0.002101     0.02027     0.02259   0.0002199  CLKBUFX12
+FE_OFC6_rdata_1                 0.002101     0.02026     0.02259   0.0002199  CLKBUFX12
+FE_OFC4_rdata_3                 0.002101     0.02026     0.02258   0.0002199  CLKBUFX12
+FE_OFC2_rdata_5                 0.002103     0.02026     0.02258   0.0002199  CLKBUFX12
+wptr_full_inst/wptr_reg[0]       0.02113    0.000845     0.02228   0.0003009  SDFFRHQX8
+wptr_full_inst/wptr_reg[1]       0.02103   0.0009152     0.02225   0.0003009  SDFFRHQX8
+wptr_full_inst/wptr_reg[2]       0.01454   0.0008783      0.0156   0.0001737  SDFFRHQX2
+wptr_full_inst/wptr_reg[3]       0.01336   0.0006834     0.01421   0.0001651  DFFRHQX4
+sync_r2w/q2_reg[0]               0.01269   0.0002412      0.0131   0.0001651  DFFRHQX4
+fifomem/mem_reg[12][0]           0.01135   0.0002335      0.0118   0.0002172  SDFFQX4
+fifomem/mem_reg[5][3]            0.01088     0.00024     0.01128   0.0001605  SDFFHQX1
+fifomem/mem_reg[5][7]            0.01088   0.0002326     0.01127   0.0001605  SDFFHQX1
+sync_r2w/q2_reg[2]               0.01027   0.0005629     0.01093   0.0001005  DFFRHQX1
+sync_r2w/q2_reg[3]               0.01027   0.0005335      0.0109   0.0001005  DFFRHQX1
+sync_r2w/q2_reg[1]               0.01027   0.0002706     0.01064   0.0001005  DFFRHQX1
+sync_r2w/q2_reg[4]               0.01027    0.000179     0.01055   0.0001005  DFFRHQX1
+sync_r2w/q1_reg[3]              0.009954   0.0001934     0.01025   0.0001005  DFFRHQX1
+sync_r2w/q1_reg[4]              0.009956   0.0001829     0.01024   0.0001005  DFFRHQX1
+sync_r2w/q1_reg[1]              0.009955   0.0001584     0.01021   0.0001005  DFFRHQX1
+sync_r2w/q1_reg[0]              0.009955   0.0001553     0.01021   0.0001005  DFFRHQX1
+sync_r2w/q1_reg[2]              0.009954     0.00015      0.0102   0.0001005  DFFRHQX1
+wptr_full_inst/wptr_reg[4]      0.009247   0.0007753     0.01015   0.0001258  DFFRX1
+fifomem/mem_reg[13][1]          0.008703   0.0002424    0.009081   0.0001363  SDFFQX1
+fifomem/mem_reg[13][4]          0.008703   0.0002285    0.009068   0.0001363  SDFFQX1
+fifomem/mem_reg[13][7]          0.008702   0.0002143    0.009053   0.0001363  SDFFQX1
+fifomem/mem_reg[13][3]          0.008703   0.0002053    0.009044   0.0001363  SDFFQX1
+fifomem/mem_reg[13][2]            0.0087   0.0002037     0.00904   0.0001363  SDFFQX1
+fifomem/mem_reg[13][6]          0.008702   0.0001989    0.009038   0.0001363  SDFFQX1
+fifomem/mem_reg[13][5]          0.008703   0.0001978    0.009037   0.0001363  SDFFQX1
+fifomem/mem_reg[14][1]          0.008686   0.0002137    0.009036   0.0001363  SDFFQX1
+fifomem/mem_reg[14][0]          0.008686   0.0001993    0.009021   0.0001363  SDFFQX1
+fifomem/mem_reg[14][4]          0.008686   0.0001932    0.009015   0.0001363  SDFFQX1
+fifomem/mem_reg[8][1]           0.008645    0.000239    0.009013   0.0001296  SDFFQXL
+fifomem/mem_reg[8][3]           0.008644   0.0002144    0.008988   0.0001296  SDFFQXL
+fifomem/mem_reg[13][0]          0.008653   0.0001927    0.008982   0.0001363  SDFFQX1
+fifomem/mem_reg[8][2]           0.008644   0.0002039    0.008978   0.0001296  SDFFQXL
+fifomem/mem_reg[8][4]           0.008595   0.0002403    0.008965   0.0001296  SDFFQXL
+fifomem/mem_reg[12][6]          0.008565   0.0002643    0.008959   0.0001296  SDFFQXL
+fifomem/mem_reg[8][7]           0.008595   0.0002173    0.008941   0.0001296  SDFFQXL
+fifomem/mem_reg[8][0]           0.008595    0.000217    0.008941   0.0001296  SDFFQXL
+fifomem/mem_reg[12][7]          0.008565   0.0002454     0.00894   0.0001296  SDFFQXL
+fifomem/mem_reg[12][3]          0.008565   0.0002392    0.008934   0.0001296  SDFFQXL
+fifomem/mem_reg[8][6]           0.008594   0.0002046    0.008929   0.0001296  SDFFQXL
+fifomem/mem_reg[8][5]           0.008594   0.0002013    0.008925   0.0001296  SDFFQXL
+fifomem/mem_reg[12][5]          0.008565   0.0002291    0.008924   0.0001296  SDFFQXL
+fifomem/mem_reg[12][4]          0.008565   0.0002199    0.008914   0.0001296  SDFFQXL
+fifomem/mem_reg[0][3]           0.008559   0.0002187    0.008908   0.0001296  SDFFQXL
+fifomem/mem_reg[10][6]          0.008517   0.0002561    0.008903   0.0001296  SDFFQXL
+fifomem/mem_reg[10][3]          0.008562   0.0002104    0.008902   0.0001296  SDFFQXL
+fifomem/mem_reg[12][2]          0.008562   0.0002071    0.008899   0.0001296  SDFFQXL
+fifomem/mem_reg[10][7]          0.008566   0.0002019    0.008897   0.0001296  SDFFQXL
+fifomem/mem_reg[10][4]          0.008517   0.0002493    0.008896   0.0001296  SDFFQXL
+fifomem/mem_reg[10][1]          0.008566   0.0001997    0.008895   0.0001296  SDFFQXL
+fifomem/mem_reg[10][2]          0.008563   0.0001983    0.008891   0.0001296  SDFFQXL
+fifomem/mem_reg[12][1]          0.008564   0.0001944    0.008888   0.0001296  SDFFQXL
+fifomem/mem_reg[0][1]           0.008559   0.0001924    0.008881   0.0001296  SDFFQXL
+fifomem/mem_reg[9][1]           0.008527   0.0002166    0.008873   0.0001296  SDFFQXL
+fifomem/mem_reg[0][2]           0.008559   0.0001818     0.00887   0.0001296  SDFFQXL
+fifomem/mem_reg[9][3]           0.008527   0.0002112    0.008867   0.0001296  SDFFQXL
+fifomem/mem_reg[10][5]          0.008516   0.0002184    0.008864   0.0001296  SDFFQXL
+fifomem/mem_reg[2][6]           0.008447   0.0002863    0.008863   0.0001296  SDFFQXL
+fifomem/mem_reg[9][7]           0.008526   0.0002058    0.008862   0.0001296  SDFFQXL
+fifomem/mem_reg[9][2]           0.008526   0.0002057    0.008862   0.0001296  SDFFQXL
+fifomem/mem_reg[10][0]          0.008517   0.0002145    0.008861   0.0001296  SDFFQXL
+fifomem/mem_reg[11][3]          0.008464   0.0002641    0.008858   0.0001296  SDFFQXL
+fifomem/mem_reg[0][4]            0.00851   0.0002153    0.008855   0.0001296  SDFFQXL
+fifomem/mem_reg[2][2]           0.008493   0.0002305    0.008853   0.0001296  SDFFQXL
+fifomem/mem_reg[0][0]            0.00851   0.0002119    0.008851   0.0001296  SDFFQXL
+fifomem/mem_reg[2][1]           0.008495   0.0002183    0.008843   0.0001296  SDFFQXL
+fifomem/mem_reg[2][3]           0.008491   0.0002196    0.008841   0.0001296  SDFFQXL
+fifomem/mem_reg[0][7]           0.008509   0.0002014     0.00884   0.0001296  SDFFQXL
+fifomem/mem_reg[9][6]           0.008477   0.0002331     0.00884   0.0001296  SDFFQXL
+fifomem/mem_reg[14][3]          0.008497    0.000212    0.008839   0.0001296  SDFFQXL
+fifomem/mem_reg[14][7]          0.008498   0.0002087    0.008837   0.0001296  SDFFQXL
+fifomem/mem_reg[0][6]           0.008509   0.0001963    0.008835   0.0001296  SDFFQXL
+fifomem/mem_reg[2][7]           0.008495   0.0002098    0.008834   0.0001296  SDFFQXL
+fifomem/mem_reg[14][2]          0.008498   0.0002042    0.008832   0.0001296  SDFFQXL
+fifomem/mem_reg[4][1]            0.00849   0.0002116    0.008831   0.0001296  SDFFQXL
+fifomem/mem_reg[0][5]           0.008509   0.0001917     0.00883   0.0001296  SDFFQXL
+fifomem/mem_reg[14][6]          0.008498   0.0002021     0.00883   0.0001296  SDFFQXL
+fifomem/mem_reg[14][5]          0.008498   0.0001999    0.008828   0.0001296  SDFFQXL
+fifomem/mem_reg[9][5]           0.008477   0.0002208    0.008827   0.0001296  SDFFQXL
+fifomem/mem_reg[4][7]           0.008493   0.0002017    0.008824   0.0001296  SDFFQXL
+fifomem/mem_reg[4][6]           0.008493   0.0002007    0.008823   0.0001296  SDFFQXL
+fifomem/mem_reg[4][5]           0.008493   0.0001981    0.008821   0.0001296  SDFFQXL
+fifomem/mem_reg[4][2]           0.008493   0.0001947    0.008817   0.0001296  SDFFQXL
+fifomem/mem_reg[4][3]           0.008492   0.0001955    0.008817   0.0001296  SDFFQXL
+fifomem/mem_reg[11][2]          0.008465   0.0002205    0.008815   0.0001296  SDFFQXL
+fifomem/mem_reg[9][4]           0.008477    0.000199    0.008805   0.0001296  SDFFQXL
+fifomem/mem_reg[9][0]           0.008477   0.0001979    0.008804   0.0001296  SDFFQXL
+fifomem/mem_reg[11][7]          0.008467   0.0002019    0.008798   0.0001296  SDFFQXL
+fifomem/mem_reg[11][1]          0.008467   0.0001955    0.008792   0.0001296  SDFFQXL
+fifomem/mem_reg[6][3]           0.008438   0.0002231    0.008791   0.0001296  SDFFQXL
+fifomem/mem_reg[1][2]           0.008462   0.0001976    0.008789   0.0001296  SDFFQXL
+fifomem/mem_reg[3][4]           0.008363   0.0002956    0.008789   0.0001296  SDFFQXL
+fifomem/mem_reg[4][0]           0.008442   0.0002172    0.008788   0.0001296  SDFFQXL
+fifomem/mem_reg[2][5]           0.008445   0.0002134    0.008788   0.0001296  SDFFQXL
+fifomem/mem_reg[6][6]           0.008439    0.000219    0.008788   0.0001296  SDFFQXL
+fifomem/mem_reg[6][7]           0.008439   0.0002183    0.008787   0.0001296  SDFFQXL
+fifomem/mem_reg[1][3]           0.008462   0.0001941    0.008786   0.0001296  SDFFQXL
+fifomem/mem_reg[6][5]           0.008439   0.0002159    0.008785   0.0001296  SDFFQXL
+fifomem/mem_reg[1][7]           0.008462   0.0001907    0.008782   0.0001296  SDFFQXL
+fifomem/mem_reg[2][4]           0.008445    0.000202    0.008777   0.0001296  SDFFQXL
+fifomem/mem_reg[4][4]            0.00844   0.0002018    0.008772   0.0001296  SDFFQXL
+fifomem/mem_reg[2][0]           0.008445   0.0001959    0.008771   0.0001296  SDFFQXL
+fifomem/mem_reg[6][2]           0.008439   0.0002016     0.00877   0.0001296  SDFFQXL
+fifomem/mem_reg[11][6]          0.008417   0.0002201    0.008767   0.0001296  SDFFQXL
+fifomem/mem_reg[6][1]           0.008436   0.0002013    0.008767   0.0001296  SDFFQXL
+fifomem/mem_reg[1][6]           0.008413   0.0002242    0.008767   0.0001296  SDFFQXL
+fifomem/mem_reg[1][5]           0.008413   0.0002212    0.008764   0.0001296  SDFFQXL
+fifomem/mem_reg[5][5]           0.008412    0.000221    0.008762   0.0001296  SDFFQXL
+fifomem/mem_reg[11][0]          0.008417    0.000212    0.008759   0.0001296  SDFFQXL
+fifomem/mem_reg[1][1]           0.008413   0.0002155    0.008758   0.0001296  SDFFQXL
+fifomem/mem_reg[5][2]           0.008411   0.0002164    0.008757   0.0001296  SDFFQXL
+fifomem/mem_reg[11][4]          0.008417   0.0002077    0.008755   0.0001296  SDFFQXL
+fifomem/mem_reg[11][5]          0.008417   0.0002072    0.008754   0.0001296  SDFFQXL
+fifomem/mem_reg[1][4]           0.008413   0.0002062    0.008749   0.0001296  SDFFQXL
+fifomem/mem_reg[5][6]           0.008411   0.0002068    0.008748   0.0001296  SDFFQXL
+fifomem/mem_reg[1][0]           0.008413   0.0002053    0.008747   0.0001296  SDFFQXL
+fifomem/mem_reg[3][3]           0.008413   0.0002011    0.008744   0.0001296  SDFFQXL
+fifomem/mem_reg[15][6]          0.008415    0.000195     0.00874   0.0001296  SDFFQXL
+fifomem/mem_reg[15][2]          0.008415   0.0001927    0.008737   0.0001296  SDFFQXL
+fifomem/mem_reg[6][0]           0.008388   0.0002193    0.008736   0.0001296  SDFFQXL
+fifomem/mem_reg[3][2]           0.008414   0.0001922    0.008736   0.0001296  SDFFQXL
+fifomem/mem_reg[15][7]          0.008415   0.0001897    0.008734   0.0001296  SDFFQXL
+fifomem/mem_reg[15][3]          0.008414   0.0001871    0.008731   0.0001296  SDFFQXL
+fifomem/mem_reg[15][5]          0.008415    0.000178    0.008723   0.0001296  SDFFQXL
+fifomem/mem_reg[6][4]           0.008386   0.0002066    0.008722   0.0001296  SDFFQXL
+fifomem/mem_reg[3][5]           0.008363   0.0002261    0.008719   0.0001296  SDFFQXL
+fifomem/mem_reg[7][1]           0.008368   0.0002203    0.008718   0.0001296  SDFFQXL
+fifomem/mem_reg[3][7]           0.008362   0.0002253    0.008717   0.0001296  SDFFQXL
+fifomem/mem_reg[7][6]           0.008371   0.0002149    0.008715   0.0001296  SDFFQXL
+fifomem/mem_reg[7][7]           0.008371    0.000212    0.008712   0.0001296  SDFFQXL
+fifomem/mem_reg[3][6]           0.008363    0.000218    0.008711   0.0001296  SDFFQXL
+fifomem/mem_reg[7][3]           0.008369   0.0002111     0.00871   0.0001296  SDFFQXL
+fifomem/mem_reg[3][1]           0.008362   0.0002143    0.008706   0.0001296  SDFFQXL
+fifomem/mem_reg[3][0]           0.008363   0.0002113    0.008704   0.0001296  SDFFQXL
+fifomem/mem_reg[15][1]          0.008363   0.0002109    0.008703   0.0001296  SDFFQXL
+fifomem/mem_reg[7][2]            0.00837   0.0001943    0.008694   0.0001296  SDFFQXL
+fifomem/mem_reg[5][1]           0.008358   0.0002051    0.008693   0.0001296  SDFFQXL
+fifomem/mem_reg[5][0]           0.008359   0.0002028    0.008692   0.0001296  SDFFQXL
+fifomem/mem_reg[15][4]          0.008362   0.0001987    0.008691   0.0001296  SDFFQXL
+fifomem/mem_reg[7][5]            0.00837   0.0001848    0.008685   0.0001296  SDFFQXL
+fifomem/mem_reg[5][4]           0.008358   0.0001966    0.008685   0.0001296  SDFFQXL
+fifomem/mem_reg[15][0]          0.008363   0.0001908    0.008684   0.0001296  SDFFQXL
+fifomem/mem_reg[7][0]           0.008319   0.0002028    0.008651   0.0001296  SDFFQXL
+fifomem/mem_reg[7][4]           0.008319   0.0001949    0.008643   0.0001296  SDFFQXL
+rptr_empty_inst/rptr_reg[0]     0.008057   0.0002651    0.008474   0.0001526  SDFFRHQX1
+rptr_empty_inst/rptr_reg[1]     0.007887   0.0002462    0.008286   0.0001526  SDFFRHQX1
+rptr_empty_inst/FE_OFC9_rempty  0.0007566    0.007202    0.008178   0.0002199  CLKBUFX12
+wptr_full_inst/g159             0.005887    0.002019    0.008076     0.00017  ADDHX4
+wptr_full_inst/FE_RC_12_0       0.003194    0.004362    0.007666   0.0001094  NAND2X8
+rptr_empty_inst/rptr_reg[2]     0.006975   0.0002138    0.007341   0.0001526  SDFFRHQX1
+rptr_empty_inst/rptr_reg[3]     0.006533   0.0002514    0.006937   0.0001526  SDFFRHQX1
+fifomem/FE_RC_98_0               0.00366    0.002907    0.006688   0.0001212  CLKBUFX6
+fifomem/FE_OFC11_raddr_0       0.0008809    0.005557    0.006479   4.129e-05  BUFX2
+rdata_reg[7]                    0.005949   0.0003183    0.006368   0.0001005  DFFRHQX1
+rdata_reg[6]                    0.005949   0.0002586    0.006308   0.0001005  DFFRHQX1
+rdata_reg[4]                    0.005951   0.0002458    0.006297   0.0001005  DFFRHQX1
+rdata_reg[5]                    0.005949   0.0002089    0.006258   0.0001005  DFFRHQX1
+rdata_reg[1]                    0.005951   0.0001819    0.006234   0.0001005  DFFRHQX1
+rdata_reg[3]                     0.00595   0.0001828    0.006233   0.0001005  DFFRHQX1
+rdata_reg[2]                     0.00595   0.0001831    0.006233   0.0001005  DFFRHQX1
+rdata_reg[0]                    0.005949   0.0001798    0.006229   0.0001005  DFFRHQX1
+fifomem/FE_RC_53_0              0.003724    0.002144    0.006029   0.0001614  CLKAND2X6
+rptr_empty_inst/rptr_reg[4]     0.005172   0.0003809    0.005653   0.0001005  DFFRHQX1
+fifomem/g3070                   0.003834    0.001746    0.005652   7.214e-05  NOR2X4
+rptr_empty_inst/g198            0.001049    0.004417    0.005588    0.000121  CLKXOR2X4
+sync_w2r/q1_reg[3]              0.005377   7.488e-05    0.005552   0.0001005  DFFRHQX1
+sync_w2r/q1_reg[0]              0.005377   5.705e-05    0.005535   0.0001005  DFFRHQX1
+sync_w2r/q1_reg[2]               0.00538   5.309e-05    0.005533   0.0001005  DFFRHQX1
+sync_w2r/q1_reg[4]              0.005378   5.487e-05    0.005533   0.0001005  DFFRHQX1
+sync_w2r/q1_reg[1]              0.005378   5.496e-05    0.005533   0.0001005  DFFRHQX1
+fifomem/g3076                    0.00384    0.001431    0.005346   7.566e-05  NOR2BX4
+sync_w2r/q2_reg[4]               0.00506   0.0001156    0.005276   0.0001005  DFFRHQX1
+fifomem/FE_OCPC77_n_29          0.003941   0.0009192    0.005227    0.000367  BUFX20
+sync_w2r/q2_reg[0]              0.005062   4.825e-05     0.00521   0.0001005  DFFRHQX1
+sync_w2r/q2_reg[2]              0.005062   4.108e-05    0.005203   0.0001005  DFFRHQX1
+sync_w2r/q2_reg[3]              0.005062    4.07e-05    0.005203   0.0001005  DFFRHQX1
+sync_w2r/q2_reg[1]              0.005062   3.863e-05    0.005201   0.0001005  DFFRHQX1
+FE_PHC80_wrst_n                0.0007204    0.003831    0.004592   4.129e-05  CLKBUFX2
+fifomem/FE_RC_101_0             0.002991    0.001424    0.004491   7.566e-05  NOR2BX4
+wptr_full_inst/FE_OCPC67_waddr_2   0.001689    0.002472    0.004224   6.202e-05  CLKBUFX3
+fifomem/FE_OCPC31_n_21          0.003232   0.0005407    0.004139    0.000367  BUFX20
+fifomem/FE_OCPC63_n_23          0.002837    0.000843      0.0039   0.0002199  BUFX12
+fifomem/FE_RC_80_0_dup          0.002541    0.001254    0.003871   7.566e-05  NOR2BX4
+wptr_full_inst/FE_RC_84_0       0.002009    0.001647    0.003717    6.16e-05  OAI2BB1X4
+fifomem/FE_OCPC65_n_31          0.002353    0.000685    0.003258   0.0002199  BUFX12
+fifomem/FE_OCPC29_n_0           0.002312   0.0006428    0.003175   0.0002199  BUFX12
+wptr_full_inst/FE_RC_75_0       0.001887    0.001102    0.003049   6.015e-05  NAND3X4
+FE_PHC81_rrst_n                0.0003601    0.002509     0.00291   4.129e-05  CLKBUFX2
+fifomem/FE_OCPC66_n_27          0.002123   0.0004946    0.002837   0.0002199  BUFX12
+wptr_full_inst/FE_RC_94_0       0.002433   0.0002693    0.002794   9.143e-05  NOR4BBX4
+fifomem/FE_OCPC53_n_17          0.001712   0.0007792    0.002613   0.0001212  BUFX6
+fifomem/FE_OFC13_n_19           0.001733   0.0006483    0.002602   0.0002199  BUFX12
+wptr_full_inst/FE_RC_13_0       0.001311    0.001211    0.002578   5.601e-05  NAND2X4
+fifomem/FE_OCPC68_n_25          0.001743   0.0004435    0.002406   0.0002199  BUFX12
+fifomem/FE_OCPC64_n_4           0.001723   0.0004308    0.002373   0.0002199  BUFX12
+wptr_full_inst/FE_RC_14_0        0.00119    0.001103    0.002348   5.601e-05  NAND2X4
+fifomem/FE_OCPC75_waddr_0       0.001873    0.000399    0.002334   6.202e-05  BUFX3
+fifomem/FE_RC_35_0              0.001124    0.001004    0.002209   8.078e-05  CLKAND2X3
+fifomem/FE_OCPC70_n_8           0.000982    0.001181    0.002202   3.898e-05  CLKINVX3
+wptr_full_inst/FE_RC_88_0       0.001444   0.0006496    0.002154   6.015e-05  NAND3X4
+fifomem/FE_PHC91_wdata_2       0.0007189    0.001392    0.002152   4.129e-05  CLKBUFX2
+wptr_full_inst/g219             0.001244   0.0007022    0.002017   7.055e-05  XNOR2X1
+wptr_full_inst/FE_OCPC35_n_30   0.001112   0.0008418    0.001995   4.129e-05  BUFX2
+wptr_full_inst/FE_RC_91_0       0.001638   0.0003173    0.001993   3.838e-05  NOR2BX2
+fifomem/g3074                   0.001557    0.000363    0.001958   3.838e-05  NOR2BX2
+wptr_full_inst/FE_OCPC37_n_30   0.001111   0.0007576     0.00191   4.129e-05  BUFX2
+fifomem/g3067                   0.001317   0.0005275    0.001883   3.838e-05  NOR2BX2
+fifomem/FE_RC_100_0             0.001504   0.0003316    0.001874   3.838e-05  NOR2BX2
+wptr_full_inst/FE_RC_30_0        0.00131   0.0005219    0.001868   3.602e-05  AOI21X2
+fifomem/FE_PHC92_wdata_3       0.0007182    0.001103    0.001863   4.129e-05  CLKBUFX2
+wptr_full_inst/FE_OCPC51_wptr_3   0.001074   0.0007032    0.001839   6.202e-05  BUFX3
+fifomem/g5639                  0.0004683    0.001344    0.001831   1.816e-05  NOR2X1
+wptr_full_inst/FE_OCPC22_waddr_3  0.0008894   0.0008573    0.001788   4.129e-05  BUFX2
+fifomem/g3059                   0.001003   0.0006685    0.001782    0.000111  AND2X6
+fifomem/g3050                    0.00102   0.0006504    0.001782    0.000111  AND2X6
+wptr_full_inst/FE_RC_82_0       0.001157    0.000565    0.001758   3.634e-05  AOI22X2
+fifomem/FE_PHC84_wdata_0       0.0007178   0.0009383    0.001697   4.129e-05  CLKBUFX2
+rptr_empty_inst/g188           0.0007447   0.0008119    0.001629   7.254e-05  CLKXOR2X1
+fifomem/FE_RC_80_0              0.001278   0.0003094    0.001626   3.838e-05  NOR2BX2
+fifomem/FE_OFC12_n_1           0.0009313   0.0005393    0.001618   0.0001474  BUFX8
+fifomem/g3080                  0.0009912    0.000469    0.001597   0.0001373  AND2X8
+fifomem/FE_OCPC74_n_7           0.001152   0.0004029    0.001596   4.129e-05  BUFX2
+fifomem/g5636                  0.0005525    0.001013    0.001585   2.004e-05  NOR2BX1
+rptr_empty_inst/g189           0.0006011   0.0009061     0.00158   7.254e-05  CLKXOR2X1
+fifomem/g3075                  0.0006882   0.0008554    0.001572   2.802e-05  NAND2X2
+fifomem/g5631                  0.0008061   0.0006871    0.001572   7.836e-05  MX4XL
+fifomem/FE_OCPC50_n_12         0.0007374   0.0007574    0.001521   2.599e-05  CLKINVX2
+wptr_full_inst/FE_OCPC43_wptr_4  0.0007143   0.0007611    0.001517   4.129e-05  BUFX2
+wptr_full_inst/FE_OCPC72_waddr_1   0.001206   0.0002684    0.001516   4.129e-05  CLKBUFX2
+fifomem/g5613                  0.0008064   0.0006304    0.001515   7.836e-05  MX4XL
+wptr_full_inst/FE_RC_58_0      0.0008698   0.0006157    0.001512   2.599e-05  OAI21X2
+wptr_full_inst/FE_OCPC69_wptr_1  0.0007102   0.0007525    0.001504   4.129e-05  BUFX2
+fifomem/g3057                  0.0008272   0.0005393    0.001477    0.000111  AND2X6
+fifomem/g5615                  0.0008071   0.0005641     0.00145   7.836e-05  MX4XL
+fifomem/g5638                  0.0003071    0.001101    0.001443   3.499e-05  NAND2BX1
+rptr_empty_inst/g191           0.0005033   0.0008348    0.001411   7.254e-05  CLKXOR2X1
+fifomem/g5635                  0.0001403    0.001244    0.001394   9.289e-06  NAND2XL
+fifomem/FE_PHC86_wdata_4       0.0007162   0.0006333    0.001391   4.129e-05  CLKBUFX2
+fifomem/FE_PHC87_wdata_1       0.0007162   0.0006191    0.001377   4.129e-05  CLKBUFX2
+wptr_full_inst/g152            0.0008537   0.0004841    0.001366   2.802e-05  NAND2X2
+fifomem/g5591                    0.00082   0.0005123    0.001345   1.314e-05  OAI221X1
+wptr_full_inst/FE_RC_90_0       0.001052   0.0002483    0.001336   3.607e-05  NOR2X2
+fifomem/FE_PHC83_wdata_7       0.0007158   0.0005697    0.001327   4.129e-05  CLKBUFX2
+wptr_full_inst/g160               0.0008   0.0005003     0.00132   2.004e-05  NOR2BX1
+wptr_full_inst/FE_RC_76_0       0.000626   0.0006613    0.001313   2.599e-05  CLKINVX2
+fifomem/g5604                  0.0008449   0.0003727    0.001308   9.088e-05  MXI4XL
+fifomem/FE_OCPC55_n_24         0.0007648   0.0003874      0.0013   0.0001474  BUFX8
+fifomem/g5630                  0.0008089   0.0004104    0.001298   7.836e-05  MX4XL
+wptr_full_inst/g151            0.0006493   0.0006242    0.001286   1.299e-05  OAI21X1
+fifomem/g5588                  0.0008281    0.000445    0.001286   1.314e-05  OAI221X1
+fifomem/FE_PHC89_wdata_1       0.0007156   0.0005246    0.001282   4.129e-05  CLKBUFX2
+fifomem/g5622                  0.0008093   0.0003758    0.001263   7.836e-05  MX4XL
+fifomem/g5606                  0.0008448   0.0003157    0.001251   9.088e-05  MXI4XL
+fifomem/g5607                  0.0008094   0.0003625     0.00125   7.836e-05  MX4XL
+fifomem/g5608                  0.0008447   0.0003054    0.001241   9.088e-05  MXI4XL
+fifomem/g5592                  0.0008204    0.000404    0.001238   1.314e-05  OAI221X1
+fifomem/g5629                  0.0008096   0.0003477    0.001236   7.836e-05  MX4XL
+fifomem/g5598                  0.0007084   0.0005067    0.001233   1.833e-05  AOI22X1
+fifomem/g5625                  0.0008448   0.0002966    0.001232   9.088e-05  MXI4XL
+fifomem/g5617                  0.0008447   0.0002963    0.001232   9.088e-05  MXI4XL
+fifomem/g5616                  0.0008446   0.0002922    0.001228   9.088e-05  MXI4XL
+fifomem/g5585                  0.0008011   0.0003973    0.001211   1.314e-05  OAI221X1
+fifomem/g5624                  0.0008098   0.0003215     0.00121   7.836e-05  MX4XL
+fifomem/g5611                  0.0008448   0.0002715    0.001207   9.088e-05  MXI4XL
+fifomem/g5627                  0.0008446   0.0002643      0.0012   9.088e-05  MXI4XL
+fifomem/g5602                  0.0008447    0.000263    0.001199   9.088e-05  MXI4XL
+fifomem/g3047                  0.0007073    0.000418    0.001197   7.214e-05  NOR2X4
+wptr_full_inst/FE_RC_68_0_dup  0.0008823   0.0002569    0.001195   5.601e-05  NAND2X4
+fifomem/g5623                  0.0008041    0.000295     0.00119   9.088e-05  MXI4XL
+fifomem/g5621                  0.0008446   0.0002542     0.00119   9.088e-05  MXI4XL
+fifomem/g5605                  0.0008449   0.0002481    0.001184   9.088e-05  MXI4XL
+fifomem/g5626                  0.0008114   0.0002816    0.001171   7.836e-05  MX4XL
+wptr_full_inst/FE_RC_87_0      0.0005665   0.0005766    0.001169   2.599e-05  CLKINVX2
+fifomem/g5632                   0.000804   0.0002708    0.001166   9.088e-05  MXI4XL
+fifomem/g5601                  0.0008446     0.00022    0.001155   9.088e-05  MXI4XL
+fifomem/g5614                   0.000812     0.00026     0.00115   7.836e-05  MX4XL
+fifomem/g5589                  0.0008255   0.0003082    0.001147   1.314e-05  OAI221X1
+fifomem/g5610                  0.0008446   0.0002107    0.001146   9.088e-05  MXI4XL
+wptr_full_inst/FE_RC_83_0      0.0006717   0.0004481    0.001133   1.299e-05  OAI21X1
+fifomem/g5618                  0.0008445   0.0001895    0.001125   9.088e-05  MXI4XL
+fifomem/g5590                  0.0008287   0.0002789    0.001121   1.314e-05  OAI221X1
+fifomem/g5612                  0.0008132    0.000227    0.001119   7.836e-05  MX4XL
+fifomem/g5586                   0.000828   0.0002749    0.001116   1.314e-05  OAI221X1
+fifomem/g5593                  0.0007122   0.0003854    0.001116   1.833e-05  AOI22X1
+wptr_full_inst/FE_OCPC36_n_30  0.0003704    0.000726    0.001109   1.301e-05  INVX1
+fifomem/g5594                  0.0006934   0.0003962    0.001108   1.833e-05  AOI22X1
+fifomem/g5620                   0.000814   0.0002138    0.001106   7.836e-05  MX4XL
+wptr_full_inst/g148            0.0004937   0.0005963    0.001103   1.301e-05  INVX1
+fifomem/g5599                  0.0006935   0.0003911    0.001103   1.833e-05  AOI22X1
+fifomem/g5609                   0.000814    0.000209    0.001101   7.836e-05  MX4XL
+fifomem/g5619                  0.0008141   0.0002052    0.001098   7.836e-05  MX4XL
+fifomem/g5628                  0.0008143   0.0001997    0.001092   7.836e-05  MX4XL
+rptr_empty_inst/g148           0.0004736   0.0006001    0.001087   1.299e-05  OAI21X1
+fifomem/g5587                  0.0008278   0.0002429    0.001084   1.314e-05  OAI221X1
+fifomem/g5603                  0.0008149   0.0001869     0.00108   7.836e-05  MX4XL
+fifomem/g5600                  0.0007125   0.0003466    0.001077   1.833e-05  AOI22X1
+wptr_full_inst/FE_RC_69_0      0.0005127   0.0005325    0.001073   2.802e-05  NAND2X2
+wptr_full_inst/FE_RC_15_0      0.0004527   0.0005929    0.001072   2.599e-05  CLKINVX2
+fifomem/g5595                  0.0007139   0.0003002    0.001032   1.833e-05  AOI22X1
+fifomem/g5597                  0.0007159   0.0002687    0.001003   1.833e-05  AOI22X1
+wptr_full_inst/FE_RC_48_0      0.0005174   0.0004301    0.001002    5.48e-05  NAND2BX2
+wptr_full_inst/g208            0.0004808   0.0004819   0.0009907   2.802e-05  NAND2X2
+wptr_full_inst/FE_RC_68_0      0.0004412   0.0005173   0.0009866   2.802e-05  NAND2X2
+wptr_full_inst/FE_RC_89_0      0.0004523   0.0004777    0.000956   2.599e-05  CLKINVX2
+wptr_full_inst/FE_RC_85_0      0.0006756   0.0002614     0.00095   1.299e-05  OAI21X1
+fifomem/g3048                  0.0005433   0.0003501   0.0009494   5.601e-05  NAND2X4
+wptr_full_inst/FE_RC_104_0     0.0006352   0.0002922   0.0009404   1.299e-05  OAI21X1
+fifomem/g5596                  0.0006984   0.0002172    0.000934   1.833e-05  AOI22X1
+wptr_full_inst/FE_OFC15_waddr_3  0.0005727   0.0003289   0.0009276   2.599e-05  CLKINVX2
+wptr_full_inst/FE_RC_40_0      0.0002954   0.0006046    0.000913   1.301e-05  CLKINVX1
+wptr_full_inst/FE_RC_83_0_dup    0.00067   0.0002173   0.0009003   1.299e-05  OAI21X1
+fifomem/FE_PHC82_wdata_3       0.0007253   0.0001329   0.0008995   4.129e-05  CLKBUFX2
+fifomem/FE_PHC85_wdata_5       0.0007179     0.00011   0.0008693   4.129e-05  CLKBUFX2
+fifomem/FE_PHC90_wdata_6       0.0007187   9.832e-05   0.0008583   4.129e-05  CLKBUFX2
+fifomem/FE_PHC88_wdata_4       0.0007192   9.248e-05   0.0008529   4.129e-05  CLKBUFX2
+wptr_full_inst/FE_RC_46_0      0.0004009   0.0004011     0.00083   2.802e-05  NAND2X2
+fifomem/FE_RC_54_0             0.0002346    0.000555   0.0007983   8.757e-06  INVXL
+wptr_full_inst/FE_RC_59_0      0.0004865   0.0002796   0.0007941   2.802e-05  NAND2X2
+fifomem/g3058                  0.0004391   0.0002559    0.000751   5.601e-05  NAND2X4
+rptr_empty_inst/g147           0.0003483   0.0003892   0.0007505   1.301e-05  INVX1
+FE_OCPC12_FE_OFN10_FE_OFN8_wfull  0.0003488     0.00034   0.0007301   4.129e-05  CLKBUFX2
+fifomem/FE_RC_97_0              0.000388   0.0003038   0.0007198   2.802e-05  NAND2X2
+wptr_full_inst/FE_OCPC52_wptr_3  0.0004504    0.000238   0.0007144   2.599e-05  INVX2
+wptr_full_inst/g157            0.0003223   0.0003377   0.0006688   8.757e-06  INVXL
+fifomem/g5634                  0.0002665   0.0003626   0.0006422   1.301e-05  CLKINVX1
+rptr_empty_inst/g140            0.000272   0.0003554   0.0006403   1.299e-05  OAI21X1
+rptr_empty_inst/g144           0.0003617   0.0002534   0.0006281   1.299e-05  OAI21X1
+fifomem/FE_RC_74_0             0.0003567   0.0002408   0.0006221   2.466e-05  AND2XL
+fifomem/FE_RC_99_0             0.0003281   0.0002466   0.0006028   2.802e-05  NAND2X2
+wptr_full_inst/FE_RC_42_0      0.0003029   0.0002861    0.000602   1.301e-05  CLKINVX1
+wptr_full_inst/FE_RC_33_0      0.0002238   0.0003687   0.0006017   9.289e-06  NAND2XL
+wptr_full_inst/FE_RC_60_0      0.0004391   0.0001395   0.0005916   1.299e-05  OAI21X1
+wptr_full_inst/FE_RC_55_0      0.0004387   0.0001396   0.0005913   1.299e-05  OAI21X1
+wptr_full_inst/FE_RC_47_0       0.000338   0.0002346    0.000585   1.236e-05  NOR2XL
+wptr_full_inst/g201            0.0003784   0.0001774   0.0005829   2.704e-05  MXI2XL
+rptr_empty_inst/g153           0.0002704   0.0002604   0.0005658   3.499e-05  NAND2BX1
+fifomem/FE_RC_36_0             0.0003073    0.000245   0.0005653   1.301e-05  CLKINVX1
+wptr_full_inst/FE_RC_51_0      0.0003546   0.0001874    0.000556   1.403e-05  NAND2X1
+fifomem/g5633                  0.0004249   0.0001162   0.0005541   1.301e-05  INVX1
+wptr_full_inst/FE_RC_92_0      0.0004107     0.00011   0.0005419   2.127e-05  OAI2BB1X1
+fifomem/g5637                   0.000271    0.000255   0.0005391   1.301e-05  INVX1
+wptr_full_inst/FE_OCPC41_wptr_2  0.0002408   0.0002851   0.0005389   1.301e-05  CLKINVX1
+fifomem/g2                     0.0002664   0.0002144   0.0005356    5.48e-05  NAND2BX2
+wptr_full_inst/FE_RC_103_0      0.000242   0.0002673   0.0005353   2.599e-05  INVX2
+fifomem/g3051                   0.000246     0.00025   0.0005241   2.802e-05  NAND2X2
+fifomem/g3085                  0.0003856   9.985e-05   0.0005238   3.838e-05  NOR2BX2
+wptr_full_inst/FE_RC_96_0      0.0002885   0.0002008   0.0005024   1.301e-05  INVX1
+fifomem/g3052                  0.0002679   0.0002011   0.0004971   2.802e-05  NAND2X2
+wptr_full_inst/FE_RC_57_0       0.000322   0.0001395   0.0004965   3.499e-05  NAND2BX1
+wptr_full_inst/FE_RC_62_0      0.0003217   0.0001391   0.0004957   3.499e-05  NAND2BX1
+wptr_full_inst/FE_RC_93_0      0.0003216   0.0001381   0.0004947   3.499e-05  NAND2BX1
+fifomem/g3045                  0.0002695   0.0001943   0.0004918   2.802e-05  NAND2X2
+rptr_empty_inst/g150           0.0002381   0.0002144   0.0004875   3.499e-05  NAND2BX1
+wptr_full_inst/FE_OCPC78_n_8   0.0003762   6.747e-05   0.0004849   4.129e-05  CLKBUFX2
+wptr_full_inst/FE_RC_31_0      0.0003557   8.632e-05   0.0004781   3.607e-05  NOR2X2
+wptr_full_inst/FE_RC_95_0      0.0002882   0.0001749   0.0004761   1.301e-05  INVX1
+wptr_full_inst/FE_RC_70_0      0.0002336   0.0002281   0.0004747   1.301e-05  CLKINVX1
+rptr_empty_inst/g138           0.0002131   0.0002456   0.0004716   1.301e-05  INVX1
+fifomem/g3066                  0.0001961   0.0002647     0.00047   9.289e-06  NAND2XL
+fifomem/FE_OCPC76_n_27         0.0003645   5.754e-05   0.0004633   4.129e-05  CLKBUFX2
+rptr_empty_inst/g151           0.0003045   0.0001482   0.0004614   8.728e-06  OAI21XL
+wptr_full_inst/FE_RC_102_0     0.0002853   0.0001279   0.0004432   3.011e-05  NAND3X2
+rptr_empty_inst/g197           0.0002879    7.17e-05   0.0004227   6.308e-05  XNOR2XL
+rptr_empty_inst/g195           0.0002881   6.956e-05   0.0004207   6.308e-05  XNOR2XL
+rptr_empty_inst/g196           0.0002884   6.179e-05   0.0004133   6.308e-05  XNOR2XL
+wptr_full_inst/FE_OFC17_n_17    0.000286   0.0001051   0.0004041   1.301e-05  INVX1
+rptr_empty_inst/g194           0.0002873   4.942e-05   0.0003998   6.308e-05  XNOR2XL
+fifomem/g3053                  0.0002016   0.0001671   0.0003968   2.802e-05  NAND2X2
+fifomem/g3054                  0.0002888   6.658e-05   0.0003914   3.607e-05  NOR2X2
+fifomem/g3060                  0.0002011   0.0001616   0.0003907   2.802e-05  NAND2X2
+rptr_empty_inst/g193           0.0003041   6.534e-05   0.0003876   1.815e-05  AOI21X1
+rptr_empty_inst/g154           0.0001759   0.0001757   0.0003866   3.499e-05  NAND2BX1
+wptr_full_inst/FE_RC_56_0      0.0002339   0.0001313   0.0003782   1.301e-05  INVX1
+fifomem/FE_OCPC73_n_4          0.0002967   3.943e-05   0.0003774   4.129e-05  CLKBUFX2
+wptr_full_inst/FE_RC_61_0      0.0002309   0.0001275   0.0003714   1.301e-05  INVX1
+rptr_empty_inst/g136           0.0001994    0.000151   0.0003634   1.299e-05  OAI21X1
+rptr_empty_inst/g149           0.0001928   0.0001527   0.0003548   9.289e-06  NAND2XL
+wptr_full_inst/FE_RC_32_0      0.0001554   0.0001598   0.0003413   2.599e-05  CLKINVX2
+rptr_empty_inst/g146           0.0001598   0.0001348   0.0003296   3.499e-05  NAND2BX1
+rptr_empty_inst/g145           0.0001633   0.0001304    0.000303   9.289e-06  NAND2XL
+wptr_full_inst/g143            0.0001948   4.754e-05   0.0002784   3.607e-05  NOR2X2
+rptr_empty_inst/g141           0.0001467   0.0001115   0.0002675   9.289e-06  NAND2XL
+rptr_empty_inst/g152           0.0001474   9.467e-05   0.0002513   9.289e-06  NAND2XL
+wptr_full_inst/FE_RC_49_0      0.0001523   8.963e-05   0.0002512   9.289e-06  NAND2XL
+rptr_empty_inst/g199           0.0001702   6.791e-05   0.0002505   1.236e-05  NOR2XL
+wptr_full_inst/FE_RC_39_0      0.0001361   7.256e-05   0.0002367   2.802e-05  NAND2X2
+rptr_empty_inst/g137           0.0001006   8.307e-05    0.000193   9.289e-06  NAND2XL
+rptr_empty_inst/g142           9.753e-05   4.996e-05   0.0001825   3.499e-05  NAND2BX1
+rptr_empty_inst/g190           5.866e-05    7.62e-05   0.0001472   1.236e-05  NOR2XL
+rptr_empty_inst/g192           5.708e-05   2.854e-05   9.608e-05   1.046e-05  NAND4XL
+
+---------------------------------------------------------------------------------------
+
+Total (    400 of    400  )         1.73      0.4834       2.25     0.03591
+Total Capacitance                1.437e-11 F
+Power Density                   *** No Die Area ***

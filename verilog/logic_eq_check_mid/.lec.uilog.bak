@@ -1,0 +1,160 @@
+#Version: 20.10-p100 (01-May-2020) (64 bit executable)
+ guiWinConfig .a.pane.f3.command.text.text.promt2 76 19 1 20 
+callback Gui_hlist_leave .a.pane.f1.middle.nb.nbframe.hier.golden.fm.tree.f1.hlist
+callback Gui_hlist_leave .a.pane.f1.middle.nb.nbframe.hier.revised.fm.tree.f1.hlist
+callback Gui_hlist_leave .a.pane.f1.middle.nb.nbframe.hier.golden.fm.tree.f1.hlist
+         if { [ .icon.hierCmp cget -state ] == "normal" } {
+            .icon.hierCmp configure -relief groove
+        }
+    
+     tk::ButtonEnter .icon.hierCmp
+ .icon.hierCmp configure -relief flat 
+     tk::ButtonLeave .icon.hierCmp
+     tk::MbEnter .v_menu.compare
+     tk::MbMotion .v_menu.compare up 376 99
+     tk::MbMotion .v_menu.compare up 374 97
+     tk::MbMotion .v_menu.compare up 372 94
+     tk::MbMotion .v_menu.compare up 372 93
+     tk::MbMotion .v_menu.compare up 371 92
+     tk::MbMotion .v_menu.compare up 370 90
+     tk::MbMotion .v_menu.compare up 370 89
+     tk::MbMotion .v_menu.compare up 370 88
+     tk::MbMotion .v_menu.compare up 370 87
+     tk::MbMotion .v_menu.compare up 370 86
+     tk::MbMotion .v_menu.compare up 370 85
+     tk::MbMotion .v_menu.compare up 370 84
+     tk::MbMotion .v_menu.compare up 374 82
+     tk::MbMotion .v_menu.compare up 382 82
+     tk::MbMotion .v_menu.compare up 390 80
+     tk::MbLeave .v_menu.compare
+     tk::MbEnter .v_menu.tool
+     tk::MbMotion .v_menu.tool up 394 80
+     tk::MbMotion .v_menu.tool up 397 80
+     tk::MbMotion .v_menu.tool up 399 80
+     tk::MbMotion .v_menu.tool up 401 80
+     tk::MbMotion .v_menu.tool up 402 80
+     tk::MbMotion .v_menu.tool up 404 80
+     tk::MbMotion .v_menu.tool up 405 80
+     tk::MbMotion .v_menu.tool up 406 80
+     tk::MbMotion .v_menu.tool up 407 80
+     tk::MbMotion .v_menu.tool up 407 81
+     tk::MbMotion .v_menu.tool up 408 81
+     tk::MbMotion .v_menu.tool up 409 82
+     tk::MbMotion .v_menu.tool up 410 82
+     tk::MbMotion .v_menu.tool up 411 82
+     tk::MbMotion .v_menu.tool up 412 82
+     tk::MbMotion .v_menu.tool up 412 83
+     tk::MbMotion .v_menu.tool up 412 84
+     if {$tk::Priv(inMenubutton) ne ""} {
+	tk::MbPost $tk::Priv(inMenubutton) 412 84
+    }
+     tk::MbButtonUp .v_menu.tool
+     tk::MbMotion .v_menu.tool up 416 86
+     tk::MbMotion .v_menu.tool up 419 89
+     tk::MbMotion .v_menu.tool up 424 93
+     tk::MbMotion .v_menu.tool up 428 97
+     tk::MbMotion .v_menu.tool up 432 100
+     tk::MbLeave .v_menu.tool
+     set tk::Priv(window) .v_menu.tool.menu
+    if {[.v_menu.tool.menu cget -type] eq "tearoff"} {
+	if {"NotifyNormal" ne "NotifyUngrab"} {
+	    if {[tk windowingsystem] eq "x11"} {
+		tk_menuSetFocus .v_menu.tool.menu
+	    }
+	}
+    }
+    tk::MenuMotion .v_menu.tool.menu 43 5 0
+#Gui Step(2)===>(Menu).v_menu.tool.menu <Button> {(menu-item) "Mapping Manager"}
+global guiReplayPause
+if {[info exists guiReplayPause] && $guiReplayPause == 1} { guiReplayBreakMsg {Step 2:  (Menu) <Button>\
+ (menu-item) "Mapping Manager"} .v_menu.tool.menu } 
+set x [guiGetMenuX .v_menu.tool.menu 2];set y [guiGetMenuY .v_menu.tool.menu 2 ] 
+     tk::MenuMotion .v_menu.tool.menu $x $y 0
+     tk::MenuButtonDown .v_menu.tool.menu
+    tk::MenuInvoke .v_menu.tool.menu 1
+     tk::MbEnter .keymgr.bt.help
+     tk::MbLeave .keymgr.bt.help
+AppExit
+ .exit.yes instate !disabled {.exit.yes state active} 
+ .exit.yes state !active 
+ .exit.yes instate !disabled {.exit.yes state active} 
+ .exit.yes instate !disabled { ttk::clickToFocus .exit.yes; .exit.yes state pressed } 
+ .exit.yes instate pressed { .exit.yes state !pressed; .exit.yes instate !disabled { .exit.yes invoke } } 
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.pineq.title.find
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.pineq.title.filter
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.pineq.title.repo
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.pineq.title.sort
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.pineq.title.gateclass
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.pineq.title.cls
+tixPrimitive:Destructor .keymgr.pane.pineq.golden.list
+tixPrimitive:Destructor .keymgr.pane.pineq.revised.list
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.ump.title.gfind
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.ump.title.gfilter
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.ump.title.gunmapgateclass
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.ump.title.gunmapcls
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.ump.title.runmapgateclass
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.ump.title.runmapcls
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.ump.title.rfind
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.ump.title.rfilter
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.ump.title.repo
+tixPrimitive:Destructor .keymgr.pane.ump.golden.list
+tixPrimitive:Destructor .keymgr.pane.ump.revised.list
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.map.title.dall
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.map.title.aall
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.map.title.remp
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.map.title.find
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.map.title.filter
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.map.title.repo
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.map.title.gateclass
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.map.title.cls
+tixPrimitive:Destructor .keymgr.pane.map.golden.list
+tixPrimitive:Destructor .keymgr.pane.map.revised.list
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.com.title.dall
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.com.title.comp
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.com.title.find
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.com.title.filter
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.com.title.repo
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.com.title.sort
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.com.title.gateclass
+tixBalloon:ClientDestroy .icon.b .keymgr.pane.com.title.cls
+tixPrimitive:Destructor .keymgr.pane.com.golden.list
+tixPrimitive:Destructor .keymgr.pane.com.revised.list
+tixPrimitive:Destructor .keymgr.pane
+tixBalloon:ClientDestroy .icon.b .v_menu.logo
+     [tixGetMethod .icon.b [set .icon.b(className)] Destructor] .icon.b
+tixBalloon:ClientDestroy .icon.b .icon.rlib
+tixBalloon:ClientDestroy .icon.b .icon.rdsn
+tixBalloon:ClientDestroy .icon.b .icon.srccode
+tixBalloon:ClientDestroy .icon.b .icon.rulechk
+tixBalloon:ClientDestroy .icon.b .icon.modelmgr
+tixBalloon:ClientDestroy .icon.b .icon.hierCmp
+tixBalloon:ClientDestroy .icon.b .icon.gate
+tixBalloon:ClientDestroy .icon.b .icon.comp
+tixBalloon:ClientDestroy .icon.b .icon.rrcmgr
+tixBalloon:ClientDestroy .icon.b .icon.diag
+tixBalloon:ClientDestroy .icon.b .icon.refresh
+tixBalloon:ClientDestroy .icon.b .icon.find
+tixBalloon:ClientDestroy .icon.b .icon.stop
+tixBalloon:ClientDestroy .icon.b .icon.setup
+tixBalloon:ClientDestroy .icon.b .icon.lec
+tixPrimitive:Destructor .b.met
+tixPrimitive:Destructor .a.pane.f1.middle.nb.nbframe.library.golden.fm.tree
+tixPrimitive:Destructor .a.pane.f1.middle.nb.nbframe.library.revised.fm.tree
+.a.pane.f1.middle.nb delete library
+.a.pane.f1.middle.nb delete tool
+.a.pane.f1.middle.nb delete design
+.a.pane.f1.middle.nb delete rule
+tixPrimitive:Destructor .a.pane.f1.middle.nb.nbframe.hier.golden.fm.tree
+tixPrimitive:Destructor .a.pane.f1.middle.nb.nbframe.hier.revised.fm.tree
+.a.pane.f1.middle.nb delete hier
+tixVStack:DestroyTop .a.pane.f1.middle.nb
+tixPrimitive:Destructor .a.pane.f1.middle.nb
+ 	idoc_cleanup .a.pane.f2.mesg.text.text
+    
+ 	idoc_cleanup .a.pane.f2.mesg.text.text
+    
+tixPrimitive:Destructor .a.pane.f2.mesg.text
+ 	idoc_cleanup .a.pane.f3.command.text.text
+    
+tixPrimitive:Destructor .a.pane.f3.command.text
+tixPrimitive:Destructor .a.pane

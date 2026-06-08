@@ -1,0 +1,13 @@
+[11/10 15:07:37      0s] 
+[11/10 15:07:37      0s] Cadence Innovus(TM) Implementation System.
+[11/10 15:07:37      0s] Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+[11/10 15:07:37      0s] 
+[11/10 15:07:37      0s] Version:	v20.10-p004_1, built Thu May 7 20:02:41 PDT 2020
+[11/10 15:07:37      0s] Options:	
+[11/10 15:07:37      0s] Date:		Mon Nov 10 15:07:37 2025
+[11/10 15:07:37      0s] Host:		edatools-server2.iiitd.edu.in (x86_64 w/Linux 2.6.32-754.35.1.el6.x86_64) (18cores*72cpus*Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz 39936KB)
+[11/10 15:07:37      0s] OS:		Red Hat Enterprise Linux Server release 6.10 (Santiago)
+[11/10 15:07:37      0s] 
+[11/10 15:07:37      0s] License:
+[11/10 15:07:39      0s] 		invs	Innovus Implementation System	20.1	checkout succeeded
+[11/10 15:07:39      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.

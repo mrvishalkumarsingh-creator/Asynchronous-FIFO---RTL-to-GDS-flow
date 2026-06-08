@@ -1,0 +1,101 @@
+*** Message Type: info ***
+When: Sun Oct 12 01:01:30 AM IST 2025
+SimVision started.
+Version: TOOL:  simvision(64)   15.20-s084
+User: utkarsh25154
+Host: localhost
+Platform: Linux/x86_64/2.6.32-754.35.1.el6.x86_64
+Started: Sun Oct 12 01:01:30 AM IST 2025
+Command: /cadence/INCISIVE152/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:localhost:56413 -64BIT -nocopyright
+Work Directory: /home/utkarsh25154/Desktop/cmos65/90nm/verilog
+ 
+*** Message Type: info ***
+When: Sun Oct 12 01:01:30 AM IST 2025
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Sun Oct 12 01:01:31 AM IST 2025
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Sun Oct 12 01:01:32 AM IST 2025
+Connect to Simulator
+      Design: worklib.FIFO_tb:v
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:  ncsim(64)       15.20-s084
+        User: utkarsh25154
+        Host: localhost
+Time Started: Sun Oct 12 01:01:29 AM IST 2025
+  Process ID: 42297
+   Directory: /home/utkarsh25154/Desktop/cmos65/90nm/verilog
+     Command: ncverilog -access rwc async_fifo.v async_fifo_tb.v -coverage all -gui
+
+ 
+*** Message Type: info ***
+When: Sun Oct 12 01:01:32 AM IST 2025
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Sun Oct 12 01:01:44 AM IST 2025
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Sun Oct 12 01:11:05 AM IST 2025
+Exit NC-Sim: user
+      Design: worklib.FIFO_tb:v
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:  ncsim(64)       15.20-s084
+        User: utkarsh25154
+        Host: localhost
+Time Started: Sun Oct 12 01:01:29 AM IST 2025
+  Process ID: 42297
+   Directory: /home/utkarsh25154/Desktop/cmos65/90nm/verilog
+     Command: ncverilog -access rwc async_fifo.v async_fifo_tb.v -coverage all -gui
+
+ 
+*** Message Type: error ***
+When: Sun Oct 12 01:11:05 AM IST 2025
+NC-Sim Crashed:
+      Design: worklib.FIFO_tb:v
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:  ncsim(64)       15.20-s084
+        User: utkarsh25154
+        Host: localhost
+Time Started: Sun Oct 12 01:01:29 AM IST 2025
+  Process ID: 42297
+   Directory: /home/utkarsh25154/Desktop/cmos65/90nm/verilog
+     Command: ncverilog -access rwc async_fifo.v async_fifo_tb.v -coverage all -gui
+      Design: worklib.FIFO_tb:v
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL: ncsim(64)       15.20-s084
+        User: utkarsh25154
+        Host: localhost
+Time Started: Sun Oct 12 01:01:29 AM IST 2025
+  Process ID: 42297
+   Directory: /home/utkarsh25154/Desktop/cmos65/90nm/verilog
+     Command: ncverilog -access rwc async_fifo.v async_fifo_tb.v -coverage all -gui
+
+Outstanding STRAP Requests:
+        strap::report enable out
+ 
+*** Message Type: info ***
+When: Sun Oct 12 01:11:29 AM IST 2025
+Recall Simulator
+ 
+*** Message Type: error ***
+When: Sun Oct 12 01:11:35 AM IST 2025
+slave "" does not exist
+    while executing
+"error "slave \"$slave\" does not exist""
+    (object "::taskmaster" method "::stuff::TaskMaster::delegate" body line 12)
+    invoked from within
+"::taskmaster delegate $slave sim.terminate"
+    (object "::application" method "::Application::shutdown" body line 65)
+    invoked from within
+"application shutdown"
+    (while executing background task for duty "shutdown" in owner exit)
+ 

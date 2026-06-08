@@ -1,0 +1,90 @@
+############################################################
+#  Genus Synthesis Script for Design : async_fifo
+#  Technology : 90nm (slow.lib)
+#  Tool : Cadence Genus (legacy_genus)
+#  Author : HONOURARY CIVILIAN
+############################################################
+
+#-----------------------------------------------------------
+# Setup library and search paths 
+#-----------------------------------------------------------
+set_attr lib_search_path {/home/utkarsh25154/Desktop/cmos65/90nm/verilog/lib}
+set_attr hdl_search_path {/home/utkarsh25154/Desktop/cmos65/90nm/verilog}
+set_attr library {/home/utkarsh25154/Desktop/cmos65/90nm/verilog/lib/slow.lib}
+
+#-----------------------------------------------------------
+# Read and elaborate design
+#-----------------------------------------------------------
+read_hdl /home/utkarsh25154/Desktop/cmos65/90nm/verilog/async_fifo.v
+elaborate
+
+#-----------------------------------------------------------
+# Apply constraints
+#-----------------------------------------------------------
+read_sdc /home/utkarsh25154/Desktop/cmos65/90nm/verilog/mid.sdc
+
+#-----------------------------------------------------------
+# Run synthesis
+#-----------------------------------------------------------
+synthesize -to_mapped -effort medium
+
+#-----------------------------------------------------------
+# Create report/output directory
+#-----------------------------------------------------------
+file mkdir /home/utkarsh25154/Desktop/cmos65/90nm/verilog/syn_report_mid
+
+#-----------------------------------------------------------
+# Set current design
+#-----------------------------------------------------------
+current_design FIFO
+
+#-----------------------------------------------------------
+# Write out SDF (Standard Delay Format)
+# NOTE: Use '>' redirection instead of filename argument
+#-----------------------------------------------------------
+write_sdf -design FIFO \
+    -timescale ns \
+    -nonegchecks \
+    -recrem split \
+    -edges check_edge \
+    > /home/utkarsh25154/Desktop/cmos65/90nm/verilog/delays.sdf
+
+#-----------------------------------------------------------
+# Export synthesized netlist and constraint files
+#-----------------------------------------------------------
+############################################################
+# Write out timing and netlist files
+############################################################
+
+# --- SDF ---
+write_sdf -timescale ns -nonegchecks -recrem split -edges check_edge \
+    > /home/utkarsh25154/Desktop/cmos65/90nm/verilog/syn_report_mid/delays.sdf
+
+# --- Netlist ---
+write_hdl FIFO \
+    > /home/utkarsh25154/Desktop/cmos65/90nm/verilog/syn_report_mid/synthesized_netlist.v
+
+# --- SDC ---
+write_sdc FIFO \
+    > /home/utkarsh25154/Desktop/cmos65/90nm/verilog/syn_report_mid/dc_file_for_physical_design.sdc
+
+# --- Script ---
+write_script FIFO \
+    >/home/utkarsh25154/Desktop/cmos65/90nm/verilog/syn_report_mid/synthesis_script_sdc.g
+
+
+#-----------------------------------------------------------
+# Generate synthesis reports
+#-----------------------------------------------------------
+report_timing > /home/utkarsh25154/Desktop/cmos65/90nm/verilog/syn_report_mid/synthesis_timing_report.rep
+
+report_power > /home/utkarsh25154/Desktop/cmos65/90nm/verilog/syn_report_mid/synthesis_power_report.rep
+
+report_gates >/home/utkarsh25154/Desktop/cmos65/90nm/verilog/syn_report_mid/synthesis_cell_report.rep
+
+report_area > /home/utkarsh25154/Desktop/cmos65/90nm/verilog/syn_report_mid/synthesis_area_report.rep
+
+#-----------------------------------------------------------
+# Final design check
+#-----------------------------------------------------------
+check_design

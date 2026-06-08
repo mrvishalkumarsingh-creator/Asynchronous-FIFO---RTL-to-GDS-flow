@@ -1,0 +1,93 @@
+ncverilog(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on Oct 13, 2025 at 16:29:09 IST
+ncverilog
+	-access
+	rwc
+	async_fifo.v
+	async_fifo_tb.v
+	-coverage
+	all
+	-gui
+file: async_fifo.v
+	module worklib.two_ff_sync:v
+		errors: 0, warnings: 0
+	module worklib.FIFO_memory:v
+		errors: 0, warnings: 0
+	module worklib.rptr_empty:v
+		errors: 0, warnings: 0
+	module worklib.wptr_full:v
+		errors: 0, warnings: 0
+	module worklib.FIFO:v
+		errors: 0, warnings: 0
+file: async_fifo_tb.v
+	module worklib.FIFO_tb:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+
+	Extracting FSMs for coverage:
+		worklib.two_ff_sync
+		worklib.FIFO_memory
+		worklib.rptr_empty
+		worklib.wptr_full
+		worklib.FIFO
+		worklib.FIFO_tb
+	Total FSMs extracted = 0
+	Building instance overlay tables: .................... Done
+	Enabling instrumentation for coverage types: block expression FSM toggle functional
+ncelab: *W,COVDCL: By default expression coverage is scored only for Verilog logical operators (|| and &&) and VHDL logical operators (OR, AND, NOR, and NAND), and is scored only in condition expressions. To score coverage for other operators and for expressions in other statements, use the "set_expr_coverable_operators" and "set_expr_coverable_statements" coverage configuration file commands with suitable options at elaboration.
+	Generating native compiled code:
+		worklib.FIFO:v <0x0c909ed4>
+			streams:   2, words:   690
+		worklib.FIFO_memory:v <0x44c7ae65>
+			streams:   3, words:  1387
+		worklib.FIFO_tb:v <0x376ee7ff>
+			streams:  10, words: 60521
+		worklib.rptr_empty:v <0x115ac225>
+			streams:   4, words:  2898
+		worklib.two_ff_sync:v <0x4034f03d>
+			streams:   3, words:  1618
+		worklib.two_ff_sync:v <0x77ad9451>
+			streams:   3, words:  1618
+		worklib.wptr_full:v <0x7a82eb71>
+			streams:   4, words:  2937
+    reg [DATA_SIZE-1:0] mem [0:DEPTH-1];
+                          |
+ncelab: *W,COVMDD (./async_fifo.v,24|26): Toggle coverage for bit, logic, reg, wire, and struct multi-dimensional static arrays and vectors is not supported by default. To enable toggle coverage on for these types specify 'set_toggle_scoring -sv_mda [<max_bit_base2_exponent>] [-sv_mda_of_struct]' ccf command in the coverage configuration file.
+    integer i;
+            |
+ncelab: *W,COVUTA (./async_fifo.v,40|12): Toggle coverage is not supported for SystemVerilog integer, real, string, dynamic array, sparse memory, and array of enum. It is also not supported for VHDL multi-dimensional array and array of record. There may also be other such objects in the design.
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 7       6
+		Registers:              25      23
+		Scalar wires:            8       -
+		Vectored wires:          9       -
+		Always blocks:          10       9
+		Initial blocks:          1       1
+		Cont. assignments:       3       3
+		Pseudo assignments:      7       7
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.FIFO_tb:v
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /cadence/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm FIFO_tb.rclk FIFO_tb.rdata FIFO_tb.rempty FIFO_tb.rinc FIFO_tb.rrst_n FIFO_tb.wclk FIFO_tb.wdata FIFO_tb.wfull FIFO_tb.winc FIFO_tb.wrst_n
+Created probe 1
+ncsim> run
+ncsim: *E,C58EXE: Coverage database file already exists in the test output directory './cov_work/scope/test', and will not be overwritten. Specify a different name for the test output directory or use the '-covoverwrite' option to overwrite the existing test output directory, and rerun the simulation.
+Simulation finished.
+Simulation complete via $finish(1) at time 850 NS + 0
+./async_fifo_tb.v:129         $finish;
+ncsim> run
+ncsim: *E,RNFNSH: Cannot continue simulation due to a previous $finish.
+ncsim> ^C
+ncsim> exit
+ncsim: *E,C58EXE: Coverage database file already exists in the test output directory './cov_work/scope/test', and will not be overwritten. Specify a different name for the test output directory or use the '-covoverwrite' option to overwrite the existing test output directory, and rerun the simulation.
+TOOL:	ncverilog	15.20-s084: Exiting on Oct 13, 2025 at 16:31:55 IST  (total: 00:02:46)

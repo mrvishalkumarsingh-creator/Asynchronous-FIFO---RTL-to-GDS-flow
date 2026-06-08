@@ -1,0 +1,12 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(12Oct2025:00:56:27):( ncverilog -access rwc async_fifo.v async_fifo_tb.v -coverage all -gui )
+s2::(12Oct2025:01:01:28):( ncverilog -access rwc async_fifo.v async_fifo_tb.v -coverage all -gui )
+s3::(12Oct2025:01:11:29):( ncverilog -access rwc async_fifo.v async_fifo_tb.v -coverage all -tcl -nolog -nocopyright -neverwarn )
+s4::(12Oct2025:02:00:14):( ncverilog -access rwc ./verilog/FIFO.v ./verilog/FIFO_tb.v -coverage all -gui )
+s5::(12Oct2025:02:00:22):( ncverilog -access rwc async_fifo.v async_fifo_tb.v -coverage all -gui )
+s6::(12Oct2025:03:14:09):( ncverilog -access rwc async_fifo.v async_fifo_tb.v -coverage all -gui )
+s7::(13Oct2025:10:11:20):( irun -s +gui +linedebug +access+rwc -q /home/utkarsh25154/Desktop/cmos65/90nm/verilog/async_fifo.v /home/utkarsh25154/Desktop/cmos65/90nm/verilog/async_fifo_tb.v )
+s8::(13Oct2025:16:29:09):( ncverilog -access rwc async_fifo.v async_fifo_tb.v -coverage all -gui )

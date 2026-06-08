@@ -1,0 +1,14 @@
+irun: *W,BADPRF: The linedebug option may have an adverse performance impact.
+            rdata <= 0;  // CHANGED: was '0, now 0 (sized by context)
+                |
+ncvlog: *E,WANOTL (/home/utkarsh25154/Desktop/cmos65/90nm/verilog/async_fifo.v,112|16): A net is not a legal lvalue in this context [9.3.1(IEEE)].
+            rdata <= rdata_raw;
+                |
+ncvlog: *E,WANOTL (/home/utkarsh25154/Desktop/cmos65/90nm/verilog/async_fifo.v,114|16): A net is not a legal lvalue in this context [9.3.1(IEEE)].
+        $display("=== TEST 1: Reset behavior ===");
+               |
+ncvlog: *E,MISEXX (/home/utkarsh25154/Desktop/cmos65/90nm/verilog/async_fifo_tb.v,140|15): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+    end
+      |
+ncvlog: *E,NOTSTT (/home/utkarsh25154/Desktop/cmos65/90nm/verilog/async_fifo_tb.v,240|6): expecting a statement [9(IEEE)].
+irun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).

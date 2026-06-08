@@ -1,0 +1,10 @@
+ncelab(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+ncelab: *W,COVDCL: By default expression coverage is scored only for Verilog logical operators (|| and &&) and VHDL logical operators (OR, AND, NOR, and NAND), and is scored only in condition expressions. To score coverage for other operators and for expressions in other statements, use the "set_expr_coverable_operators" and "set_expr_coverable_statements" coverage configuration file commands with suitable options at elaboration.
+    reg [DATA_SIZE-1:0] mem [0:DEPTH-1];
+                          |
+ncelab: *W,COVMDD (./async_fifo.v,24|26): Toggle coverage for bit, logic, reg, wire, and struct multi-dimensional static arrays and vectors is not supported by default. To enable toggle coverage on for these types specify 'set_toggle_scoring -sv_mda [<max_bit_base2_exponent>] [-sv_mda_of_struct]' ccf command in the coverage configuration file.
+    integer i;
+            |
+ncelab: *W,COVUTA (./async_fifo.v,40|12): Toggle coverage is not supported for SystemVerilog integer, real, string, dynamic array, sparse memory, and array of enum. It is also not supported for VHDL multi-dimensional array and array of record. There may also be other such objects in the design.
+ncelab: Memory Usage - 49.9M program + 37.0M data = 87.0M total (Peak 91.3M)
+ncelab: CPU Usage - 0.0s system + 0.0s user = 0.1s total (0.1s, 72.8% cpu)

@@ -1,0 +1,110 @@
+                          CONFORMAL (R)
+                   Version 20.10-p100 (01-May-2020) (64 bit executable)
+   Copyright (c) Cadence Design Systems, Inc., 1997-2019. All Rights Reserved
+
+
+This program is proprietary and confidential information belonging to
+Cadence Design Systems, Inc., and may be used and disclosed only as authorized
+in a license agreement controlling such use and disclosure.
+
+// Warning: This version is 1991 days old. You can download the latest version from http://downloads.cadence.com.
+
+0
+// Command: read_library /home/utkarsh25154/Desktop/cmos65/90nm/verilog/lib/slow.v -verilog -both
+// Parsing file /home/utkarsh25154/Desktop/cmos65/90nm/verilog/lib/slow.v ...
+// Warning: (RTL7.2) Gate or transistor primitive is using weak attributes (occurrence:1)
+// Warning: (RTL14) Signal has input but it has no output (occurrence:196)
+// Warning: (RTL14.1) Fanout load of the signal is removed (occurrence:84)
+// Warning: (VLG5.2) Primitive input port has multiple bits. Ignore all but LSB bit (occurrence:2)
+// Warning: (DIR6.1) Ignored compiler directive is detected (occurrence:480)
+// Warning: (DIR6.2) Supported compiler directive is detected (occurrence:960)
+// Warning: (HRC1.4) Module/entity is empty (blackboxed) (occurrence:1)
+// Warning: (HRC3.10b) An input port is declared, but it is not used. Module is empty (occurrence:1)
+// Note: Read VERILOG library successfully
+0
+CPU time     : 0.63    seconds
+Elapse time  : 2       seconds
+Memory usage : 275.46  M bytes
+// Command: read_design /home/utkarsh25154/Desktop/cmos65/90nm/verilog/async_fifo.v -verilog -golden
+// Parsing file /home/utkarsh25154/Desktop/cmos65/90nm/verilog/async_fifo.v ...
+// Golden root module is set to 'FIFO'
+// Warning: (RTL1.5b) Potential loss of RHS msb or carry-out bit (occurrence:2)
+// Warning: (RTL2.1) Variable is referenced before the assignment. This can cause a mismatch between synthesis and simulation (occurrence:2)
+// Warning: (RTL7.10c) Bit-wise operation with different data sizes (occurrence:2)
+// Warning: (DIR6.1) Ignored compiler directive is detected (occurrence:1)
+// Warning: (HRC3.15) Parameter positional association occurs in an instantiation (occurrence:5)
+// Note: Read VERILOG design successfully
+0
+// Command: read_design /home/utkarsh25154/Desktop/cmos65/90nm/verilog/syn_report_mid/synthesized_netlist.v -verilog -revised
+// Parsing file /home/utkarsh25154/Desktop/cmos65/90nm/verilog/syn_report_mid/synthesized_netlist.v ...
+// Revised root module is set to 'FIFO'
+// Note: Read VERILOG design successfully
+0
+// Command: set_system_mode lec
+// Processing Golden ...
+// Modeling Golden ...
+// Processing Revised ...
+// Modeling Revised ...
+// Mapping key points ...
+================================================================================
+Mapped points: SYSTEM class
+--------------------------------------------------------------------------------
+Mapped points     PI     PO     DFF       Total   
+--------------------------------------------------------------------------------
+Golden            14     10     166       190     
+--------------------------------------------------------------------------------
+Revised           14     10     166       190     
+================================================================================
+0
+// Command: add_compared_points -all
+// 176 compared points added to compare list
+0
+// Command: compare
+================================================================================
+Compared points      PO     DFF       Total   
+--------------------------------------------------------------------------------
+Equivalent           10     166       176     
+================================================================================
+0
+// Command: report_messages -compare -verb
+0
+// Command: report_compare_data -noneq
+0 Non-equivalent point(s) reported
+0 compared point(s) reported
+================================================================================
+Compared points      PO     DFF       Total   
+--------------------------------------------------------------------------------
+Equivalent           10     166       176     
+================================================================================
+0
+// Command: report_verification
+================================================================================
+                            Verification Report
+--------------------------------------------------------------------------------
+Category                                                                  Count
+--------------------------------------------------------------------------------
+1. Non-standard modeling options used:                                      0
+--------------------------------------------------------------------------------
+2. Incomplete verification:                                                 0
+--------------------------------------------------------------------------------
+3. User modification to design:                                             0
+--------------------------------------------------------------------------------
+4. Conformal Constraint Designer clock domain crossing checks recommended:  1
+     Multiple clocks in the design:                            yes
+--------------------------------------------------------------------------------
+5. Design ambiguity:                                                        0
+--------------------------------------------------------------------------------
+6. Compare Results:                                                        PASS
+================================================================================
+pass
+// Command: write_compared_points -replace /home/utkarsh25154/Desktop/cmos65/90nm/verilog/logic_eq_check_mid/lec_compared_points
+0
+// Command: write_mapped_points -replace /home/utkarsh25154/Desktop/cmos65/90nm/verilog/logic_eq_check_mid/lec_mapped_points
+0
+// Command: set_verification_information /home/utkarsh25154/Desktop/cmos65/90nm/verilog/logic_eq_check_mid
+// Verification information is set to /home/utkarsh25154/Desktop/cmos65/90nm/verilog/logic_eq_check_mid.
+// Advanced reporting is enabled and the output is written to /home/utkarsh25154/Desktop/cmos65/90nm/verilog/logic_eq_check_mid
+0
+// Command: write_verification_information
+// Verification information is written to logic_eq_check_mid.
+0

@@ -1,0 +1,149 @@
+[10/14 20:06:37      0s] 
+[10/14 20:06:37      0s] Cadence Tempus(TM) Timing Signoff Solution.
+[10/14 20:06:37      0s] Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+[10/14 20:06:37      0s] 
+[10/14 20:06:37      0s] Version:	v20.10-p003_1, built Wed Apr 29 15:56:37 PDT 2020
+[10/14 20:06:37      0s] Options:	-nowin 
+[10/14 20:06:37      0s] Date:		Tue Oct 14 20:06:37 2025
+[10/14 20:06:37      0s] Host:		edatools-server2.iiitd.edu.in (x86_64 w/Linux 2.6.32-754.35.1.el6.x86_64) (18cores*72cpus*Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz 39936KB)
+[10/14 20:06:37      0s] OS:		Red Hat Enterprise Linux Server release 6.10 (Santiago)
+[10/14 20:06:37      0s] 
+[10/14 20:06:37      0s] License:
+[10/14 20:06:37      0s] 		tpsxl	Tempus Timing Signoff Solution XL	20.1	checkout succeeded
+[10/14 20:06:37      0s] 		16 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+[10/14 20:06:44      7s] @(#)CDS: Tempus Timing Signoff Solution v20.10-p003_1 (64bit) 04/29/2020 15:56 (Linux 2.6.32-431.11.2.el6.x86_64)
+[10/14 20:06:44      7s] @(#)CDS: NanoRoute 20.10-p003_1 NR200413-0234/20_10-UB (database version 18.20.505) {superthreading v1.69}
+[10/14 20:06:44      7s] @(#)CDS: AAE 20.10-p005 (64bit) 04/29/2020 (Linux 2.6.32-431.11.2.el6.x86_64)
+[10/14 20:06:44      7s] @(#)CDS: CTE 20.10-p005_1 () Apr 14 2020 09:14:28 ( )
+[10/14 20:06:44      7s] @(#)CDS: SYNTECH 20.10-b004_1 () Mar 12 2020 22:18:21 ( )
+[10/14 20:06:44      7s] @(#)CDS: CPE v20.10-p006
+[10/14 20:06:44      7s] @(#)CDS: OA 22.60-p028 Tue Dec  3 14:08:48 2019
+[10/14 20:06:44      7s] @(#)CDS: SGN 19.10-d001 (24-May-2019) (64 bit executable, Qt5.9.0)
+[10/14 20:06:44      7s] @(#)CDS: RCDB 11.15.0
+[10/14 20:06:44      7s] @(#)CDS: STYLUS 20.10-p002_1 (03/12/2020 10:11 PDT)
+[10/14 20:06:44      7s] Change the soft stacksize limit to 0.2%RAM (1033 mbytes). Set global soft_stack_size_limit to change the value.
+[10/14 20:06:44      7s] **INFO: (TMPDIR-1001): The environment variable TMPDIR is not set.
+Create and set the environment variable TMPDIR to '/tmp/ssv_tmpdir_21898_0tn6CT'.
+environment variable TMPDIR is '/tmp/ssv_tmpdir_21898_0tn6CT'.
+[10/14 20:07:12      7s] wrong # args: should be "set varName ?newValue?"
+[10/14 20:14:39      7s] <CMD> read_lib slow.lib
+[10/14 20:14:39      7s] <CMD> read_verilog synthesised_netlist_time.v
+[10/14 20:14:39      7s] <CMD> set_top_module FIFO
+[10/14 20:14:39      7s] #% Begin Load MMMC data ... (date=10/14 20:14:39, mem=437.4M)
+[10/14 20:14:39      7s] Number of views requested 1 are allowed with the current licenses... continuing with set_analysis_view.
+[10/14 20:14:40      7s] #% End Load MMMC data ... (date=10/14 20:14:39, total cpu=0:00:00.0, real=0:00:01.0, peak res=437.6M, current mem=437.6M)
+[10/14 20:14:40      7s] Loading view definition file from .ssv_emulate_view_definition_21898.tcl
+[10/14 20:14:40      7s] Reading default_emulate_libset_max timing library '/home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA' ...
+[10/14 20:14:40      7s] **ERROR: (TECHLIB-281):	Attempt to read .lib library '/home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA' failed (File /home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA)
+**ERROR: (TECHLIB-253):	cannot open file "AFTER/best/slow.lib"
+Reading default_emulate_libset_max timing library 'AFTER/best/slow.lib' ...
+[10/14 20:14:40      7s] **ERROR: (TECHLIB-281):	Attempt to read .lib library 'AFTER/best/slow.lib' failed (File AFTER/best/slow.lib)
+Reading default_emulate_libset_min timing library '/home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA' ...
+[10/14 20:14:40      7s] **ERROR: (TECHLIB-281):	Attempt to read .lib library '/home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA' failed (File /home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA)
+**ERROR: (TECHLIB-253):	cannot open file "AFTER/best/slow.lib"
+Reading default_emulate_libset_min timing library 'AFTER/best/slow.lib' ...
+[10/14 20:14:40      7s] **ERROR: (TECHLIB-281):	Attempt to read .lib library 'AFTER/best/slow.lib' failed (File AFTER/best/slow.lib)
+Reading default_emulate_libset_max timing library '/home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA' ...
+[10/14 20:14:40      7s] **ERROR: (TECHLIB-281):	Attempt to read .lib library '/home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA' failed (File /home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA)
+**ERROR: (TECHLIB-253):	cannot open file "AFTER/best/slow.lib"
+Reading default_emulate_libset_max timing library 'AFTER/best/slow.lib' ...
+[10/14 20:14:40      7s] **ERROR: (TECHLIB-281):	Attempt to read .lib library 'AFTER/best/slow.lib' failed (File AFTER/best/slow.lib)
+Reading default_emulate_libset_min timing library '/home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA' ...
+[10/14 20:14:40      7s] **ERROR: (TECHLIB-281):	Attempt to read .lib library '/home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA' failed (File /home/utkarsh25154/Desktop/cmos65/90nm/verilog/STA)
+**ERROR: (TECHLIB-253):	cannot open file "AFTER/best/slow.lib"
+Reading default_emulate_libset_min timing library 'AFTER/best/slow.lib' ...
+[10/14 20:14:40      8s] **ERROR: (TECHLIB-281):	Attempt to read .lib library 'AFTER/best/slow.lib' failed (File AFTER/best/slow.lib)
+Ending "PreSetAnalysisView" (total cpu=0:00:00.1, real=0:00:00.0, peak res=465.4M, current mem=439.7M)
+[10/14 20:14:40      8s] *** End library_loading (cpu=0.00min, real=0.00min, mem=12.0M, fe_cpu=0.13min, fe_real=8.05min, fe_mem=567.5M) ***
+[10/14 20:14:40      8s] #% Begin Load netlist data ... (date=10/14 20:14:40, mem=439.7M)
+[10/14 20:14:40      8s] *** Begin netlist parsing (mem=567.5M) ***
+[10/14 20:14:40      8s] Reading verilog netlist 'synthesised_netlist_time.v'
+[10/14 20:14:40      8s] Module NAND4XL is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] Module AOI221XL is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] Module AOI22XL is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] Module AND2X1 is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] Module NOR2XL is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] Module NOR2BXL is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] Module NAND2BXL is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] Module NAND2XL is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] Module SMDFFHQX1 is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] Module OR2X1 is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] Module CLKINVX1 is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] Module CLKXOR2X1 is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] Module AND2X8 is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] Module NOR4XL is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] Module OAI21XL is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] Module SDFFRHQX1 is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] Module AOI21XL is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] Module XOR2XL is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] Module NOR3XL is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] Module OAI211XL is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] Module XNOR2X1 is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] Module SDFFRHQX8 is not defined and will be treated as an empty module.
+[10/14 20:14:40      8s] 
+[10/14 20:14:40      8s] *** Memory Usage v#1 (Current mem = 717.523M, initial mem = 273.305M) ***
+[10/14 20:14:40      8s] *** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=717.5M) ***
+[10/14 20:14:40      8s] #% End Load netlist data ... (date=10/14 20:14:40, total cpu=0:00:00.2, real=0:00:00.0, peak res=537.2M, current mem=533.2M)
+[10/14 20:14:40      8s] **WARN: (IMPDB-2504):	Cell 'AOI221XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[10/14 20:14:40      8s] **WARN: (IMPDB-2504):	Cell 'NAND4XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[10/14 20:14:40      8s] **WARN: (IMPDB-2504):	Cell 'SMDFFHQX1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[10/14 20:14:40      8s] **WARN: (IMPDB-2504):	Cell 'NAND2XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[10/14 20:14:40      8s] **WARN: (IMPDB-2504):	Cell 'NAND2BXL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[10/14 20:14:40      8s] **WARN: (IMPDB-2504):	Cell 'NOR2BXL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[10/14 20:14:40      8s] **WARN: (IMPDB-2504):	Cell 'NOR2XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[10/14 20:14:40      8s] **WARN: (IMPDB-2504):	Cell 'AND2X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[10/14 20:14:40      8s] **WARN: (IMPDB-2504):	Cell 'AOI22XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[10/14 20:14:40      8s] **WARN: (IMPDB-2504):	Cell 'SDFFRHQX8' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[10/14 20:14:40      8s] **WARN: (IMPDB-2504):	Cell 'XNOR2X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[10/14 20:14:40      8s] **WARN: (IMPDB-2504):	Cell 'OAI211XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[10/14 20:14:40      8s] **WARN: (IMPDB-2504):	Cell 'NOR3XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[10/14 20:14:40      8s] **WARN: (IMPDB-2504):	Cell 'XOR2XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[10/14 20:14:40      8s] **WARN: (IMPDB-2504):	Cell 'AOI21XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[10/14 20:14:40      8s] **WARN: (IMPDB-2504):	Cell 'SDFFRHQX1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[10/14 20:14:40      8s] **WARN: (IMPDB-2504):	Cell 'OAI21XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[10/14 20:14:40      8s] **WARN: (IMPDB-2504):	Cell 'NOR4XL' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[10/14 20:14:40      8s] **WARN: (IMPDB-2504):	Cell 'AND2X8' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[10/14 20:14:40      8s] **WARN: (IMPDB-2504):	Cell 'CLKXOR2X1' is instantiated in the Verilog netlist, but it is not defined in the library or design data.  Its pin directions may be derived incorrectly.  Provide the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[10/14 20:14:40      8s] **WARN: (EMS-62):	Message <IMPDB-2504> has exceeded the default message display limit of 20.
+[10/14 20:14:40      8s] To avoid this warning, increase the display limit per unique message by
+[10/14 20:14:40      8s] using the set_message -limit <number> command.
+[10/14 20:14:40      8s] The message limit can be removed by using the set_message -no_limit command.
+[10/14 20:14:40      8s] Note that setting a very large number using the set_message -limit command
+[10/14 20:14:40      8s] or removing the message limit using the set_message -no_limit command can
+[10/14 20:14:40      8s] significantly increase the log file size.
+[10/14 20:14:40      8s] To suppress a message, use the set_message -suppress command.
+[10/14 20:14:40      8s] Cell 'NAND4XL' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Y' of cell 'NAND4XL' as output for net 'rdata[7]' in module 'FIFO_memory_DATA_SIZE8_ADDR_SIZE4'.
+[10/14 20:14:40      8s] Cell 'NOR2XL' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Y' of cell 'NOR2XL' as output for net 'n_2' in module 'FIFO_memory_DATA_SIZE8_ADDR_SIZE4'.
+[10/14 20:14:40      8s] Cell 'NOR2BXL' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Y' of cell 'NOR2BXL' as output for net 'n_3' in module 'FIFO_memory_DATA_SIZE8_ADDR_SIZE4'.
+[10/14 20:14:40      8s] Cell 'NAND2XL' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Y' of cell 'NAND2XL' as output for net 'n_4' in module 'FIFO_memory_DATA_SIZE8_ADDR_SIZE4'.
+[10/14 20:14:40      8s] Cell 'CLKINVX1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Y' of cell 'CLKINVX1' as output for net 'n_5' in module 'FIFO_memory_DATA_SIZE8_ADDR_SIZE4'.
+[10/14 20:14:40      8s] Cell 'OR2X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Y' of cell 'OR2X1' as output for net 'n_14' in module 'FIFO_memory_DATA_SIZE8_ADDR_SIZE4'.
+[10/14 20:14:40      8s] Cell 'NAND2BXL' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Y' of cell 'NAND2BXL' as output for net 'n_16' in module 'FIFO_memory_DATA_SIZE8_ADDR_SIZE4'.
+[10/14 20:14:40      8s] Cell 'AND2X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Y' of cell 'AND2X1' as output for net 'n_52' in module 'FIFO_memory_DATA_SIZE8_ADDR_SIZE4'.
+[10/14 20:14:40      8s] Cell 'AND2X8' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Y' of cell 'AND2X8' as output for net 'rempty' in module 'rptr_empty_ADDR_SIZE4'.
+[10/14 20:14:40      8s] Cell 'AOI21XL' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Y' of cell 'AOI21XL' as output for net 'n_3' in module 'rptr_empty_ADDR_SIZE4'.
+[10/14 20:14:40      8s] Cell 'OAI21XL' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Y' of cell 'OAI21XL' as output for net 'n_6' in module 'rptr_empty_ADDR_SIZE4'.
+[10/14 20:14:40      8s] Cell 'XOR2XL' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Y' of cell 'XOR2XL' as output for net 'n_40' in module 'rptr_empty_ADDR_SIZE4'.
+[10/14 20:14:40      8s] Cell 'SDFFRHQX1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'SDFFRHQX1' as output for net 'q2[4]' in module 'two_ff_sync_SIZE5'.
+[10/14 20:14:40      8s] Cell 'CLKXOR2X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Y' of cell 'CLKXOR2X1' as output for net 'waddr[0]' in module 'wptr_full_ADDR_SIZE4'.
+[10/14 20:14:40      8s] Cell 'SDFFRHQX8' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'SDFFRHQX8' as output for net 'rdata[7]' in module 'FIFO'.
+[10/14 20:14:40      8s] Cell 'SMDFFHQX1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q' of cell 'SMDFFHQX1' as output for net 'DFT_sdo' in module 'FIFO_memory_DATA_SIZE8_ADDR_SIZE4'.
+[10/14 20:14:40      8s] Cell 'AOI22XL' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Y' of cell 'AOI22XL' as output for net 'n_53' in module 'FIFO_memory_DATA_SIZE8_ADDR_SIZE4'.
+[10/14 20:14:40      8s] Cell 'AOI221XL' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Y' of cell 'AOI221XL' as output for net 'n_117' in module 'FIFO_memory_DATA_SIZE8_ADDR_SIZE4'.
+[10/14 20:14:40      8s] Cell 'NOR4XL' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Y' of cell 'NOR4XL' as output for net 'n_30' in module 'rptr_empty_ADDR_SIZE4'.
+[10/14 20:14:40      8s] Cell 'XNOR2X1' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Y' of cell 'XNOR2X1' as output for net 'n_26' in module 'wptr_full_ADDR_SIZE4'.
+[10/14 20:14:40      8s] Cell 'OAI211XL' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Y' of cell 'OAI211XL' as output for net 'n_29' in module 'wptr_full_ADDR_SIZE4'.
+[10/14 20:14:40      8s] Cell 'NOR3XL' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Y' of cell 'NOR3XL' as output for net 'n_30' in module 'wptr_full_ADDR_SIZE4'.
+[10/14 20:14:40      8s] **ERROR: (UI-49):	Undefined cells in the design are not allowed, exiting.  Review the log file for undefined cell warning messages.  Provide the cell definitions or set load_netlist_ignore_undefined_cell to true and re-run.
+[10/14 20:14:40      8s] 
+[10/14 20:15:37      8s] 
+[10/14 20:15:37      8s] *** Memory Usage v#1 (Current mem = 714.531M, initial mem = 273.305M) ***
+[10/14 20:15:37      8s] 
+[10/14 20:15:37      8s] *** Summary of all messages that are not suppressed in this session:
+[10/14 20:15:37      8s] Severity  ID               Count  Summary                                  
+[10/14 20:15:37      8s] ERROR     UI-49                1  Undefined cells in the design are not al...
+[10/14 20:15:37      8s] WARNING   IMPDB-2504          22  Cell '%s' is instantiated in the Verilog...
+[10/14 20:15:37      8s] ERROR     TECHLIB-281          8  Attempt to read .lib library '%s' failed 
+[10/14 20:15:37      8s] *** Message Summary: 22 warning(s), 9 error(s)
+[10/14 20:15:37      8s] 
+[10/14 20:15:37      8s] --- Ending "Tempus Timing Signoff Solution" (totcpu=0:00:08.4, real=0:09:00, mem=714.5M) ---

@@ -1,0 +1,165 @@
+STIL 1.0 { Design 2005; } 
+Header {
+    Title "CTL for design 'FIFO'";
+    Date  "Wed Nov 05 12:45:09 IST 2025";
+    Source "Cadence Design Systems Genus 19.13-s073_1 STIL output";
+}
+Signals {
+    "wdata[7]" In; "wdata[6]" In; "wdata[5]" In;  
+    "wdata[4]" In; "wdata[3]" In; "wdata[2]" In; "wdata[1]" In;  
+    "wdata[0]" In; "winc" In; "wclk" In; "wrst_n" In;  
+    "rinc" In; "rclk" In; "rrst_n" In; "scan_en" In;  
+    "test_mode" In; "DFT_sdi_1" In; "DFT_sdi_2" In;  
+ 
+    "rdata[7]" Out; "rdata[6]" Out; "rdata[5]" Out;  
+    "rdata[4]" Out; "rdata[3]" Out; "rdata[2]" Out; "rdata[1]" Out;  
+    "rdata[0]" Out; "wfull" Out; "rempty" Out; "DFT_sdo_1" Out;  
+    "DFT_sdo_2" Out;  
+}
+SignalGroups {
+  // ... no bidirectional signals found
+  "all_inputs" = ' "wdata[7]" + "wdata[6]" + "wdata[5]" +  
+    "wdata[4]" + "wdata[3]" + "wdata[2]" + "wdata[1]" +  
+    "wdata[0]" + "winc" + "wclk" + "wrst_n" +  
+    "rinc" + "rclk" + "rrst_n" + "scan_en" +  
+    "test_mode" + "DFT_sdi_1" + "DFT_sdi_2" '; // #signals=18
+  "all_outputs" = ' "rdata[7]" + "rdata[6]" + "rdata[5]" +  
+    "rdata[4]" + "rdata[3]" + "rdata[2]" + "rdata[1]" +  
+    "rdata[0]" + "wfull" + "rempty" + "DFT_sdo_1" +  
+    "DFT_sdo_2" '; // #signals=12
+  "all_ports" =  ' "all_inputs"+ "all_outputs" '; // #signals=30
+  "_pi" = '"all_inputs"'; // #signals=18
+  "_po" = '"all_outputs"'; // #signals=12
+  "_si" = '"DFT_sdi_1" + "DFT_sdi_2"'; // #signals=2
+  "_so" = '"DFT_sdo_1" + "DFT_sdo_2"'; // #signals=2
+}
+ScanStructures {
+    ScanChain "AutoChain_1" {
+      ScanLength 11;
+     ScanIn "DFT_sdi_1" ; 
+     ScanOut "DFT_sdo_1" ; 
+     ScanEnable "scan_en";
+     ScanMasterClock "wclk";
+    }
+    ScanChain "AutoChain_2" {
+      ScanLength 19;
+     ScanIn "DFT_sdi_2" ; 
+     ScanOut "DFT_sdo_2" ; 
+     ScanEnable "scan_en";
+     ScanMasterClock "rclk";
+    }
+}
+Timing {
+    WaveformTable "_default_WFT_" { 
+      Period '50ns';
+      Waveforms {
+       "all_inputs" { 0 {  '0ns' D; } } 
+       "all_inputs" { 1 {  '0ns' U; } } 
+       "all_inputs" { Z {  '0ns' Z; } } 
+       "all_inputs" { N {  '0ns' N; } } 
+       "all_outputs" { X {  '0ns' X; } } 
+       "all_outputs" { H {  '0ns' X; '20ns' H; } } 
+       "all_outputs" { T {  '0ns' X; '20ns' T; } } 
+       "all_outputs" { L {  '0ns' X; '20ns' L; } } 
+       "wclk" { P {  '0ns' D; '25ns' U; '45ns' D; } } 
+       "rclk" { P {  '0ns' D; '25ns' U; '45ns' D; } } 
+       "rrst_n" { P {  '0ns' U; '25ns' D; '45ns' U; } } 
+       "wrst_n" { P {  '0ns' U; '25ns' D; '45ns' U; } } 
+    }
+  }
+}
+//PatternBurst "__burst__" {
+//  PatList {
+//    "__pattern__" {
+//    }
+//  }
+//}
+//PatternExec {
+//    Timing "";
+//    PatternBurst "__burst__";
+//}
+Procedures {
+    "load_unload" {
+        W "_default_WFT_";
+        V {
+          "wclk"=0; 
+          "rclk"=0; 
+          "scan_en"=1; 
+          "test_mode"=1; 
+          "rrst_n"=1; 
+          "wrst_n"=1; 
+          }
+        Shift {
+          W "_default_WFT_";
+          V {
+         "_si"=##; "_so"=##;
+            "wclk"=P; 
+            "rclk"=P; 
+            "scan_en"=1; 
+            "test_mode"=1; 
+            "rrst_n"=1; 
+            "wrst_n"=1; 
+}
+        }
+    }
+    "capture" {
+        W "_default_WFT_";
+        F { 
+             "test_mode"=1; 
+          }
+        V { "_pi"=\r18 #; "_po"=\r12 #; }
+    }
+    "capture_wclk" {
+        W "_default_WFT_";
+        F { 
+            "test_mode"=1; 
+        }
+        "forcePI": V { "_pi"=\r18 #; }
+        "measurePO": V { "_po"=\r12 #; }
+        "pulse": V { "wclk"=P; }
+    }
+    "capture_rclk" {
+        W "_default_WFT_";
+        F { 
+            "test_mode"=1; 
+        }
+        "forcePI": V { "_pi"=\r18 #; }
+        "measurePO": V { "_po"=\r12 #; }
+        "pulse": V { "rclk"=P; }
+    }
+    "capture_rrst_n" {
+        W "_default_WFT_";
+        F { 
+            "test_mode"=1; 
+        }
+        "forcePI": V { "_pi"=\r18 #; }
+        "measurePO": V { "_po"=\r12 #; }
+        "pulse": V { "rrst_n"=P; }
+    }
+    "capture_wrst_n" {
+        W "_default_WFT_";
+        F { 
+            "test_mode"=1; 
+        }
+        "forcePI": V { "_pi"=\r18 #; }
+        "measurePO": V { "_po"=\r12 #; }
+        "pulse": V { "wrst_n"=P; }
+    }
+}
+MacroDefs {
+    "test_setup" {
+        W "_default_WFT_";
+        V { 
+            "wclk" =0; 
+            "rclk" =0; 
+           }
+      // If required, add your test_controller specific initilization vectors here
+        V { 
+          "wclk" =0; 
+          "rclk" =0; 
+          "test_mode" = 1; 
+          "rrst_n" = 1; 
+          "wrst_n" = 1; 
+        }
+    }
+}

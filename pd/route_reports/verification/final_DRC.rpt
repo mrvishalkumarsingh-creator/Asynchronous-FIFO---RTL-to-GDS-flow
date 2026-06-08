@@ -1,0 +1,21 @@
+ *** Starting Verify DRC (MEM: 1555.6) ***
+
+  VERIFY DRC ...... Starting Verification
+  VERIFY DRC ...... Initializing
+  VERIFY DRC ...... Deleting Existing Violations
+  VERIFY DRC ...... Creating Sub-Areas
+  VERIFY DRC ...... Using new threading
+  VERIFY DRC ...... Sub-Area: {0.000 0.000 106.430 102.080} 1 of 1
+  VERIFY DRC ...... Sub-Area : 1 complete 8 Viols.
+
+  Verification Complete : 8 Viols.
+
+ Violation Summary By Layer and Type:
+
+	       outOfDie   Totals
+	Metal2        4        4
+	Metal3        4        4
+	Totals        8        8
+
+ *** End Verify DRC (CPU: 0:00:00.1  ELAPSED TIME: 0.00  MEM: 0.0M) ***
+

@@ -1,0 +1,52 @@
+ncsim(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm FIFO_tb.i FIFO_tb.rclk FIFO_tb.rdata FIFO_tb.read_val FIFO_tb.rempty FIFO_tb.rinc FIFO_tb.rrst_n FIFO_tb.wclk FIFO_tb.wdata FIFO_tb.wfull FIFO_tb.winc FIFO_tb.wrst_n
+Created probe 1
+ncsim> run
+ncsim: *E,C58EXE: Coverage database file already exists in the test output directory './cov_work/scope/test', and will not be overwritten. Specify a different name for the test output directory or use the '-covoverwrite' option to overwrite the existing test output directory, and rerun the simulation.
+=== TEST 1: Basic RW ===
+=== TEST 2: Fill to full ===
+=== TEST 3: Overflow ===
+=== TEST 4: Empty FIFO ===
+=== TEST 5: Underflow ===
+=== TEST 6: Wrap-around ===
+=== TEST 7: Async stress ===
+=== TEST 8: Reset during op ===
+✅ Simulation finished.
+Simulation complete via $finish(1) at time 930 NS + 0
+./async_fifo_tb.v:137         $finish;
+ncsim> coverage -analyze
+
+coverage setup:
+  workdir  :  ./cov_work
+  dutinst  :  FIFO_tb(FIFO_tb)
+  scope    :  scope
+  testname :  test
+
+coverage files:
+  model(design data) :  ./cov_work/scope/icc_404d84c3_00000000.ucm (reused)
+  data               :  ./cov_work/scope/test/icc_404d84c3_00000000.ucd
+  cpu                :  0.0s system + 0.0s user = 0.0s total
+
+Launching IMC...
+
+ncsim> ^C
+ncsim> exit
+
+coverage setup:
+  workdir  :  ./cov_work
+  dutinst  :  FIFO_tb(FIFO_tb)
+  scope    :  scope
+  testname :  test
+
+coverage files:
+  model(design data) :  ./cov_work/scope/icc_404d84c3_00000000.ucm (reused)
+  data               :  ./cov_work/scope/test/icc_404d84c3_00000000.ucd
+  cpu                :  0.0s system + 0.0s user = 0.0s total
+ncsim: Memory Usage - 38.6M program + 182.4M data = 221.0M total (232.1M Peak)
+ncsim: CPU Usage - 2.6s system + 1.7s user = 4.3s total (164.9s, 2.6% cpu)

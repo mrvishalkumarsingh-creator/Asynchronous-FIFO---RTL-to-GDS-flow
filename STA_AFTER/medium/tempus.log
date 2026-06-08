@@ -1,0 +1,30 @@
+
+Cadence Tempus(TM) Timing Signoff Solution.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v20.10-p003_1, built Wed Apr 29 15:56:37 PDT 2020
+Options:	-nowin 
+Date:		Wed Nov  5 21:22:35 2025
+Host:		edatools-server2.iiitd.edu.in (x86_64 w/Linux 2.6.32-754.35.1.el6.x86_64) (18cores*72cpus*Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz 39936KB)
+OS:		Red Hat Enterprise Linux Server release 6.10 (Santiago)
+
+License:
+		tpsxl	Tempus Timing Signoff Solution XL	20.1	checkout succeeded
+		16 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (1033 mbytes). Set global soft_stack_size_limit to change the value.
+environment variable TMPDIR is '/tmp/ssv_tmpdir_57325_rjhRNp'.
+<CMD> read_lib /home/vishal25157/Desktop/cmos65/90nm/verilog/STA_AFTER/medium/lib/slow_wlm.lib
+<CMD> read_verilog /home/vishal25157/Desktop/cmos65/90nm/verilog/STA_AFTER/medium/dft_report/synthesised_netlist_time.v
+<CMD> set_top_module FIFO
+#% Begin Load MMMC data ... (date=11/05 21:22:49, mem=440.7M)
+Number of views requested 1 are allowed with the current licenses... continuing with set_analysis_view.
+#% End Load MMMC data ... (date=11/05 21:22:49, total cpu=0:00:00.0, real=0:00:00.0, peak res=440.9M, current mem=440.9M)
+default_emulate_early_rc_corner default_emulate_late_rc_corner default_emulate_rc_corner
+Loading view definition file from .ssv_emulate_view_definition_57325.tcl
+Reading default_emulate_libset_max timing library '/home/vishal25157/Desktop/cmos65/90nm/verilog/STA_AFTER/medium/lib/slow_wlm.lib' ...
+Read 479 cells in library 'slow' 
+*** End library_loading (cpu=0.01min, real=0.02min, mem=16.0M, fe_cpu=0.13min, fe_real=0.25min, fe_mem=572.1M) ***
+**ERROR: (UI-402):	'/home/vishal25157/Desktop/cmos65/90nm/verilog/STA_AFTER/medium/dft_report/synthesised_netlist_time.v' not found.
+
+
+*** Memory Usage v#1 (Current mem = 573.125M, initial mem = 273.309M) ***

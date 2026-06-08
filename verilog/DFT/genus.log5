@@ -1,0 +1,104 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 19.13-s073_1, built Fri Mar 20 01:36:16 PDT 2020
+Options: -legacy_ui -files DFT.tcl 
+Date:    Mon Oct 13 22:21:28 2025
+Host:    edatools-server2.iiitd.edu.in (x86_64 w/Linux 2.6.32-754.35.1.el6.x86_64) (18cores*72cpus*2physical cpus*Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz 39936KB) (528955884KB)
+PID:     2465
+OS:      Red Hat Enterprise Linux Server release 6.10 (Santiago)
+
+Checking out license: Genus_Synthesis
+
+Loading tool scripts...
+
+Finished loading tool scripts (5 seconds elapsed).
+
+#@ Processing -files option
+@genus 1> source DFT.tcl
+  Setting attribute of root '/': 'lib_search_path' = /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT/
+Warning : This attribute will be obsolete in a next major release. [TUI-32]
+        : attribute: 'hdl_search_path', object type: 'root'
+        : Attribute 'hdl_search_path' is going to be obsoleted, use the new attribute 'init_hdl_search_path'.
+  Setting attribute of root '/': 'hdl_search_path' = /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT/
+WARNING: RcShMem: shm create failed on main errno=28
+WARNING: RcShMem not available. Only process local CPU control for multi threading. No control between different super thread server processes
+
+Threads Configured:3
+Warning : Unsupported attribute in the pin group. [LBR-510]
+        : The attribute 'fanout_capacitance' defined on line 22 is not supported for 'wire_load' group. It should be defined at 'wire_load_table' level. (File /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT//slow_wlm.lib)
+Warning : Unsupported attribute in the pin group. [LBR-510]
+        : The attribute 'fanout_capacitance' defined on line 23 is not supported for 'wire_load' group. It should be defined at 'wire_load_table' level. (File /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT//slow_wlm.lib)
+Warning : Unsupported attribute in the pin group. [LBR-510]
+        : The attribute 'fanout_capacitance' defined on line 24 is not supported for 'wire_load' group. It should be defined at 'wire_load_table' level. (File /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT//slow_wlm.lib)
+Warning : Unsupported attribute in the pin group. [LBR-510]
+        : The attribute 'fanout_capacitance' defined on line 25 is not supported for 'wire_load' group. It should be defined at 'wire_load_table' level. (File /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT//slow_wlm.lib)
+Warning : Unsupported attribute in the pin group. [LBR-510]
+        : The attribute 'fanout_capacitance' defined on line 26 is not supported for 'wire_load' group. It should be defined at 'wire_load_table' level. (File /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT//slow_wlm.lib)
+Warning : Unsupported attribute in the pin group. [LBR-510]
+        : The attribute 'fanout_resistance' defined on line 27 is not supported for 'wire_load' group. It should be defined at 'wire_load_table' level. (File /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT//slow_wlm.lib)
+Warning : Unsupported attribute in the pin group. [LBR-510]
+        : The attribute 'fanout_resistance' defined on line 28 is not supported for 'wire_load' group. It should be defined at 'wire_load_table' level. (File /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT//slow_wlm.lib)
+Warning : Unsupported attribute in the pin group. [LBR-510]
+        : The attribute 'fanout_resistance' defined on line 29 is not supported for 'wire_load' group. It should be defined at 'wire_load_table' level. (File /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT//slow_wlm.lib)
+Warning : Unsupported attribute in the pin group. [LBR-510]
+        : The attribute 'fanout_resistance' defined on line 30 is not supported for 'wire_load' group. It should be defined at 'wire_load_table' level. (File /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT//slow_wlm.lib)
+Warning : Unsupported attribute in the pin group. [LBR-510]
+        : The attribute 'fanout_resistance' defined on line 31 is not supported for 'wire_load' group. It should be defined at 'wire_load_table' level. (File /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT//slow_wlm.lib)
+
+  Message Summary for Library slow_wlm.lib:
+  *****************************************
+  Missing a function attribute in the output pin definition. [LBR-518]: 1
+  Missing library level attribute. [LBR-516]: 1
+  Unsupported attribute in the pin group. [LBR-510]: 10
+  *****************************************
+ 
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 0.900000, 125.000000) in library 'slow_wlm.lib'.
+        : The nominal operating condition is represented, either by the nominal PVT values specified in the library source (via nom_process,nom_voltage and nom_temperature respectively), or by the default PVT values (1.0,1.0,1.0).
+  Setting attribute of root '/': 'library' = slow_wlm.lib
+Warning : Cannot open file. [VLOGPT-650]
+        : File 'synthesised_netlist.v'.
+        : The specified file could not be opened.  Check the value of the init_hdl_search_path attribute.
+Warning : Detected both combinational and sequential timing arcs in a library cell. This might prevent the tool from using this cell for technology mapping. The tool will treat it as unusable. [LBR-76]
+        : The arc 'CK_E_Ha0' between pins 'CK' and 'E' in libcell 'TLATNCAX12' is a sequential timing arc.
+        : The library cell will be treated as a timing-model. Make sure that the timing arcs and output function are defined correctly. Even if the cell intends to have dual-functionality, it cannot be unmapped or automatically inferred.
+Warning : Detected both combinational and sequential timing arcs in a library cell. This might prevent the tool from using this cell for technology mapping. The tool will treat it as unusable. [LBR-76]
+        : The arc 'CK_E_Ha0' between pins 'CK' and 'E' in libcell 'TLATNCAX16' is a sequential timing arc.
+Warning : Detected both combinational and sequential timing arcs in a library cell. This might prevent the tool from using this cell for technology mapping. The tool will treat it as unusable. [LBR-76]
+        : The arc 'CK_E_Ha0' between pins 'CK' and 'E' in libcell 'TLATNCAX2' is a sequential timing arc.
+Warning : Detected both combinational and sequential timing arcs in a library cell. This might prevent the tool from using this cell for technology mapping. The tool will treat it as unusable. [LBR-76]
+        : The arc 'CK_E_Ha0' between pins 'CK' and 'E' in libcell 'TLATNCAX20' is a sequential timing arc.
+Warning : Detected both combinational and sequential timing arcs in a library cell. This might prevent the tool from using this cell for technology mapping. The tool will treat it as unusable. [LBR-76]
+        : The arc 'CK_E_Ha0' between pins 'CK' and 'E' in libcell 'TLATNCAX3' is a sequential timing arc.
+Warning : Detected both combinational and sequential timing arcs in a library cell. This might prevent the tool from using this cell for technology mapping. The tool will treat it as unusable. [LBR-76]
+        : The arc 'CK_E_Ha0' between pins 'CK' and 'E' in libcell 'TLATNCAX4' is a sequential timing arc.
+Warning : Detected both combinational and sequential timing arcs in a library cell. This might prevent the tool from using this cell for technology mapping. The tool will treat it as unusable. [LBR-76]
+        : The arc 'CK_E_Ha0' between pins 'CK' and 'E' in libcell 'TLATNCAX6' is a sequential timing arc.
+Warning : Detected both combinational and sequential timing arcs in a library cell. This might prevent the tool from using this cell for technology mapping. The tool will treat it as unusable. [LBR-76]
+        : The arc 'CK_E_Ha0' between pins 'CK' and 'E' in libcell 'TLATNCAX8' is a sequential timing arc.
+Warning : Detected both combinational and sequential timing arcs in a library cell. This might prevent the tool from using this cell for technology mapping. The tool will treat it as unusable. [LBR-76]
+        : The arc 'CK_SE_Ha3' between pins 'CK' and 'SE' in libcell 'TLATNTSCAX12' is a sequential timing arc.
+Warning : Detected both combinational and sequential timing arcs in a library cell. This might prevent the tool from using this cell for technology mapping. The tool will treat it as unusable. [LBR-76]
+        : The arc 'CK_SE_Ha3' between pins 'CK' and 'SE' in libcell 'TLATNTSCAX16' is a sequential timing arc.
+Warning : Detected both combinational and sequential timing arcs in a library cell. This might prevent the tool from using this cell for technology mapping. The tool will treat it as unusable. [LBR-76]
+        : The arc 'CK_SE_Ha3' between pins 'CK' and 'SE' in libcell 'TLATNTSCAX2' is a sequential timing arc.
+Warning : Detected both combinational and sequential timing arcs in a library cell. This might prevent the tool from using this cell for technology mapping. The tool will treat it as unusable. [LBR-76]
+        : The arc 'CK_SE_Ha3' between pins 'CK' and 'SE' in libcell 'TLATNTSCAX20' is a sequential timing arc.
+Warning : Detected both combinational and sequential timing arcs in a library cell. This might prevent the tool from using this cell for technology mapping. The tool will treat it as unusable. [LBR-76]
+        : The arc 'CK_SE_Ha3' between pins 'CK' and 'SE' in libcell 'TLATNTSCAX3' is a sequential timing arc.
+Warning : Detected both combinational and sequential timing arcs in a library cell. This might prevent the tool from using this cell for technology mapping. The tool will treat it as unusable. [LBR-76]
+        : The arc 'CK_SE_Ha3' between pins 'CK' and 'SE' in libcell 'TLATNTSCAX4' is a sequential timing arc.
+Warning : Detected both combinational and sequential timing arcs in a library cell. This might prevent the tool from using this cell for technology mapping. The tool will treat it as unusable. [LBR-76]
+        : The arc 'CK_SE_Ha3' between pins 'CK' and 'SE' in libcell 'TLATNTSCAX6' is a sequential timing arc.
+Warning : Detected both combinational and sequential timing arcs in a library cell. This might prevent the tool from using this cell for technology mapping. The tool will treat it as unusable. [LBR-76]
+        : The arc 'CK_SE_Ha3' between pins 'CK' and 'SE' in libcell 'TLATNTSCAX8' is a sequential timing arc.
+  Library has 324 usable logic and 128 usable sequential lib-cells.
+Error   : Could not find an HDL design. [CDFG-210] [elaborate]
+        : The design is 'FIFO'.
+        : This error may happen if you read a set of files, and you try to elaborate a design which description is not part of the files read. To fix this, check the name of the design you want to elaborate, or check if you have read all the expected RTL files.
+1
+Encountered problems processing file: DFT.tcl
+WARNING: This version of the tool is 2033 days old.

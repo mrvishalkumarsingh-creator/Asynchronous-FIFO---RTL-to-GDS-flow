@@ -1,0 +1,34 @@
+
+set_attr lib_search_path /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT/mid/lib
+set_attr hdl_search_path /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT/mid/RTL
+set_attr library slow_wlm.lib
+read_hdl async_fifo.v
+#set_top_module has
+elaborate FIFO
+read_sdc /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT/mid/mid.sdc
+report_timing -lint
+set_attribute dft_scan_style muxed_scan
+define_dft shift_enable -active high -create_port scan_en
+define_dft test_mode -active high -create_port test_mode
+report dft_setup
+check_dft_rules > ../dft_report/dft_rules_report
+fix_dft_violations -test_control test_mode -async_set -async_reset -clock
+synthesize -to_mapped
+set_attr dft_min_number_of_scan_chains 2 FIFO
+set_attr dft_mix_clock_edges_in_scan_chains true FIFO
+#replace_scan
+connect_scan_chains -auto_create_chains -preview
+connect_scan_chains -auto_create_chains
+report_qor
+write_atpg -cadence > /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT/mid/dft_report/rtl_module_time.atpg
+write_atpg -stil > /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT/mid/dft_report/rtl_module_still_time.atpg
+write_scandef > /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT/mid/dft_report/rtl_module_time.def
+write_sdf -timescale ns -nonegchecks -recrem split -edges check_edge > ../syn_report/delays_time.sdf
+write_hdl > /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT/mid/dft_report/synthesised_netlist_time.v
+write_sdc > /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT/mid/dft_report/sdc_file_for_physical_design_time.sdc
+write_script > /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT/mid/dft_report/synthesis_script_sdc_time.g
+report_timing > /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT/mid/dft_report/synthesis_timing_report_time.rep
+report_power > /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT/mid/dft_report/synthesis_power_report_time.rep
+report_gates > /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT/mid/dft_report/synthesis_cell_report_time.rep
+report_area > /home/utkarsh25154/Desktop/cmos65/90nm/verilog/DFT/mdi/dft_report/synthesis_area_report_time.rep
+gui_show
